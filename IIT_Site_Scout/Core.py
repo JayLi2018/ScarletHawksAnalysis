@@ -4,7 +4,6 @@ from Classes import Team,Player,Lineup,Lineup_Stats,Score_Tracker
 import File_Processor
 from File_Processor import FileProcessor
 from Rosters import Team_Lists
-from copy import deepcopy
 import pandas as pd
 
 # this is the lineup stats generator
@@ -13,32 +12,35 @@ import pandas as pd
 first_half = re.compile(r'1 Half')
 second_half = re.compile(r'2 Half')
 over_time = re.compile(r'3 Half')
-off_reb = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+) offensive rebound')
-def_reb = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+) defensive rebound')
-shot_attempt = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+) .* (jump shot|layup)')
-two_made = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+) made (jump shot|layup)')
-two_missed = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+) missed (jump shot|layup)')
-three_made = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+) made 3-pt\.')
-three_miss = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+) missed 3-pt\.')
-freethrow_made = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+) made free throw')
-freethrow_miss =re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+) missed free throw') 
-assist = re.compile(r'Assist by ([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+)')
-steal = re.compile(r'Steal by ([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+)')
-player_movement_out = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+) goes to the bench')
-player_movement_in = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+) enters the game')
+off_reb = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+) offensive rebound')
+def_reb = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+) defensive rebound')
+shot_attempt = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+) .* (jump shot|layup|dunk)')
+two_made = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+) made (jump shot|layup|dunk)')
+two_missed = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+) missed (jump shot|layup|dunk)')
+three_made = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+) made 3-pt\.')
+three_miss = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+) missed 3-pt\.')
+freethrow_made = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+) made free throw')
+freethrow_miss =re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+) missed free throw') 
+assist = re.compile(r'Assist by ([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+)')
+turnover = re.compile(r'Turnover by ([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+)')
+steal = re.compile(r'Steal by ([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+)')
+block = re.compile(r'Block by ([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+)')
+foul = re.compile(r'Foul by ([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+)')
+player_movement_out = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+) goes to the bench')
+player_movement_in = re.compile(r'([A-Z]+ {0,1}?[A-Z]+)\.?\,([A-Z]+\'{0,1}?[A-Z]+) enters the game')
 timer = re.compile(r'([0-9][0-9])\:([0-5][0-9])')
 
 
 class DataExtractor(object):
 
 
-	def __init__(self,game_file_loc=None,output_loc=None,
+	def __init__(self,Game_ID=None,game_file_loc=None,output_loc=None,
 		home_team=None,away_team=None,
 		home_first_lineup = None,away_first_lineup = None,
 		home_second_lineup = None, away_second_lineup = None,
 		home_ot_lineup = None, away_ot_lineup = None,
 		**kwargs):
-		
+			self.Game_ID = Game_ID
 			self.game_file_loc = game_file_loc
 			self.output_loc = output_loc
 			
@@ -65,11 +67,14 @@ class DataExtractor(object):
 	def generate_data(self,game_name):
 
 		self.score_track = Score_Tracker()
+		self.score_track.tracker['Game_ID'] = self.Game_ID
 		self.home_team_rosters=[]
 		self.away_team_rosters=[]
 		self.home_score=0
 		self.away_score=0
-		
+		self.home_lineup_id = 0  #initialize an ID for home lineups
+		self.away_lineup_id = 0  #initialize an ID for away lineups
+		self.game_name = game_name
 		for h in Team_Lists:
 			if(h[0]==self.home_team):
 				print("found home_team")
@@ -88,7 +93,7 @@ class DataExtractor(object):
 		second_half_file = []
 		over_time_file = []
 		
-		game_file = self.game_file_loc+game_name
+		game_file = self.game_file_loc+self.game_name
 
 		file = open(game_file,'r')
 
@@ -130,22 +135,42 @@ class DataExtractor(object):
 		player_stats:
 		score_tracker:
 		"""
-		# home_lineup_stats_dicts = []
-		# for n in self.home_team_obj.lineup_stats:
-		# 	df = pd.DataFrame(n.stats,index=[0])
-		# 	home_lineup_stats_dicts.append(df)
-		# home_lineup_stats_df = pd.concat(home_lineup_stats_dicts)
-		# home_lineup_stats_df.to_csv('test_home_df.csv',index=None)
+		#---------------------output lineups---------------------------#
+		home_lineup_stats_dicts = []
+		for n in self.home_team_obj.lineup_stats:
+			df = pd.DataFrame(n.stats,index=[0])
+			home_lineup_stats_dicts.append(df)
+		home_lineup_stats_df = pd.concat(home_lineup_stats_dicts)
+		home_lineup_stats_df.to_csv(self.output_loc+self.game_name+'_'+self.home_team+'_home_lineups.csv',index=False)
 
-		# away_lineup_stats_dicts = []
-		# for n in self.away_team_obj.lineup_stats:
-		# 	df = pd.DataFrame(n.stats,index=[0])
-		# 	away_lineup_stats_dicts.append(df)
-		# away_lineup_stats_df = pd.concat(away_lineup_stats_dicts)
-		# away_lineup_stats_df.to_csv('test_away_df.csv',index=None)
-		
+		away_lineup_stats_dicts = []
+		for n in self.away_team_obj.lineup_stats:
+			df = pd.DataFrame(n.stats,index=[0])
+			away_lineup_stats_dicts.append(df)
+		away_lineup_stats_df = pd.concat(away_lineup_stats_dicts)
+		away_lineup_stats_df.to_csv(self.output_loc+self.game_name+'_'+self.away_team+'_away_lineups.csv',index=False)
+
+		#---------------------output player stats----------------------#
+		home_player_stats_dicts = []
+		for n in self.home_team_obj.lineups:
+			for m in n.players:
+				df = pd.DataFrame(m.player_stats,index=[0])
+				home_player_stats_dicts.append(df)
+		home_player_stats_df = pd.concat(home_player_stats_dicts)
+		home_player_stats_df.to_csv(self.output_loc+self.game_name+'_'+self.home_team+'_home_players.csv',index=False)
+
+		away_player_stats_dicts = []
+		for n in self.away_team_obj.lineups:
+			for m in n.players:
+				df = pd.DataFrame(m.player_stats,index=[0])
+				away_player_stats_dicts.append(df)
+		away_player_stats_df = pd.concat(away_player_stats_dicts)
+		away_player_stats_df.to_csv(self.output_loc+self.game_name+'_'+self.away_team+'_away_players.csv',index=False)
+
+		#----------------------output score tracker---------------------#
 		tracker_df = pd.DataFrame(self.score_track.tracker)
-		print(tracker_df)
+		clear_tracker_df = tracker_df.drop_duplicates(subset='Time', keep='last')
+		clear_tracker_df.to_csv(self.output_loc+self.game_name+'_tracker.csv',index=False)
 
 	def handle_session(self,session_doc=None,session_num = None,
 		home_session_lieup=None, away_session_lineup=None,
@@ -171,13 +196,19 @@ class DataExtractor(object):
 				cur_time = 5.0
 
 			home_lineup = Lineup(session_num)
-			home_lineup_info = Lineup_Stats(session_num)
-			home_lineup_info.stats['From'] = cur_time
+			home_lineup_info = Lineup_Stats()
+			self.home_lineup_id+=1
+			home_lineup_info.stats['Team_Name'] = self.home_team			
+			home_lineup_info.stats['Lineup_ID'] = self.home_lineup_id
+			home_lineup_info.stats['From'] = cur_time	
+			home_lineup_info.stats['Game_ID'] = self.Game_ID
 			home_lineup_info.stats['session_number'] = session_num					
 			for player_name in home_session_start_lineup:
 				p = Player(Team_Name=self.home_team,Player_Name=player_name)
+				p.player_stats['Game_ID'] = self.Game_ID
+				p.player_stats['Lineup_ID'] = self.home_lineup_id
 				home_lineup.players.append(p)
-			self.home_team_obj.lineups.append(deepcopy(home_lineup))
+			self.home_team_obj.lineups.append(home_lineup)
 			
 			home_player_list = []
 			for player in home_lineup.players:
@@ -196,13 +227,19 @@ class DataExtractor(object):
 			print('\n')
 			
 			away_lineup = Lineup(session_num)
-			away_lineup_info = Lineup_Stats(session_num)
+			away_lineup_info = Lineup_Stats()
+			self.away_lineup_id+=1
+			away_lineup_info.stats['Team_Name'] = self.away_team
+			away_lineup_info.stats['Lineup_ID'] = self.away_lineup_id
 			away_lineup_info.stats['From'] = cur_time
+			away_lineup_info.stats['Game_ID'] = self.Game_ID
 			away_lineup_info.stats['session_number'] = session_num		
 			for player_name in away_session_start_lineup:
 				p = Player(Team_Name=self.away_team,Player_Name=player_name)
+				p.player_stats['Lineup_ID'] = self.away_lineup_id
+				p.player_stats['Game_ID'] = self.Game_ID
 				away_lineup.players.append(p)
-			self.away_team_obj.lineups.append(deepcopy(away_lineup))
+			self.away_team_obj.lineups.append(away_lineup)
 			
 			self.away_team_obj.lineup_stats.append(away_lineup_info)
 			away_player_list = []
@@ -235,88 +272,84 @@ class DataExtractor(object):
 				if(player_movement_in.search(line) is not None or player_movement_out.search(line) is not None):
 					if(player_movement_in.search(line) is not None):
 						player = player_movement_in.search(line).group(2).capitalize() + ' ' +player_movement_in.search(line).group(0).split(',')[0].split(' ')[0].capitalize()  # convert all uppercase name to normal format name
-						# print(player)
 						if(player in self.home_team_rosters):					
 							for n in self.home_team_rosters:
 								if(n == player):
 									player_in = Player(Team_Name=self.home_team,Player_Name=n)
+									player_in.player_stats['Game_ID'] = self.Game_ID
 									home_sub_in_buffer.append(player_in) # sub_in_buffer contains player objects
-									# print("Time: "+str(self.get_time(line)) + " " + player + " in! sub_in buffer size "+str(len(iit_sub_in_buffer)))
 
 						elif(player in self.away_team_rosters):					
 							for n in self.away_team_rosters:
 								if(n == player):
 									player_in = Player(Team_Name=self.away_team,Player_Name=n)
+									player_in.player_stats['Game_ID'] = self.Game_ID
 									away_sub_in_buffer.append(player_in) # sub_in_buffer contains player objects
-									# print("Time: "+str(self.get_time(line)) + " " + player + " in! sub_in buffer size "+str(len(iit_sub_in_buffer)))
 
 
-				if(player_movement_out.search(line) is not None or player_movement_out.search(line) is not None):
 					if(player_movement_out.search(line) is not None):
 						player = player_movement_out.search(line).group(2).capitalize() + ' ' +player_movement_out.search(line).group(0).split(',')[0].split(' ')[0].capitalize()  # convert all uppercase name to normal format name
-						# print(player)
 						if(player in self.home_team_rosters):					
 							for n in self.home_team_rosters:
 								if(n == player):
 									player_out = Player(Team_Name=self.home_team,Player_Name=n)
+									player_out.player_stats['Game_ID'] = self.Game_ID
 									home_sub_out_buffer.append(player_out) # sub_out_buffer contains player objects
-									# print("Time: "+str(self.get_time(line)) + " " + player + " in! sub_out buffer size "+str(len(iit_sub_out_buffer)))
 
 						elif(player in self.away_team_rosters):					
 							for n in self.away_team_rosters:
 								if(n == player):
 									player_out = Player(Team_Name=self.away_team,Player_Name=n)
+									player_out.player_stats['Game_ID'] = self.Game_ID
 									away_sub_out_buffer.append(player_out) # sub_out_buffer contains player objects
-									# print("Time: "+str(self.get_time(line)) + " " + player + " in! sub_out buffer size "+str(len(iit_sub_out_buffer)))
 
 
 					if(bool(len(home_sub_out_buffer)>=1 and len(home_sub_in_buffer)>=1)==True or bool(len(away_sub_out_buffer)>=1 and len(away_sub_in_buffer)>=1)==True):
 						if(len(home_sub_out_buffer)>=1 and len(home_sub_in_buffer)>=1):							
-							# print("Substitution on ther court! ")
 							out_player_name = home_sub_out_buffer[-1].player_stats['Player_Name']
-							# print(out_player_name+" goes to the bench")
-							# print("Before pop, the size of the sub_out_buffer is "+str(len(iit_sub_out_buffer)))
 							home_sub_out_buffer.pop()
-							# print("sub_out_buffer pops,now the size of the sub_out_buffer is "+str(len(iit_sub_out_buffer)))
-							for n in cur_home_lineup.players:
+
+							copied_cur_home_lineup = Lineup(session_num)
+							for p in cur_home_lineup.players:
+								copied_player = Player(Team_Name=self.home_team,Player_Name=p.player_stats['Player_Name'])
+								copied_player.player_stats['Game_ID'] = self.Game_ID
+
+								copied_cur_home_lineup.players.append(copied_player)
+
+
+							for n in copied_cur_home_lineup.players:
 								if(n.player_stats['Player_Name'] == out_player_name):
-									cur_home_lineup.players.remove(n)
-									# print("deleted a player! now we have " +str(len(cur_lineup))+" players!")
+									copied_cur_home_lineup.players.remove(n)
 								else:
 									continue
-							home_new_lineup = Lineup(session_num)
 
-							for p in cur_home_lineup.players:     # now it's supposed to have 4 players in the lineup
-								new_player = Player(Team_Name=self.home_team,Player_Name=p.player_stats['Player_Name']) # create 4 new players with same names since it is a 
-																		# new lineup
-								home_new_lineup.players.append(new_player)
+							copied_cur_home_lineup.players.append(home_sub_in_buffer[-1]) # add the sub_in player
+							
+							cur_home_lineup = copied_cur_home_lineup  # just need to copy, and even though it is a sudo_lineup, it still need to be assigned
 
-							home_new_lineup.players.append(home_sub_in_buffer[-1]) # add the sub_in player
-							cur_home_lineup = home_new_lineup  # just need to copy, and even though it is a sudo_lineup, it still need to be assigned
-							# print("Substitution timing : "+str(self.get_time(line)))
-							# print("Current lineup is ")
-							# print("\n")
-							# print(str(self.get_time(line))+"home cur_lineup: ")
-							# for n in cur_home_lineup.players:
-							# 	print(n.player_stats['Player_Name'])
-							# print("\n")
-
-
-							# print("Before pop, the size of the sub_in_buffer is "+str(len(iit_sub_in_buffer)))
 							home_sub_in_buffer.pop()
-							# print("sub_out_buffer pops,now the size of the sub_in_buffer is "+str(len(iit_sub_in_buffer)))
+
 
 							if(len(home_sub_in_buffer)==0):
-								# print("First half ! still Substitution going on!")
+
+								self.home_team_obj.lineups.append(cur_home_lineup)
+								
 								print(str(self.get_time(line))+"Home Team New Lineup:")
 								for n in cur_home_lineup.players:
 									print(n.player_stats['Player_Name'])
 								print('\n')
-								self.home_team_obj.lineups.append(deepcopy(cur_home_lineup))
 
+								self.home_lineup_id+=1
+
+								for n in cur_home_lineup.players:
+									n.player_stats['Lineup_ID'] = self.home_lineup_id
+
+								
 								cur_home_lineup_info.stats['To'] = cur_time
-								cur_home_lineup_info.stats['Min'] = cur_home_lineup_info.stats['From'] - cur_home_lineup_info.stats['To'] 
-								home_new_lineup_info = Lineup_Stats(session_num)
+								cur_home_lineup_info.stats['Min'] = cur_home_lineup_info.stats['From'] - cur_home_lineup_info.stats['To']
+								cur_home_lineup_info.stats['PlusMinus'] = cur_home_lineup_info.stats['Lineup_Score'] - cur_home_lineup_info.stats['Oppo_Score']
+								home_new_lineup_info = Lineup_Stats()
+								home_new_lineup_info.stats['session_number'] = session_num
 								home_player_list = []
 								for player in cur_home_lineup.players:
 									home_player_list.append(player.player_stats['Player_Name'])
@@ -324,71 +357,72 @@ class DataExtractor(object):
 								home_new_lineup_info.stats['Lineup_Players']= ','.join(home_player_list)
 
 								cur_home_lineup_info = home_new_lineup_info
-								home_new_lineup_info.stats['session_number'] = session_num		
+								home_new_lineup_info.stats['Team_Name'] = self.home_team
+								home_new_lineup_info.stats['Lineup_ID'] = self.home_lineup_id	
 								home_new_lineup_info.stats['From'] = cur_time
+								home_new_lineup_info.stats['Game_ID'] = self.Game_ID
 								self.home_team_obj.lineup_stats.append(home_new_lineup_info)
 
 
 						if(len(away_sub_out_buffer)>=1 and len(away_sub_in_buffer)>=1):							
-							# print("Substitution on ther court! ")
 							out_player_name = away_sub_out_buffer[-1].player_stats['Player_Name']
-							# print(out_player_name+" goes to the bench")
-							# print("Before pop, the size of the sub_out_buffer is "+str(len(iit_sub_out_buffer)))
 							away_sub_out_buffer.pop()
-							# print("sub_out_buffer pops,now the size of the sub_out_buffer is "+str(len(iit_sub_out_buffer)))
-							for n in cur_away_lineup.players:
+
+							copied_cur_away_lineup = Lineup(session_num)
+							for p in cur_away_lineup.players:
+								copied_player = Player(Team_Name=self.away_team,Player_Name=p.player_stats['Player_Name'])
+								copied_player.player_stats['Game_ID'] = self.Game_ID
+								copied_cur_away_lineup.players.append(copied_player)
+
+
+							for n in copied_cur_away_lineup.players:
 								if(n.player_stats['Player_Name'] == out_player_name):
-									cur_away_lineup.players.remove(n)
-									# print("deleted a player! now we have " +str(len(cur_lineup))+" players!")
+									copied_cur_away_lineup.players.remove(n)
 								else:
 									continue
-							away_new_lineup = Lineup(session_num)
 
-							for p in cur_away_lineup.players:     # now it's supposed to have 4 players in the lineup
-								new_player = Player(Team_Name=self.away_team,Player_Name=p.player_stats['Player_Name']) # create 4 new players with same names since it is a 
-																		# new lineup
-								away_new_lineup.players.append(new_player)
+							copied_cur_away_lineup.players.append(away_sub_in_buffer[-1]) # add the sub_in player
+							
+							cur_away_lineup = copied_cur_away_lineup  # just need to copy, and even though it is a sudo_lineup, it still need to be assigned
 
-							away_new_lineup.players.append(away_sub_in_buffer[-1]) # add the sub_in player
-							cur_away_lineup = away_new_lineup # just need to copy, and even though it is a sudo_lineup, it still need to be assigned
-							# print("Substitution timing : "+str(self.get_time(line)))
-							# print("Current lineup is ")
-							# print("\n")
-							# print(str(self.get_time(line))+"away cur_lineup: ")
-							# for n in cur_away_lineup.players:
-							# 	print(n.player_stats['Player_Name'])
-							# print("\n")
-
-
-							# print("Before pop, the size of the sub_in_buffer is "+str(len(iit_sub_in_buffer)))
 							away_sub_in_buffer.pop()
-							# print("sub_out_buffer pops,now the size of the sub_in_buffer is "+str(len(iit_sub_in_buffer)))
 
 							if(len(away_sub_in_buffer)==0):
-								# print("First half ! still Substitution going on!")
+								self.away_team_obj.lineups.append(cur_away_lineup)
+
+
 								print(str(self.get_time(line))+"Away Team New Lineup:")
 								for n in cur_away_lineup.players:
 									print(n.player_stats['Player_Name'])
 								print('\n')
-								self.away_team_obj.lineups.append(deepcopy(cur_away_lineup))
+
+								self.away_lineup_id+=1
+
+								for n in cur_away_lineup.players:
+									n.player_stats['Lineup_ID'] = self.away_lineup_id
+
 								cur_away_lineup_info.stats['To'] = cur_time
 								cur_away_lineup_info.stats['Min'] = cur_away_lineup_info.stats['From'] - cur_away_lineup_info.stats['To'] 
-								away_new_lineup_info = Lineup_Stats(session_num)
+								cur_away_lineup_info.stats['PlusMinus'] = cur_away_lineup_info.stats['Lineup_Score'] - cur_away_lineup_info.stats['Oppo_Score']
+								away_new_lineup_info = Lineup_Stats()
+								away_new_lineup_info.stats['session_number'] = session_num
 								away_player_list = []
 								for player in cur_away_lineup.players:
 									away_player_list.append(player.player_stats['Player_Name'])
 								away_player_list.sort()
 								away_new_lineup_info.stats['Lineup_Players']= ','.join(away_player_list)
 								cur_away_lineup_info = away_new_lineup_info
+								away_new_lineup_info.stats['Team_Name'] = self.away_team
 								away_new_lineup_info.stats['From'] = cur_time
-								away_new_lineup_info.stats['session_number'] = session_num		
+								away_new_lineup_info.stats['Game_ID'] = self.Game_ID
+								away_new_lineup_info.stats['Lineup_ID'] = self.away_lineup_id
 								self.away_team_obj.lineup_stats.append(away_new_lineup_info)
 
 				# ---------------------------------Offensive Rebound -----------------------------------------------------#
 
 
 				if(off_reb.search(line) is not None):      # Offensive Reb
-					print('found a off reb!')
+
 					name_off_reb = off_reb.search(line).group(2).capitalize() + ' ' +off_reb.search(line).group(0).split(',')[0].split(' ')[0].capitalize()  # convert all uppercase name to normal format name
 					home_found = False
 					away_found = False
@@ -402,7 +436,6 @@ class DataExtractor(object):
 							cur_home_lineup_info.stats['TtlReb']+=1
 							break
 					if(home_found ==False):
-						# print('Found an Opponent stat!!!!')
 						cur_home_lineup_info.stats['Oppo_OffReb'] +=1
 						cur_home_lineup_info.stats['Oppo_TtlReb'] +=1
 					
@@ -415,7 +448,6 @@ class DataExtractor(object):
 							cur_away_lineup_info.stats['TtlReb']+=1
 							break
 					if(away_found ==False):
-						# print('Found an Opponent stat!!!!')
 						cur_away_lineup_info.stats['Oppo_OffReb'] +=1
 						cur_away_lineup_info.stats['Oppo_TtlReb'] +=1
 				
@@ -436,7 +468,6 @@ class DataExtractor(object):
 							cur_home_lineup_info.stats['TtlReb']+=1
 							break
 					if(home_found ==False):
-						# print('Found an Opponent stat!!!!')
 						cur_home_lineup_info.stats['Oppo_DefReb'] +=1
 						cur_home_lineup_info.stats['Oppo_TtlReb'] +=1
 					
@@ -449,7 +480,6 @@ class DataExtractor(object):
 							cur_away_lineup_info.stats['TtlReb']+=1							
 							break
 					if(away_found ==False):
-						# print('Found an Opponent stat!!!!')
 						cur_away_lineup_info.stats['Oppo_DefReb'] +=1
 						cur_away_lineup_info.stats['Oppo_TtlReb'] +=1
 				
@@ -477,13 +507,13 @@ class DataExtractor(object):
 								cur_home_lineup_info.stats['Lineup_Score']+=2
 								self.home_score+=2
 								cur_score_dif = self.home_score-self.away_score
+								self.score_track.tracker['Session_num'].append(session_num)
 								self.score_track.tracker['Score_Dif'].append(cur_score_dif)
 								self.score_track.tracker['Time'].append(self.get_time(line))
 								player_scored = p.player_stats['Player_Name']
 								break 
 
 						if(home_found == False):
-							# print('Found an Opponent stat!!!!')
 							cur_home_lineup_info.stats['Oppo_FGA']+=1
 							cur_home_lineup_info.stats['Oppo_FGM']+=1
 							cur_home_lineup_info.stats['Oppo_Two_FGA']+=1
@@ -505,13 +535,13 @@ class DataExtractor(object):
 								cur_away_lineup_info.stats['Lineup_Score']+=2
 								self.away_score+=2
 								cur_score_dif = self.home_score-self.away_score
+								self.score_track.tracker['Session_num'].append(session_num)
 								self.score_track.tracker['Score_Dif'].append(cur_score_dif)
 								self.score_track.tracker['Time'].append(self.get_time(line))
 								player_scored = p.player_stats['Player_Name']
 								break 
 
 						if(away_found == False):
-							# print('Found an Opponent stat!!!!')
 							cur_away_lineup_info.stats['Oppo_FGA']+=1
 							cur_away_lineup_info.stats['Oppo_FGM']+=1
 							cur_away_lineup_info.stats['Oppo_Two_FGA']+=1
@@ -533,7 +563,6 @@ class DataExtractor(object):
 								cur_home_lineup_info.stats['Two_FGm']+=1
 								break
 						if(home_found == False):
-							# print('Found an Opponent stat!!!!')
 							cur_home_lineup_info.stats['Oppo_FGA']+=1
 							cur_home_lineup_info.stats['Oppo_FGm']+=1
 							cur_home_lineup_info.stats['Oppo_Two_FGm']+=1
@@ -552,7 +581,6 @@ class DataExtractor(object):
 								cur_away_lineup_info.stats['Two_FGm']+=1
 								break
 						if(away_found == False):
-							# print('Found an Opponent stat!!!!')
 							cur_away_lineup_info.stats['Oppo_FGA']+=1
 							cur_away_lineup_info.stats['Oppo_FGm']+=1
 							cur_away_lineup_info.stats['Oppo_Two_FGm']+=1
@@ -578,13 +606,13 @@ class DataExtractor(object):
 								cur_home_lineup_info.stats['Lineup_Score']+=3
 								self.home_score+=3
 								cur_score_dif = self.home_score-self.away_score
+								self.score_track.tracker['Session_num'].append(session_num)
 								self.score_track.tracker['Score_Dif'].append(cur_score_dif)
 								self.score_track.tracker['Time'].append(self.get_time(line))
 								player_scored = p.player_stats['Player_Name']
 								break 
 
 						if(home_found == False):
-							# print('Found an Opponent stat!!!!')
 							cur_home_lineup_info.stats['Oppo_FGA']+=1
 							cur_home_lineup_info.stats['Oppo_FGM']+=1
 							cur_home_lineup_info.stats['Oppo_Three_FGA']+=1
@@ -606,13 +634,13 @@ class DataExtractor(object):
 								cur_away_lineup_info.stats['Lineup_Score']+=3
 								self.away_score+=3
 								cur_score_dif = self.home_score-self.away_score
+								self.score_track.tracker['Session_num'].append(session_num)
 								self.score_track.tracker['Score_Dif'].append(cur_score_dif)
 								self.score_track.tracker['Time'].append(self.get_time(line))
 								player_scored = p.player_stats['Player_Name']
 								break 
 
 						if(away_found == False):
-							# print('Found an Opponent stat!!!!')
 							cur_away_lineup_info.stats['Oppo_FGA']+=1
 							cur_away_lineup_info.stats['Oppo_FGM']+=1
 							cur_away_lineup_info.stats['Oppo_Three_FGA']+=1
@@ -637,7 +665,6 @@ class DataExtractor(object):
 								cur_home_lineup_info.stats['Three_FGm']+=1
 								break
 						if(home_found == False):
-							# print('Found an Opponent stat!!!!')
 							cur_home_lineup_info.stats['Oppo_FGA']+=1
 							cur_home_lineup_info.stats['Oppo_FGm']+=1
 							cur_home_lineup_info.stats['Oppo_Three_FGm']+=1
@@ -656,7 +683,6 @@ class DataExtractor(object):
 								cur_away_lineup_info.stats['Three_FGm']+=1
 								break
 						if(away_found == False):
-							# print('Found an Opponent stat!!!!')
 							cur_away_lineup_info.stats['Oppo_FGA']+=1
 							cur_away_lineup_info.stats['Oppo_FGm']+=1
 							cur_away_lineup_info.stats['Oppo_Three_FGm']+=1
@@ -679,12 +705,12 @@ class DataExtractor(object):
 							cur_home_lineup_info.stats['Lineup_Score']+=1
 							self.home_score+=1
 							cur_score_dif = self.home_score-self.away_score
+							self.score_track.tracker['Session_num'].append(session_num)
 							self.score_track.tracker['Score_Dif'].append(cur_score_dif)
 							self.score_track.tracker['Time'].append(self.get_time(line))
 							break 
 
 					if(home_found == False):
-						# print('Found an Opponent stat!!!!')
 						cur_home_lineup_info.stats['Oppo_FTA']+=1
 						cur_home_lineup_info.stats['Oppo_FTM']+=1
 						cur_home_lineup_info.stats['Oppo_Score']+=1
@@ -701,12 +727,12 @@ class DataExtractor(object):
 							cur_away_lineup_info.stats['Lineup_Score']+=1
 							self.away_score+=1
 							cur_score_dif = self.home_score-self.away_score
+							self.score_track.tracker['Session_num'].append(session_num)
 							self.score_track.tracker['Score_Dif'].append(cur_score_dif)
 							self.score_track.tracker['Time'].append(self.get_time(line))
 							break 
 
 					if(away_found == False):
-						# print('Found an Opponent stat!!!!')
 						cur_away_lineup_info.stats['Oppo_FTA']+=1
 						cur_away_lineup_info.stats['Oppo_FTM']+=1
 						cur_away_lineup_info.stats['Oppo_Score']+=1
@@ -727,7 +753,6 @@ class DataExtractor(object):
 							break 
 
 					if(home_found == False):
-						# print('Found an Opponent stat!!!!')
 						cur_home_lineup_info.stats['Oppo_FTA']+=1
 						cur_home_lineup_info.stats['Oppo_FTm']+=1
 
@@ -742,7 +767,6 @@ class DataExtractor(object):
 							break 
 
 					if(away_found == False):
-						# print('Found an Opponent stat!!!!')
 						cur_away_lineup_info.stats['Oppo_FTA']+=1
 						cur_away_lineup_info.stats['Oppo_FTm']+=1
 
@@ -753,33 +777,25 @@ class DataExtractor(object):
 					home_found = False
 					away_found = False
 					if(player_scored in self.home_team_rosters):
-						# print("found home assist! by "+assist_name)
 						for p in cur_home_lineup.players:
-							# print("searching!!!!")
 							if(p.player_stats['Player_Name'] == assist_name):
-								# print("Found assist by home player!" + p.player_stats['Player_Name'] +'at '+str(self.get_time(line)))
 								home_found = True
 								p.player_stats['Ast']+=1
 								p.pass_to(player_scored)
 								cur_home_lineup_info.stats['Ast']+=1
 								break
 					if(home_found == False):
-						# print('Found an Opponent stat!!!!')
 						cur_home_lineup_info.stats['Oppo_Ast']+=1
 					
 					if(player_scored in self.away_team_rosters):
-						# print("found away assist!by "+assist_name)
 						for p in cur_away_lineup.players:
-							# print("searching!!!!")
 							if(p.player_stats['Player_Name'] == assist_name):
-								# print("Found assist by home player!" + p.player_stats['Player_Name'] + 'at '+str(self.get_time(line)) )
 								away_found = True
 								p.player_stats['Ast']+=1
 								p.pass_to(player_scored)
 								cur_away_lineup_info.stats['Ast']+=1
 								break
 					if(away_found == False):
-						# print('Found an Opponent stat!!!!')
 						cur_away_lineup_info.stats['Oppo_Ast']+=1
 
 			   # ------------------------------------Steal-----------------------------------------------------------------------------------------#
@@ -795,18 +811,84 @@ class DataExtractor(object):
 							cur_home_lineup_info.stats['Stl']+=1
 							break 
 					if(home_found == False):
-						# print('Found an Opponent stat!!!!')
 						cur_home_lineup_info.stats['Oppo_Stl']+=1
 
 					for p in cur_away_lineup.players:
-						if(p.player_stats['Player_Name'] == name_fga):
+						if(p.player_stats['Player_Name'] == steal_name):
 							p.player_stats['Stl']+=1
 							away_found = True
 							cur_away_lineup_info.stats['Stl']+=1
 							break 
 					if(away_found == False):
-						# print('Found an Opponent stat!!!!')
 						cur_away_lineup_info.stats['Oppo_Stl']+=1
+
+				if(turnover.search(line) is not None):
+					turnover_name =turnover.search(line).group(2).capitalize() + ' ' +turnover.search(line).group(1).split(',')[0].split(' ')[0].capitalize()  # convert all uppercase name to normal format name
+					home_found = False
+					away_found = False
+					for p in cur_home_lineup.players:
+						if(p.player_stats['Player_Name'] == turnover_name):
+							p.player_stats['Turnover']+=1
+							home_found = True
+							cur_home_lineup_info.stats['Turnover']+=1
+							break 
+					if(home_found == False):
+						cur_home_lineup_info.stats['Oppo_Turnover']+=1
+
+					for p in cur_away_lineup.players:
+						if(p.player_stats['Player_Name'] == turnover_name):
+							p.player_stats['Turnover']+=1
+							away_found = True
+							cur_away_lineup_info.stats['Turnover']+=1
+							break 
+					if(away_found == False):
+						cur_away_lineup_info.stats['Oppo_Turnover']+=1
+
+				if(block.search(line) is not None):
+					block_name =block.search(line).group(2).capitalize() + ' ' +block.search(line).group(1).split(',')[0].split(' ')[0].capitalize()  # convert all uppercase name to normal format name
+					home_found = False
+					away_found = False
+					for p in cur_home_lineup.players:
+						if(p.player_stats['Player_Name'] == block_name):
+							p.player_stats['Block']+=1
+							home_found = True
+							cur_home_lineup_info.stats['Block']+=1
+							break 
+					if(home_found == False):
+						cur_home_lineup_info.stats['Oppo_Block']+=1
+
+					for p in cur_away_lineup.players:
+						if(p.player_stats['Player_Name'] == block_name):
+							p.player_stats['Block']+=1
+							away_found = True
+							cur_away_lineup_info.stats['Block']+=1
+							break 
+					if(away_found == False):
+						cur_away_lineup_info.stats['Oppo_Block']+=1
+
+				if(foul.search(line) is not None):
+					foul_name =foul.search(line).group(2).capitalize() + ' ' +foul.search(line).group(1).split(',')[0].split(' ')[0].capitalize()  # convert all uppercase name to normal format name
+					home_found = False
+					away_found = False
+					for p in cur_home_lineup.players:
+						if(p.player_stats['Player_Name'] == foul_name):
+							p.player_stats['Foul']+=1
+							home_found = True
+							cur_home_lineup_info.stats['Foul']+=1
+							break 
+					if(home_found == False):
+						cur_home_lineup_info.stats['Oppo_Foul']+=1
+
+					for p in cur_away_lineup.players:
+						if(p.player_stats['Player_Name'] == foul_name):
+							p.player_stats['Foul']+=1
+							away_found = True
+							cur_away_lineup_info.stats['Foul']+=1
+							break 
+					if(away_found == False):
+						cur_away_lineup_info.stats['Oppo_Foul']+=1
+
+
 			
 			for lineup_info in self.home_team_obj.lineup_stats:
 				if(lineup_info.stats['Min']==None):

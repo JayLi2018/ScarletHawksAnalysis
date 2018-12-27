@@ -15,6 +15,7 @@ class Player:
         """Initialize attributes to describe a player"""
         
         self.player_stats = {'Team_Name' : Team_Name,
+        'Game_ID':0,
         'Player_Name' : Player_Name,
         'Pts' : 0,
         'FGA' : 0,
@@ -33,7 +34,11 @@ class Player:
         'FTm' : 0,
         'FTM' : 0,
         'Ast' : 0,
-        'Stl' : 0}  
+        'Stl' : 0,
+        'Turnover':0,
+        'Block': 0,
+        'Foul':0,
+        'Lineup_ID':None}  
 
         for team in Team_Lists:
             if(team[0]==self.player_stats['Team_Name']):
@@ -61,10 +66,12 @@ class Lineup:
 
 class Lineup_Stats:
 
-    def __init__(self,number,stats = None):
+    def __init__(self,stats = None):
 
-        self.stats = {'session_number' :0,
-                            'Lineup_Players':None,
+        self.stats = {'Team_Name':None,
+                            'Game_ID':0,
+                            'session_number' : 0,
+                            'Lineup_Players': None,
                             'From' : 0 ,
                             'To' : 0 ,
                             'Min' : None,
@@ -87,6 +94,9 @@ class Lineup_Stats:
                             'FTM' : 0 ,
                             'Ast' : 0 ,
                             'Stl' : 0 ,
+                            'Block':0 ,
+                            'Foul':0 ,
+                            'Turnover':0,
                             'Oppo_FGA' : 0 ,  
                             'Oppo_FGM' : 0 ,  
                             'Oppo_FGm' : 0 ,  
@@ -104,14 +114,20 @@ class Lineup_Stats:
                             'Oppo_FTM' : 0 ,
                             'Oppo_Ast' : 0 ,
                             'Oppo_Stl' : 0 ,
-                            'PlusMinus' : 0}
+                            'Oppo_Turnover':0,
+                            'Oppo_Block':0,
+                            'Oppo_Foul':0,
+                            'PlusMinus' : 0,
+                            'Lineup_ID':None}
 
 
 class Score_Tracker:
 
     def __init__(self,tracker=None):
 
-        self.tracker = { 
+        self.tracker = {
+        'Game_ID':None, 
+        'Session_num':[],
         'Time' : [],
         'Score_Dif':[]
         }

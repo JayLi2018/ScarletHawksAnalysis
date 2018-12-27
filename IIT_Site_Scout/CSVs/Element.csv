@@ -1,0 +1,47 @@
+Element_Name,Element_ID
+Overall,1
+Spot Up,2
+P&R Ball Handler,3
+Post-Up,4
+Isolation,5
+Off Screen,6
+Hand Off,7
+P&R Roll Man,8
+Transition,9
+Overall Half Court,10
+Short Shot Clock <4 Seconds,11
+Out of Bounds (End),12
+Out of Bounds (Side),13
+After Time Outs,14
+Man Defense,15
+Zone Defense,16
+Press Defense,17
+Cut,18
+Offensive Rebounds (put backs),19
+Miscellaneous,20
+Isolations Including Passes,21
+Pick and Rolls Including Passes,22
+Post-Ups Including Passes,23
+ISO - Defense Commits,24
+P&R BH - Defense Commits,25
+Post-Up - Defense Commits,26
+P&R BH - Traps,27
+Post-Up - Hard Double,28
+Jump Shots,29
+Jump Shots.Short Shot Clock <4 Seconds,30
+Runner,31
+Runner.Short Shot Clock <4 Seconds,32
+Around Basket (not Post-Ups),33
+Post-Ups,34
+Post-Ups.Short Shot Clock <4 Seconds,35
+Video Not Available,36
+Catch and Shoot,37
+Guarded,38
+Unguarded,39
+All Jump Shots off the Dribble,40
+Short (<17'),41
+Medium (17' to <3 point line),42
+Long (3 point jump shots),43
+Against Man,44
+Against Zone,45
+Press Offense,46
