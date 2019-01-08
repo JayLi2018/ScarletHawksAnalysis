@@ -30,3 +30,6 @@ Ast,Block,DefReb,FGA,FGM,FGm,FTA,FTM,FTm,Foul,started,Game_ID,Lineup_ID,Lineup_P
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Game_Track,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Game_ID,Score_Dif,Session_num,Time,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Player_Cumulative,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Team_ID,Uploaded_Date,Player_ID,GP,Min,SST,SSTexPts,Pts,Ast,Turnover,Ast_Turnover_Ratio,Stl,StlPos,Blk,TtlReb,OffReb,DefReb,FGA,FG_Made,FG_miss,FG,adjusted_FG,Two_FGA,Two_FG_Made,Two_FG_miss,Two_FG,Three_FGA,Three_FG_Made,Three_FG_miss,Three_FG,FTA,FT_Made,FT_miss,FT,AndOne,PFTkn,PFCom,,,,,,,,,,,,,,

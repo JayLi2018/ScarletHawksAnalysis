@@ -1,0 +1,68 @@
+
+
+
+
+
+nopix	 	 	nopix
+
+Cumulative Box Score/College Men - Concordia (WI) Falcons	Change
+Team
+Offensive	Defensive	Cumulative Box	 	 
+Report Contents	Printable View Possessions / Game
+Season: 2018-2019	Team:	Date Range: 11/16/2018 to 12/19/2018	Report Generated: 12/27/2018
+
+
+Concordia (WI) Falcons	GP	Min	SST	SST
+ex
+Pts	Pts	Ast	T/O	Ast/
+TO	Stl	Stl
+Pos	Blk	Ttl
+Reb	Off
+Reb	Def
+Reb
+#0 Noah Gosse	8	122	0.97	0.50	34	5	3	1.67	13	2	1	24	5	19
+#1 Isaiah Tenette	6	67	0.83	0.52	12	10	3	3.33	7	0	0	7	0	7
+#2 Jared Jurss	8	117	0.62	0.26	31	22	19	1.16	5	12	0	11	4	7
+#3 Jake Jurss	8	207	1.08	0.39	91	23	12	1.92	10	10	1	32	4	28
+#4 George Olalekan	8	167	0.98	0.27	76	5	15	0.33	7	8	2	35	12	23
+#10 Nolan Rhey	2	2	-.40	0	0	0	0	-	0	0	0	0	0	0
+#11 Michael Campbell	2	2	-.40	0	0	0	0	-	0	0	0	0	0	0
+#12 Joey Zietlow	8	109	1.03	0.45	38	7	5	1.40	10	4	2	17	4	13
+#13 Braden Persinger	5	29	0.29	0.14	4	0	5	0	2	1	0	6	4	2
+#15 Keller Brandon	8	51	0.82	0.49	14	2	2	1	1	0	1	13	8	5
+#20 Camden Flowers	1	1	0	0	0	0	0	-	0	0	0	0	0	0
+#22 Andrew Fratzke	8	249	1.25	0.38	126	19	20	0.95	10	11	10	42	14	28
+#24 Jordan Johnson	8	250	1.06	0.28	103	17	19	0.89	4	9	3	50	9	41
+#32 Jacob Lord	7	22	0.55	0.41	2	0	0	-	3	0	0	2	1	1
+#42 Josh Hau	8	172	0.99	0.20	80	8	14	0.57	7	8	0	28	5	23
+Team Totals	8	240	0.99	0.34	611	118	124	1.01	79	65	20	267	70	197
+Concordia (WI) Falcons	GP	FGA	FGM	FGm	FG%	aFG%	2
+FGA	2
+FGM	2
+FGm	2
+FG%	3
+FGA	3
+FGM	3
+FGm	3
+FG%	FTA	FTM	FTm	FT%	+1	PF
+Tkn	PF
+Com
+#0 Noah Gosse	8	27	12	15	44.4%	51.8%	14	8	6	57.1%	13	4	9	30.8%	7	6	1	85.7%	0	4	14
+#1 Isaiah Tenette	6	12	4	8	33.3%	33.3%	10	4	6	40%	2	0	2	0%	8	4	4	50%	1	6	7
+#2 Jared Jurss	8	29	12	17	41.4%	46.6%	19	9	10	47.4%	10	3	7	30%	9	4	5	44.4%	1	9	1
+#3 Jake Jurss	8	62	31	31	50%	64.5%	22	13	9	59.1%	40	18	22	45%	18	11	7	61.1%	4	20	15
+#4 George Olalekan	8	61	32	29	52.5%	53.3%	54	31	23	57.4%	7	1	6	14.3%	20	11	9	55%	4	23	28
+#10 Nolan Rhey	2	1	0	1	0%	0%	0	0	0	-	1	0	1	0%	0	0	0	-	0	0	0
+#11 Michael Campbell	2	1	0	1	0%	0%	0	0	0	-	1	0	1	0%	0	0	0	-	0	0	0
+#12 Joey Zietlow	8	29	14	15	48.3%	53.4%	18	11	7	61.1%	11	3	8	27.3%	13	7	6	53.8%	1	13	16
+#13 Braden Persinger	5	4	2	2	50%	50%	3	2	1	66.7%	1	0	1	0%	0	0	0	-	0	0	1
+#15 Keller Brandon	8	15	6	9	40%	40%	15	6	9	40%	0	0	0	-	6	2	4	33.3%	0	6	3
+#20 Camden Flowers	1	0	0	0	-	-	0	0	0	-	0	0	0	-	0	0	0	-	0	0	1
+#22 Andrew Fratzke	8	78	55	23	70.5%	71.2%	77	54	23	70.1%	1	1	0	100%	21	15	6	71.4%	3	19	18
+#24 Jordan Johnson	8	87	34	53	39.1%	43.7%	48	26	22	54.2%	39	8	31	20.5%	31	27	4	87.1%	1	22	13
+#32 Jacob Lord	7	1	1	0	100%	100%	1	1	0	100%	0	0	0	-	0	0	0	-	0	0	2
+#42 Josh Hau	8	64	28	36	43.8%	51.6%	35	18	17	51.4%	29	10	19	34.5%	16	14	2	87.5%	2	18	16
+Team Totals	8	471	231	240	49%	54.1%	316	183	133	57.9%	155	48	107	31%	149	101	48	67.8%	17	140	135
+ 
+©2004-2018 Synergy Sports Technology, LLC. All Rights Reserved
+v-1.0.192	 	 

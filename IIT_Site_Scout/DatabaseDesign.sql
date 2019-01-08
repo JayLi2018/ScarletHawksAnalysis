@@ -10,7 +10,6 @@ CREATE TABLE Player
 (
 	Player_Name varchar(50),
 	Player_ID int,
-	Player_Number INT,
 	Team_ID INT,
 
 	Primary Key(Player_ID),
@@ -128,11 +127,10 @@ CREATE TABLE Player_Game
 	Foul FLOAT,
 	Game_ID int,
 	Lineup_ID int,
-	OffReb FLOAT,
+	OffReb FLOAT, 
 	Player_ID int,
 	Pts FLOAT,
 	Stl FLOAT,
-	Team_Name FLOAT,
 	Three_FGA FLOAT,
 	Three_FG_Made FLOAT,
 	Three_FG_miss FLOAT,
@@ -217,21 +215,67 @@ CREATE TABLE GAME_TRACK
 	Foreign Key (Game_ID) References Game(Game_ID)
 );
 
+CREATE TABLE PLAYER_CUMULATIVE
+(
+	Team_ID INT,
+	Uploaded_Date DATE,
+	Player_ID INT,
+	GP INT,
+	Min FLOAT,
+	SST FLOAT,
+	SSTexPts FLOAT,
+	Pts FLOAT,
+	Ast FLOAT,
+	Turnover FLOAT, 
+	Ast_Turnover_Ratio FLOAT,
+	Stl FLOAT,
+	StlPos FLOAT,
+	Blk FLOAT,
+	TtlReb FLOAT,
+	OffReb FLOAT,
+	DefReb FLOAT,
+	FGA FLOAT,
+	FG_Made FLOAT,
+	FG_miss FLOAT,
+	FG FLOAT,
+	adjusted_FG FLOAT,
+	Two_FGA FLOAT,
+	Two_FG_Made FLOAT,
+	Two_FG_miss FLOAT,
+	Two_FG FLOAT,
+	Three_FGA FLOAT,
+	Three_FG_Made FLOAT,
+	Three_FG_miss FLOAT,
+	Three_FG FLOAT,
+	FTA FLOAT,
+	FT_Made FLOAT,
+	FT_miss FLOAT,
+	FT FLOAT,
+	AndOne FLOAT,
+	PFTkn FLOAT,
+	PFCom FLOAT,
+
+	Foreign KEY(Team_ID) References TEAM(Team_ID),
+	Foreign Key(Player_ID) References Player(Player_ID)
+
+);
+
 
 
 
 
 COPY Team(Team_ID,Team_Name) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Team.csv' DELIMITER ',' CSV HEADER NULL AS '-';
-COPY Player(Player_ID,Player_Number,Player_Name,Team_ID) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/player.csv' DELIMITER ',' CSV HEADER NULL AS '-';
+COPY Player(Player_Name,Player_ID,Team_ID) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/player.csv' DELIMITER ',' CSV HEADER NULL AS '-';
 COPY Format(Format_ID,Format_Name) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/format.csv' DELIMITER ',' CSV HEADER NULL AS '-';
 COPY Element(Element_Name,Element_ID) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Element.csv' DELIMITER ',' CSV HEADER NULL AS '-';
 COPY Category(Category_ID,Category_Name) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Category.csv' DELIMITER ',' CSV HEADER NULL AS '-';
 COPY Team_Average(Format_ID,Uploaded_Date,Percentage_Time,Poss_Per_Game,Points,PPP,Rank,Rating,FG_miss,FG_Made,FGA,FG,Adjusted_FG,Percent_Turnover,Percent_FT,Percent_Shooting_Foul,Percent_Score,Category_ID,Element_ID,Team_ID) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/team_average.csv' DELIMITER ',' CSV HEADER NULL AS '-';
-COPY Player_Average(Format_ID,Uploaded_Date,Percentage_Time,Poss_Per_Game,Points,PPP,Rank,Rating,FG_miss,FG_Made,FGA,FG,Adjusted_FG,Percent_Turnover,Percent_FT,Percent_Shooting_Foul,Percent_Score,Category_ID,Element_ID,Player_ID) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/player_average.csv' DELIMITER ',' CSV HEADER NULL AS '-';
+COPY Player_Average(Uploaded_Date,Percentage_Time,Poss_Per_Game,Points,PPP,Rank,Rating,FG_miss,FG_Made,FGA,FG,Adjusted_FG,Percent_Turnover,Percent_FT,Percent_Shooting_Foul,Percent_Score,Player_ID,Category_ID,Format_ID,Element_ID) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Player_Average.csv' DELIMITER ',' CSV HEADER NULL AS '-';
 COPY GAME(Game_ID,Uploaded_Date,Home_Team_ID,Away_Team_ID) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/game.csv' DELIMITER ',' CSV HEADER NULL AS '-';
-COPY Player_Game(Ast,Block,DefReb,FGA,FG_Made,FG_miss,FTA,FT_Made,FT_miss,Foul,Game_ID,Lineup_ID,OffReb,Pts,Stl,Three_FGA,Three_FG_Made,Three_FG_miss,TtlReb,Turnover,Two_FGA,Two_FG_Made,Two_FG_miss,Team_ID,Player_ID) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Player_Game.csv' DELIMITER ',' CSV HEADER NULL AS '-';
+COPY Player_Game(Ast,Block,DefReb,FGA,FG_Made,FG_miss,FTA,FT_Made,FT_miss,Foul,Game_ID,Lineup_ID,OffReb,Pts,Stl,Three_FGA,Three_FG_Made,Three_FG_miss,TtlReb,Turnover,Two_FGA,Two_FG_Made,Two_FG_miss,Player_ID) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Player_Game.csv' DELIMITER ',' CSV HEADER NULL AS '-';
 COPY Lineup(Ast,Block,DefReb,FGA,FG_Made,FG_miss,FTA,FT_Made,FT_miss,Foul,Started,Game_ID,Lineup_ID,Lineup_Players,Lineup_Score,Min,OffReb,Oppo_Ast,Oppo_Block,Oppo_DefReb,Oppo_FGA,Oppo_FG_Made,Oppo_FG_miss,Oppo_FTA,Oppo_FT_Made,Oppo_FT_miss,Oppo_Foul,Oppo_OffReb,Oppo_Score,Oppo_Stl,Oppo_Three_FGA,Oppo_Three_FG_Made,Oppo_Three_FG_miss,Oppo_TtlReb,Oppo_Turnover,Oppo_Two_FGA,Oppo_Two_FG_Made,Oppo_Two_FG_miss,PlusMinus,Stl,Three_FGA,Three_FG_Made,Three_FG_miss,Ended,TtlReb,Turnover,Two_FGA,Two_FG_Made,Two_FG_miss,session_number,Team_ID,) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Lineups.csv' DELIMITER ',' CSV HEADER NULL AS '-';
 COPY GAME_TRACK(Game_ID,Score_Dif,Session_num,Time) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/game_trackers.csv' DELIMITER ',' CSV HEADER NULL AS '-';
+COPY PLAYER_CUMULATIVE(Player_ID,Uploaded_Date,Team_ID,GP,Min,SST,SSTexPts,Pts,Ast,Turnover,Ast_Turnover_Ratio,Stl,StlPos,Blk,TtlReb,OffReb,DefReb,FGA,FG_Made,FG_miss,FG,adjusted_FG,Two_FGA,Two_FG_Made,Two_FG_miss,Two_FG,Three_FGA,Three_FG_Made,Three_FG_miss,Three_FG,FTA,FT_Made,FT_miss,FT,AndOne,PFTkn,PFCom) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Player_Cumulative.csv' DELIMITER ',' CSV HEADER NULL AS '-';
 
 
 
