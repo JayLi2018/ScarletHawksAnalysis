@@ -18,7 +18,7 @@ player_element = ['Overall','Spot Up','P&R Ball Handler','Post-Up','Isolation','
 Team_First_Row = ['Team_Name','Uploaded_Date','Format_Name','Category_Name','Element_Name','Percentage_Time','Poss_Per_Game','Points','PPP','Rank','Rating','FG_miss','FG_Made',
 'FGA','FG','Adjusted_FG','Percent_Turnover','Percent_FT','Percent_Shooting_Foul','Percent_Score']
 
-Player_First_Row = ['Player_Name','Uploaded_Date','Category_Name','Format_Name','Element_Name','Percentage_Time','Poss_Per_Game','Points','PPP','Rank','Rating','FG_miss','FG_Made',
+Player_First_Row = ['Team_Name','Player_Name','Uploaded_Date','Category_Name','Format_Name','Element_Name','Percentage_Time','Poss_Per_Game','Points','PPP','Rank','Rating','FG_miss','FG_Made',
 'FGA','FG','Adjusted_FG','Percent_Turnover','Percent_FT','Percent_Shooting_Foul','Percent_Score']
 
 
@@ -151,7 +151,15 @@ class Average_File_Converter:
 					continue
 				else:
 					player_name = re.sub(r'\#[0-9][0-9]? ','',line.split('\t')[0].strip())
-					initial_list = [player_name,self.Uploaded_Date,self.format,category,cur_element]
+					player_name_list = player_name.split(' ')
+					if(len(player_name_list)>2):
+						del player_name_list[-1]
+					player_name = ' '.join(player_name_list)
+
+					if(player_name=='Neil O\'Donnell'):
+						print('find donnel!')
+						player_name ='Neil Odonnell'
+					initial_list = [self.Team_Name,player_name,self.Uploaded_Date,category,self.format,cur_element]
 					# print(initial_list)
 					rest_list = [x.strip('\t') for x in line.split('\t')[1:]]
 					# print("rest_list")
@@ -171,8 +179,8 @@ class Average_File_Converter:
 
 			
 if __name__ == "__main__":
-	os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/Team_Summaries(till 12.23)/')
-	afc = Average_File_Converter('2018-12-23')
+	os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/1.9Package/')
+	afc = Average_File_Converter('2019-1-9')
 	team_dfs = []
 	player_dfs = []
 	for file in glob.glob("*"):
@@ -184,7 +192,7 @@ if __name__ == "__main__":
 	team_result = pd.concat(team_dfs)
 	player_result = pd.concat(player_dfs)
 	team_result.to_csv("team_average_results.csv",index=None)
-	player_result.to_csv("player_average_result.csv",index=None)
+	player_result.to_csv("player_average_results.csv",index=None)
 
 
 
