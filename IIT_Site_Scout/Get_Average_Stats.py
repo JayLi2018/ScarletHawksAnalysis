@@ -179,7 +179,7 @@ class Average_File_Converter:
 
 			
 if __name__ == "__main__":
-	os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/1.9Package/')
+	os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/1.9 Package/Missing/')
 	afc = Average_File_Converter('2019-1-9')
 	team_dfs = []
 	player_dfs = []

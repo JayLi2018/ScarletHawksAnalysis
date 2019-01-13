@@ -1,0 +1,27 @@
+
+1.12
+
+1).
+CREATE TABLE Update_Comment
+(
+	Uploaded_Date date,
+	Comment TEXT
+);
+
+insert into update_comment(uploaded_Date,comment) values ('2018-12-26','data collected from 11/08/2018 to 12/19/2018, IIT played 12 games, for games,lineup
+and player_game we only included conference games');
+
+insert into update_comment(uploaded_Date,comment) values ('2018-1-9','data collected from 11/08/2018 to 01/05/2019, IIT played 15 games, for games,lineup
+and player_game we only included conference games');
+
+2).
+
+Correct a game_date:
+update game
+set uploaded_date='2019-1-9' where game_id=7;
+
+
+
+
+
+

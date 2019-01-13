@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import re
 
-team_average = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/1.9Package/team_average_results.csv')
+team_average = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/1.9 Package/Missing/team_average_results.csv')
 print(list(team_average))
 
 formats = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/format.csv')
@@ -28,6 +28,7 @@ ta = ta_and_e.drop(['Element_Name'],axis=1)
 ta_and_t = pd.merge(ta,team,on=['Team_Name'])
 
 ta = ta_and_t.drop(['Team_Name'],axis=1)
+
 
 print(ta.head())
 

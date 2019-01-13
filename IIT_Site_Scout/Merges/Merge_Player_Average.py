@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import re
 
-player_average = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/1.9Package/player_average_results.csv')
+player_average = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/1.9 Package/Missing/player_average_results.csv')
 print(player_average)
 
 
