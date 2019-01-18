@@ -2,3 +2,4 @@ drop_dup.py
 Get_Team_From_Txt.py
 test.py
 Test.py
+*.pyc

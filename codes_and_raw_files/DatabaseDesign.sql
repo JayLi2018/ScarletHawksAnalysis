@@ -260,6 +260,12 @@ CREATE TABLE PLAYER_CUMULATIVE
 
 );
 
+CREATE TABLE Update_Comment
+(
+	Uploaded_Date date,
+	Comment TEXT
+)
+
 
 
 
@@ -274,7 +280,7 @@ COPY Category(Category_ID,Category_Name) from '/home/chenjie/Desktop/ScarletHawk
 COPY GAME(Game_ID,Uploaded_Date,Home_Team_ID,Away_Team_ID) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/game.csv' DELIMITER ',' CSV HEADER NULL AS '-';
 COPY Player_Game(Ast,Block,DefReb,FGA,FG_Made,FG_miss,FTA,FT_Made,FT_miss,Foul,Game_ID,Lineup_ID,OffReb,Pts,Stl,Three_FGA,Three_FG_Made,Three_FG_miss,TtlReb,Turnover,Two_FGA,Two_FG_Made,Two_FG_miss,Player_ID) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Player_Game.csv' DELIMITER ',' CSV HEADER NULL AS '-';
 COPY Lineup(Ast,Block,DefReb,FGA,FG_Made,FG_miss,FTA,FT_Made,FT_miss,Foul,Started,Game_ID,Lineup_ID,Lineup_Players,Lineup_Score,Min,OffReb,Oppo_Ast,Oppo_Block,Oppo_DefReb,Oppo_FGA,Oppo_FG_Made,Oppo_FG_miss,Oppo_FTA,Oppo_FT_Made,Oppo_FT_miss,Oppo_Foul,Oppo_OffReb,Oppo_Score,Oppo_Stl,Oppo_Three_FGA,Oppo_Three_FG_Made,Oppo_Three_FG_miss,Oppo_TtlReb,Oppo_Turnover,Oppo_Two_FGA,Oppo_Two_FG_Made,Oppo_Two_FG_miss,PlusMinus,Stl,Three_FGA,Three_FG_Made,Three_FG_miss,Ended,TtlReb,Turnover,Two_FGA,Two_FG_Made,Two_FG_miss,session_number,Team_ID,) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Lineups.csv' DELIMITER ',' CSV HEADER NULL AS '-';
-COPY GAME_TRACK(Game_ID,Score_Dif,Session_num,Time) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/game_trackers.csv' DELIMITER ',' CSV HEADER NULL AS '-';
+\COPY GAME_TRACK(Game_ID,Score_Difference,Session_number,Time) from 'Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/GAME_CSVs/1.9/Lutheran_Wis_tracker.csv' DELIMITER ',' CSV HEADER NULL AS '-';
 COPY PLAYER_CUMULATIVE(Player_ID,Uploaded_Date,Team_ID,GP,Min,SST,SSTexPts,Pts,Ast,Turnover,Ast_Turnover_Ratio,Stl,StlPos,Blk,TtlReb,OffReb,DefReb,FGA,FG_Made,FG_miss,FG,adjusted_FG,Two_FGA,Two_FG_Made,Two_FG_miss,Two_FG,Three_FGA,Three_FG_Made,Three_FG_miss,Three_FG,FTA,FT_Made,FT_miss,FT,AndOne,PFTkn,PFCom) from '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Player_Cumulative.csv' DELIMITER ',' CSV HEADER NULL AS '-';
 
 
