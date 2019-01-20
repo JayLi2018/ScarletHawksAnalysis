@@ -179,8 +179,8 @@ class Average_File_Converter:
 
 			
 if __name__ == "__main__":
-	os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/1.9 Package/Missing/')
-	afc = Average_File_Converter('2019-1-9')
+	os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.15 Package/Team_Player_Avg/')
+	afc = Average_File_Converter('2019-1-15')
 	team_dfs = []
 	player_dfs = []
 	for file in glob.glob("*"):

@@ -2,16 +2,18 @@ import pandas as pd
 import os
 import re
 
-team_average = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/1.9 Package/Missing/team_average_results.csv')
+os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.15 Package/Team_Player_Avg/')
+
+team_average = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.15 Package/Team_Player_Avg/team_average_results.csv')
 print(list(team_average))
 
-formats = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/format.csv')
+formats = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/CSVs/format.csv')
 
-category = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Category.csv')
+category = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/CSVs/Category.csv')
 
-element = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Element.csv')
+element = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/CSVs/Element.csv')
 
-team = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Team.csv')
+team = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/CSVs/Team.csv')
 
 ta_and_f = pd.merge(team_average,formats,on=['Format_Name'])
 

@@ -2,21 +2,24 @@ import pandas as pd
 import os
 import re
 
-player_average = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/1.9 Package/Missing/player_average_results.csv')
+
+os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.15 Package/Team_Player_Avg/')
+
+player_average = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.15 Package/Team_Player_Avg/player_average_results.csv')
 print(player_average)
 
 
-# df = player_average.groupby(['Player_Name']).size().reset_index(name='counts')
+df = player_average.groupby(['Player_Name']).size().reset_index(name='counts')
 
 # df = df['Player_Name']
 
-formats = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/format.csv')
+formats = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/CSVs/format.csv')
 
-category = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Category.csv')
+category = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/CSVs/Category.csv')
 
-element = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/Element.csv')
+element = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/CSVs/Element.csv')
 
-player = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/player.csv')
+player = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/CSVs/player.csv')
 
 # player = player['Player_Name']
 
