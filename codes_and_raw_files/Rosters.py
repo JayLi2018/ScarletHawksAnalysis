@@ -20,7 +20,7 @@ Team_Lists =[
  
 ['Lakeland (WI) Muskies','Deonte Carlton', 'Jequan Pegeese', 'Shakur Jinad', 'Carlos Campos',
  'Desmond Longino', 'Anthony Guarascio', 'Alec Vandecastle', 'Don Joachim', 'Garrett Duffin',
-  'Zach Hasenstein', 'Trent Nickel', 'Sam Kaminski', 'Eric Nygaard', 'Isaac Anderson','Kyle Domark','Pat McDonald'],
+  'Zach Hasenstein', 'Trent Nickel', 'Sam Kaminski', 'Eric Nygaard', 'Isaac Anderson','Kyle Domark','Pat Mcdonald'],
 
 ['Wisconsin Lutheran Warriors','Colin Biesterfeld', 'Caleb Goldstein', 'Biesterfeld Grant', 
 'Williams Jordan', 'Sam Kaufman', 'Bruggink Andrew', 'Lenz Isaiah', 'Randy Johnson', 'Matty Farner', 
@@ -37,7 +37,7 @@ Team_Lists =[
 
 ['Aurora University','Demetrius Pointer', 'Max Vickers', 'Matt Dunn', 'Jarek Hotwagner', 'Ethan Conroy', 
 'Brandon James', 'Bailey Vance', 'Marquis Howard', 'Deante Walker', 'Ty Carlson', 'Justin Wierzgac', 'Jesse Young', 
-'Mike Finley', 'Garrett Hoffman', 'Rashad Johnson'.'Kyle Ottens','Myles Turner'],
+'Mike Finley', 'Garrett Hoffman', 'Rashad Johnson','Kyle Ottens','Myles Turner'],
 
 ['Milwaukee School of Engineering','Kam Mitchell', 'Jason Palesse', 'Noah Blue', 'Zach Krysztopik',
 'Michael Pitrof', 'Bailey Mcdaniel', 'Sammy Linn', 'Josh Herzog', 'Matthew Kirmse', 'Jack Haek', 

@@ -50,9 +50,9 @@ order by format_name
 
 
 
-5) Player_Averages_1223_and_109
+5) Player_Averages
 
-create view Player_Averages_1223_and_109 as 
+create view Player_Averages as 
 SELECT t.team_name, p.player_name,f.format_name, c.category_name, e.element_name, pa.*
 FROM team t, player p, format f, category c, element e, player_average pa
 WHERE p.team_id = t.team_id and f.format_id = pa.format_id
@@ -61,5 +61,5 @@ and p.player_id=pa.player_id
 order by t.team_name
 
 
-\copy (SELECT * FROM Player_Averages_1223_and_109) to 'Player_Averages_1223_and_109.csv' DELIMITER ',' CSV HEADER;
+\copy (SELECT * FROM Player_Averages) to 'Player_Averages.csv' DELIMITER ',' CSV HEADER;
 

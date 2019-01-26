@@ -2,9 +2,8 @@ import Core
 from Core import *
 
 
-file_loc = '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/Games_Raw/'
-output_dir = '/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/CSVs/GAME_CSVs/'
-game_name = 'Benedictine'
+file_loc = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.15 Package/Game_Raw/'
+output_dir = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.15 Package/Game_CSVs/'
 
 Benedictine_lineup = ['Kenny Bogus','Eric Grygo','Bryan Jacobsze','Jaquan Phipps','Kyle Graebner']
 
@@ -26,7 +25,7 @@ Dominican_lineup = ['Jackson Smith','Derek Steck','Braquan Echols','Dennis Handy
 
 MSOE_lineup =['Jake Gebert','Travis Ballard','Anthony Bartman','Jason Palesse','Matthew Kirmse']
 
-Lakeland_lineup = ['Garrett Duffin','Eric Nygaard','Jequan Pegeese','Shakur Jinad','Don Joachim']
+Lakeland_lineup = ["Eric Nygaard","Shakur Jinad","Carlos Campos","Pat Mcdonald","Zach Hasenstein"]
 
 Concordia_Wis_Lineup = ['George Olalekan','Andrew Fratzke','Jake Jurss','Jordan Johnson','Josh Hau']
 
@@ -68,7 +67,13 @@ Wis_Lutheran_Lineup = ['Matty Farner','Collin Kennedy','Colin Biesterfeld','Cale
 # game_6.outputs()
 
 
-game_7 = DataExtractor(Game_ID=7,home_team='Wisconsin Lutheran Warriors',home_first_lineup=Wis_Lutheran_Lineup,
-	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Wis_Lutheran,game_file_loc=file_loc,output_loc=output_dir)
-game_7.generate_data(game_name='Lutheran_Wis')
-game_7.outputs()
+# game_7 = DataExtractor(Game_ID=7,home_team='Wisconsin Lutheran Warriors',home_first_lineup=Wis_Lutheran_Lineup,
+# 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Wis_Lutheran,game_file_loc=file_loc,output_loc=output_dir)
+# game_7.generate_data(game_name='Lutheran_Wis')
+# game_7.outputs()
+
+
+game_8 = DataExtractor(Game_ID=8,home_team='Lakeland (WI) Muskies',home_first_lineup=Lakeland_lineup,
+	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Lakeland_Lineup,game_file_loc=file_loc,output_loc=output_dir)
+game_8.generate_data(game_name='Lakeland')
+game_8.outputs()

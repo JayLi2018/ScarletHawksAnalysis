@@ -3,9 +3,9 @@ import os
 import re
 
 
-os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.15 Package/Team_Player_Avg/')
+os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Team_Player_Avg/')
 
-player_average = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.15 Package/Team_Player_Avg/player_average_results.csv')
+player_average = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Team_Player_Avg/player_average_results.csv')
 print(player_average)
 
 
