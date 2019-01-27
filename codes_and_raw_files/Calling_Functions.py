@@ -31,6 +31,8 @@ Concordia_Wis_Lineup = ['George Olalekan','Andrew Fratzke','Jake Jurss','Jordan 
 
 Wis_Lutheran_Lineup = ['Matty Farner','Collin Kennedy','Colin Biesterfeld','Caleb Goldstein','Andrew Bruggink']
 
+Rocford_Lineup = ['Tony Diemer','Kevin Diemer','Jeremiah Stewart','Brandon Emerick','Kivontay Sha']
+
 
 
 # game_1 = DataExtractor(Game_ID=1,home_team='Benedictine (IL) Eagles',home_first_lineup=Benedictine_lineup,
