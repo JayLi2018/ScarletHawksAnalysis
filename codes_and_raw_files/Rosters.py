@@ -45,7 +45,7 @@ Team_Lists =[
 'Travis Ballard', 'Anthony Bartman', 'Dylan Hamlin'],
 
 ['Benedictine (IL) Eagles','Bryan Jacobsze', 'Gio Calabrese', 'Marques Barnes', 'Derrick Faulkner', 
-'Hayden Helfrich', 'Troy Burrows', 'Keegan Graebner', 'Jaquan Phipps', 'Walter Taylor', 'Kenny Bogus', 
+'Hayden Helfrich','Troy Burrows', 'Keegan Graebner', 'Jaquan Phipps', 'Walter Taylor', 'Kenny Bogus', 
 'Carl Singletary', 'Michael Johnson', 'Kyle Graebner', 'Collin Mergl', 'Justis Mc', 'Eric Grygo', 
 'Isaiah Gransberry', 'Kyle Hornacek', 'Mason Sobiesk'],
 

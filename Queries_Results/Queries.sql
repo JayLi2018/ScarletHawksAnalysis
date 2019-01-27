@@ -26,7 +26,7 @@ where t.team_id = l.team_id
 and team_name = 'Illinois Tech Scarlet Hawks'
 
 4) team overalls
-create view Team_Overalls_1223_and_109
+create view Team_Overalls
 AS
 (
 SELECT t.team_name, f.format_name, c.category_name, e.element_name, ta.*
@@ -46,7 +46,7 @@ and c.category_name = 'Overall Offense'
 order by format_name
 )
 
-\copy (SELECT * FROM Team_Overalls_1223_and_109) to 'Team_Averages_1223_and_109.csv' DELIMITER ',' CSV HEADER;
+\copy (SELECT * FROM Team_Overalls) to 'Team_Overalls.csv' DELIMITER ',' CSV HEADER;
 
 
 
@@ -62,4 +62,5 @@ order by t.team_name
 
 
 \copy (SELECT * FROM Player_Averages) to 'Player_Averages.csv' DELIMITER ',' CSV HEADER;
+
 

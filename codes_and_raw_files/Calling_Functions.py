@@ -2,16 +2,16 @@ import Core
 from Core import *
 
 
-file_loc = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.15 Package/Game_Raw/'
-output_dir = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.15 Package/Game_CSVs/'
+file_loc = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Games_Raw/'
+output_dir = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Games_CSVs/'
 
-Benedictine_lineup = ['Kenny Bogus','Eric Grygo','Bryan Jacobsze','Jaquan Phipps','Kyle Graebner']
+Benedictine_lineup = ['Kenny Bogus','Eric Grygo','Bryan Jacobsze','Michael Johnson','Kyle Graebner']
 
-IIT_lineup = ['Jake Digiorgio','Milos Dugalic','Max Hisatake','Anthony Mosley','Ahmad Muhammad']
+IIT_lineup = ['Jake Digiorgio','Otis Reale','Milos Dugalic','Calvin Schmitz','Parker Joncus']
 
 IIT_against_Dominican_Lineup = ['Jake Digiorgio','Milos Dugalic','Parker Joncus','Anthony Mosley','Ahmad Muhammad']
 
-IIT_against_MSOE_Lineup = ['Jake Digiorgio','Milos Dugalic','Parker Joncus','Anthony Mosley','Ahmad Muhammad']
+IIT_against_MSOE_Lineup = ['Jake Digiorgio','Max Hisatake','Parker Joncus','Otis Reale','Ahmad Muhammad']
 
 IIT_against_Lakeland_Lineup = ['Jake Digiorgio','Max Hisatake','Parker Joncus','Anthony Mosley','Ahmad Muhammad']
 
@@ -23,13 +23,15 @@ Aurora_lineup = ['Jarek Hotwagner','Bailey Vance','Ty Carlson','Matt Dunn','Bran
 
 Dominican_lineup = ['Jackson Smith','Derek Steck','Braquan Echols','Dennis Handy','Andrew Wojcik']
 
-MSOE_lineup =['Jake Gebert','Travis Ballard','Anthony Bartman','Jason Palesse','Matthew Kirmse']
+MSOE_lineup =['Jake Gebert','Travis Ballard','Gabe Wear','Jason Palesse','Matthew Kirmse']
 
 Lakeland_lineup = ["Eric Nygaard","Shakur Jinad","Carlos Campos","Pat Mcdonald","Zach Hasenstein"]
 
 Concordia_Wis_Lineup = ['George Olalekan','Andrew Fratzke','Jake Jurss','Jordan Johnson','Josh Hau']
 
 Wis_Lutheran_Lineup = ['Matty Farner','Collin Kennedy','Colin Biesterfeld','Caleb Goldstein','Andrew Bruggink']
+
+
 
 # game_1 = DataExtractor(Game_ID=1,home_team='Benedictine (IL) Eagles',home_first_lineup=Benedictine_lineup,
 # 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_lineup,game_file_loc=file_loc,output_loc=output_dir)
@@ -73,7 +75,18 @@ Wis_Lutheran_Lineup = ['Matty Farner','Collin Kennedy','Colin Biesterfeld','Cale
 # game_7.outputs()
 
 
-game_8 = DataExtractor(Game_ID=8,home_team='Lakeland (WI) Muskies',home_first_lineup=Lakeland_lineup,
-	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Lakeland_Lineup,game_file_loc=file_loc,output_loc=output_dir)
-game_8.generate_data(game_name='Lakeland')
-game_8.outputs()
+# game_8 = DataExtractor(Game_ID=8,home_team='Lakeland (WI) Muskies',home_first_lineup=Lakeland_lineup,
+# 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Lakeland_Lineup,game_file_loc=file_loc,output_loc=output_dir)
+# game_8.generate_data(game_name='Lakeland')
+# game_8.outputs()
+
+
+# game_11 = DataExtractor(Game_ID=11,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_MSOE_Lineup,
+# 	away_team='Milwaukee School of Engineering',away_first_lineup=MSOE_lineup,game_file_loc=file_loc,output_loc=output_dir)
+# game_11.generate_data(game_name='MSOE')
+# game_11.outputs()
+
+game_13 = DataExtractor(Game_ID=13,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_lineup,
+	away_team='Benedictine (IL) Eagles',away_first_lineup=Benedictine_lineup,game_file_loc=file_loc,output_loc=output_dir)
+game_13.generate_data(game_name='Benedictine')
+game_13.outputs()
