@@ -2,12 +2,18 @@ import Core
 from Core import *
 
 
-file_loc = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Games_Raw/'
-output_dir = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Games_CSVs/'
+file_loc = '/home/chenjie/Desktop/ScarletHawksAnalysis/Dilruba_files/'
+output_dir = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Game_CSVs_1/'
 
 Benedictine_lineup = ['Kenny Bogus','Eric Grygo','Bryan Jacobsze','Michael Johnson','Kyle Graebner']
 
 IIT_lineup = ['Jake Digiorgio','Otis Reale','Milos Dugalic','Calvin Schmitz','Parker Joncus']
+
+IIT_against_Marian = ['Jake Digiorgio','Parker Joncus','Anthony Mosley','Max Hisatake','Ahmad Muhammad']
+
+IIT_against_Concordia_CHI_Lineup = ['Jake Digiorgio','Parker Joncus','Anthony Mosley','Max Hisatake','Ahmad Muhammad']
+
+IIT_against_Edgewood = ['Jake Digiorgio','Parker Joncus','Max Hisatake','Ahmad Muhammad','Otis Reale']
 
 IIT_against_Dominican_Lineup = ['Jake Digiorgio','Milos Dugalic','Parker Joncus','Anthony Mosley','Ahmad Muhammad']
 
@@ -18,6 +24,8 @@ IIT_against_Lakeland_Lineup = ['Jake Digiorgio','Max Hisatake','Parker Joncus','
 IIT_against_Concordia_Wis_Lineup = ['Jake Digiorgio','Max Hisatake','Parker Joncus','Anthony Mosley','Ahmad Muhammad']
 
 IIT_against_Wis_Lutheran = ['Jake Digiorgio','Max Hisatake','Parker Joncus','Anthony Mosley','Ahmad Muhammad']
+
+IIT_against_Rockford = ['Jake Digiorgio','Parker Joncus','Max Hisatake','Calvin Schmitz','Otis Reale']
 
 Aurora_lineup = ['Jarek Hotwagner','Bailey Vance','Ty Carlson','Matt Dunn','Brandon James']
 
@@ -33,7 +41,13 @@ Wis_Lutheran_Lineup = ['Matty Farner','Collin Kennedy','Colin Biesterfeld','Cale
 
 Rocford_Lineup = ['Tony Diemer','Kevin Diemer','Jeremiah Stewart','Brandon Emerick','Kivontay Sha']
 
+Marian_Lineup = ['Scott Paulus','Tristan Van','Tyrese Pinson','Tavaris Mccullough','Trentin Fouse']
 
+Concordia_CHI_Lineup = ['Hassan Basbous','Landen Gladney','Mitch Pelissier','Neil Odonnell','Jalen Meeks']
+
+Edgewood_Lineup = ['Ben Seefeld','Emil Radisevic','Mcclain Steffens','Sy Staver','Jake Negus']
+
+Rockford_Lineup = ['Tony Diemer','Kevin Diemer','Jeremiah Stewart','Brandon Emerick','Kivontay Shaw']
 
 # game_1 = DataExtractor(Game_ID=1,home_team='Benedictine (IL) Eagles',home_first_lineup=Benedictine_lineup,
 # 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_lineup,game_file_loc=file_loc,output_loc=output_dir)
@@ -88,7 +102,29 @@ Rocford_Lineup = ['Tony Diemer','Kevin Diemer','Jeremiah Stewart','Brandon Emeri
 # game_11.generate_data(game_name='MSOE')
 # game_11.outputs()
 
-game_13 = DataExtractor(Game_ID=13,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_lineup,
-	away_team='Benedictine (IL) Eagles',away_first_lineup=Benedictine_lineup,game_file_loc=file_loc,output_loc=output_dir)
-game_13.generate_data(game_name='Benedictine')
-game_13.outputs()
+# game_13 = DataExtractor(Game_ID=13,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_lineup,
+# 	away_team='Benedictine (IL) Eagles',away_first_lineup=Benedictine_lineup,game_file_loc=file_loc,output_loc=output_dir)
+# game_13.generate_data(game_name='Benedictine')
+# game_13.outputs()
+
+# game_9 = DataExtractor(Game_ID=9,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_Marian,
+# 	away_team='Marian University (WI) Sabres',away_first_lineup=Marian_Lineup,game_file_loc=file_loc,output_loc=output_dir)
+# game_9.generate_data(game_name='Marian')
+# game_9.outputs()
+
+# game_10 = DataExtractor(Game_ID=10,home_team='Concordia (Chicago) Cougars',home_first_lineup=Concordia_CHI_Lineup,
+# 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Concordia_CHI_Lineup,game_file_loc=file_loc,output_loc=output_dir)
+# game_10.generate_data(game_name='Concordia_Chicago')
+# game_10.outputs()
+
+# game_12 = DataExtractor(Game_ID=12,home_team='Edgewood College (WI) Eagles',home_first_lineup=Edgewood_Lineup,
+# 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Edgewood,game_file_loc=file_loc,output_loc=output_dir)
+# game_12.generate_data(game_name='Edgewood')
+# game_12.outputs()
+
+
+game_14 = DataExtractor(Game_ID=14,home_team='Rockford Regents',home_first_lineup=Rockford_Lineup,
+	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Rockford,game_file_loc=file_loc,output_loc=output_dir)
+game_14.generate_data(game_name='Rockford')
+game_14.outputs()
+
