@@ -2,7 +2,7 @@ import Core
 from Core import *
 
 
-file_loc = '/home/chenjie/Desktop/ScarletHawksAnalysis/Dilruba_files/'
+file_loc = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Games_Raw/'
 output_dir = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Game_CSVs_1/'
 
 Benedictine_lineup = ['Kenny Bogus','Eric Grygo','Bryan Jacobsze','Michael Johnson','Kyle Graebner']
@@ -97,10 +97,10 @@ Rockford_Lineup = ['Tony Diemer','Kevin Diemer','Jeremiah Stewart','Brandon Emer
 # game_8.outputs()
 
 
-# game_11 = DataExtractor(Game_ID=11,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_MSOE_Lineup,
-# 	away_team='Milwaukee School of Engineering',away_first_lineup=MSOE_lineup,game_file_loc=file_loc,output_loc=output_dir)
-# game_11.generate_data(game_name='MSOE')
-# game_11.outputs()
+game_11 = DataExtractor(Game_ID=11,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_MSOE_Lineup,
+	away_team='Milwaukee School of Engineering',away_first_lineup=MSOE_lineup,game_file_loc=file_loc,output_loc=output_dir)
+game_11.generate_data(game_name='MSOE')
+game_11.outputs()
 
 # game_13 = DataExtractor(Game_ID=13,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_lineup,
 # 	away_team='Benedictine (IL) Eagles',away_first_lineup=Benedictine_lineup,game_file_loc=file_loc,output_loc=output_dir)
@@ -123,8 +123,8 @@ Rockford_Lineup = ['Tony Diemer','Kevin Diemer','Jeremiah Stewart','Brandon Emer
 # game_12.outputs()
 
 
-game_14 = DataExtractor(Game_ID=14,home_team='Rockford Regents',home_first_lineup=Rockford_Lineup,
-	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Rockford,game_file_loc=file_loc,output_loc=output_dir)
-game_14.generate_data(game_name='Rockford')
-game_14.outputs()
+# game_14 = DataExtractor(Game_ID=14,home_team='Rockford Regents',home_first_lineup=Rockford_Lineup,
+# 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Rockford,game_file_loc=file_loc,output_loc=output_dir)
+# game_14.generate_data(game_name='Rockford')
+# game_14.outputs()
 
