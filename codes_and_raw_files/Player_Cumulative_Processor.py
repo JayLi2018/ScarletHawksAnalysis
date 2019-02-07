@@ -3,7 +3,7 @@ import os
 import glob
 import re
 
-os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/IIT_Site_Scout/Team_Cumulative/')
+os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Player_Cumulative_Raw/')
 
 
 hashtag = re.compile(r'\#')
@@ -11,12 +11,15 @@ player = re.compile(r'\#[0-9][0-9]? ([A-Z][a-z]+ [A-Z][a-z]+)')
 
 class FileProcessor:
 
-	def __init__(self,file):
+	def __init__(self,file,Uploaded_Date):
 
 		self.file = file
+		self.Uploaded_Date = Uploaded_Date
 		self.opened_file = open(self.file,"r")
 
 	def process(self):
+
+		print("now processing"+str(self.file.split('.')[0])+': ')
 
 		first_list = []
 		for line in self.opened_file:
@@ -56,6 +59,8 @@ class FileProcessor:
 			row[0] = ' '.join(row[0].split(' ')[:2])
 			row.insert(0,self.file.split('.')[0])
 		df = pd.DataFrame(rows, columns=headers)
+
+		df['Uploaded_Date'] = self.Uploaded_Date
 		print(str(self.file.split('.')[0])+': ')
 		print(players)
 		return df
@@ -67,14 +72,14 @@ if __name__ == '__main__':
 	
 	df_list = []
 
-	for file in glob.glob('*.txt'):
-		processor = FileProcessor(file)
+	for file in glob.glob('*'):
+		processor = FileProcessor(file,'2019-01-30')
 		df = processor.process()
 		df_list.append(df)
 
 	result = pd.concat(df_list)
 
-	result.to_csv('player_avg.csv')
+	result.to_csv('player_cumulatives.csv',index=False)
  
 
 

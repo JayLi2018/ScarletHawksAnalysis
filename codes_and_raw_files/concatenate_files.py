@@ -2,7 +2,7 @@ import os
 import glob
 import re
 
-os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Game_CSVs_1/')
+os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/Updates/2.6 package/')
 
 
 home_lineup_file = open('lineups.csv','a+')
