@@ -100,15 +100,33 @@ and l.ended <= gt.time)
 select ign.game_name,lt.* from lineup_track lt, iit_games_name ign
 where lt.game_id = ign.game_id
 
+\copy (select * from game_breakdown) to 'game_breakdown_2_16.csv' csv header;
+
+
 
 create view game_lineups as
 select ign.game_name, l.* from lineup l, iit_games_name ign
-where ign.game_id = l.game_id   
+where ign.game_id = l.game_id 
+
+\copy (select * from game_lineups) to 'game_lineups_2_16.csv' csv header;
 
 
 create view game_score_difference as
 select ign.game_name, gt.score_difference,gt.time from game_track gt, iit_games_name ign
 where ign.game_id = gt.game_id;  
+
+7) get shot ranges of teams 
+
+select t.team_name, ta.*, c.category_name, e.element_name,f.format_name
+from team t, team_average ta, category c, element e, format f
+where ta.uploaded_date = '2019-01-26'
+and ta.format_id = f.format_id
+and ta.category_id = c.category_id
+and ta.element_id = e.element_id
+and ta.team_id = t.team_id
+and c.category_id = 9;
+
+
 
 
 
