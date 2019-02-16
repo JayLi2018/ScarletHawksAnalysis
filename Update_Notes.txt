@@ -21,6 +21,27 @@ update game
 set uploaded_date='2019-1-9' where game_id=7;
 
 
+2.11
+
+1) Aurora university new players added:
+
+Terrell Wilson
+
+
+2.15
+
+1) Concordia wisconscin player added:
+
+insert into player values ('Wesley Brouillard',229,3);
+
+2) Concordia wisconscin Brenden Lewison added:
+
+insert into player values ('Brenden Lewison',230,3);
+
+3) 
+insert into game values (18,'2019-02-16',12,3),(19,'2019-02-16',12,2);
+
+
 
 
 

@@ -6,7 +6,8 @@ Team_Lists =[
 
 ['Concordia (WI) Falcons','Noah Gosse', 'Isaiah Tenette', 'Jared Jurss', 'Jake Jurss', 
 'George Olalekan', 'Nolan Rhey', 'Michael Campbell', 'Joey Zietlow', 'Braden Persinger', 
-'Keller Brandon', 'Camden Flowers', 'Andrew Fratzke', 'Jordan Johnson', 'Jacob Lord', 'Josh Hau'],
+'Keller Brandon', 'Camden Flowers', 'Andrew Fratzke', 'Jordan Johnson', 'Jacob Lord', 'Josh Hau',
+'Wesley Brouillard','Brenden Lewison'],
 
 ['Marian University (WI) Sabres','Will Polczynski', 'Julian Lynch', 'Tyrese Pinson',
  'Will Olewinski', 'Tavaris Mccullough', 'Caleb Martin', 'Hunter Schultz', 'Dalton Cairns', 
@@ -37,7 +38,7 @@ Team_Lists =[
 
 ['Aurora University','Demetrius Pointer', 'Max Vickers', 'Matt Dunn', 'Jarek Hotwagner', 'Ethan Conroy', 
 'Brandon James', 'Bailey Vance', 'Marquis Howard', 'Deante Walker', 'Ty Carlson', 'Justin Wierzgac', 'Jesse Young', 
-'Mike Finley', 'Garrett Hoffman', 'Rashad Johnson','Kyle Ottens','Myles Turner'],
+'Mike Finley', 'Garrett Hoffman', 'Rashad Johnson','Kyle Ottens','Myles Turner','Terrell Wilson'],
 
 ['Milwaukee School of Engineering','Kam Mitchell', 'Jason Palesse', 'Noah Blue', 'Zach Krysztopik',
 'Michael Pitrof', 'Bailey Mcdaniel', 'Sammy Linn', 'Josh Herzog', 'Matthew Kirmse', 'Jack Haek', 

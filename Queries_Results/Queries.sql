@@ -64,3 +64,51 @@ order by t.team_name
 \copy (SELECT * FROM Player_Averages) to 'Player_Averages.csv' DELIMITER ',' CSV HEADER;
 
 
+create view sum_lineups as 
+select t.team_name,l.lineup_players,sum(min) as min,sum(l.plusminus) plusminus,sum(l.fga) fga,sum(l.fta) fta,
+sum(l.offreb) offreb,sum(l.turnover) turnover,sum(l.oppo_fga) oppo_fga,sum(l.oppo_fta) oppo_fta,
+sum(l.oppo_offreb) oppo_offreb,sum(l.oppo_turnover) oppo_turnover from lineup l, team t 
+where t.team_id=l.team_id
+group by t.team_name,l.lineup_players;
+
+
+
+6) game_breakdown
+create view iit_games_name as 
+select g.game_id,  concat_ws(' vs ',t1.team_name,t2.team_name) as game_name
+from team t1, team t2, game g
+where t1.team_id = g.home_team_id
+and t2.team_id = g.away_team_id
+and t1.team_name='Illinois Tech Scarlet Hawks'
+union
+select g.game_id,concat_ws(' at ',t2.team_name,t1.team_name) as game_name
+from team t1, team t2, game g
+where t1.team_id = g.home_team_id
+and t2.team_id = g.away_team_id
+and t2.team_name='Illinois Tech Scarlet Hawks'
+
+
+
+create view game_breakdown as
+with lineup_track as(
+select l.*,gt.score_difference,gt.time from lineup l
+left join game_track gt
+on l.game_id = gt.game_id                                                                
+and l.session_number = gt.session_number
+and l.started >= gt.time
+and l.ended <= gt.time)
+select ign.game_name,lt.* from lineup_track lt, iit_games_name ign
+where lt.game_id = ign.game_id
+
+
+create view game_lineups as
+select ign.game_name, l.* from lineup l, iit_games_name ign
+where ign.game_id = l.game_id   
+
+
+create view game_score_difference as
+select ign.game_name, gt.score_difference,gt.time from game_track gt, iit_games_name ign
+where ign.game_id = gt.game_id;  
+
+
+

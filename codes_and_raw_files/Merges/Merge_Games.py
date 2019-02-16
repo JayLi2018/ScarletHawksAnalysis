@@ -1,11 +1,11 @@
 import pandas as pd
 import os
 
-os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/Updates/2.6 package/')
+os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/All_Games_Raw/')
 
-lineups = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/Updates/2.6 package/lineups.csv')
+lineups = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/All_Games_Raw/lineups.csv')
 
-player_games = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/Updates/2.6 package/player_games.csv')
+player_games = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/All_Games_Raw/player_games.csv')
 
 teams = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/CSVs/Team.csv')
 

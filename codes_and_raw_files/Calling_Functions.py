@@ -2,8 +2,8 @@ import Core
 from Core import *
 
 
-file_loc = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/Updates/2.6 package/'
-output_dir = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/Updates/2.6 package/'
+file_loc = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/All_Games_Raw/'
+output_dir = '/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/All_Games_Raw/'
 
 Benedictine_lineup = ['Kenny Bogus','Eric Grygo','Bryan Jacobsze','Michael Johnson','Kyle Graebner']
 
@@ -56,6 +56,19 @@ Dominican_2_lineup = ['Jackson Smith','Isaac Moore','Connor Dartt','Sean Ek','De
 Edgewood_2_Lineup = ['Ben Seefeld','Emil Radisevic','Mcclain Steffens','Sy Staver','Jake Negus']
 
 IIT_against_Edgewood_2 = ['Calvin Schmitz','Otis Reale','Jake Digiorgio','Max Hisatake','Parker Joncus']
+
+IIT_against_Aurora_2 = ['Calvin Schmitz','Otis Reale','Jake Digiorgio','Max Hisatake','Parker Joncus']
+
+Aurora_lineup_2 = ['Demetrius Pointer','Max Vickers','Brandon James','Marquis Howard','Ty Carlson']
+
+Concordia_Wis_Lineup_2 = ['Andrew Fratzke','Josh Hau','Jared Jurss','Jake Jurss','Jordan Johnson']
+
+IIT_against_Concordia_Wis_Lineup_2 = ['Milos Dugalic','Parker Joncus','Max Hisatake','Otis Reale','Calvin Schmitz']
+
+Wis_Lutheran_Lineup_2 = ['Matty Farner','Collin Kennedy','Colin Biesterfeld','Caleb Goldstein','Bruggink Andrew']
+
+IIT_against_Lutheran_2 = ['Calvin Schmitz','Otis Reale','Jake Digiorgio','Max Hisatake','Parker Joncus']
+
 
 # game_1 = DataExtractor(Game_ID=1,home_team='Benedictine (IL) Eagles',home_first_lineup=Benedictine_lineup,
 # 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_lineup,game_file_loc=file_loc,output_loc=output_dir)
@@ -132,20 +145,36 @@ IIT_against_Edgewood_2 = ['Calvin Schmitz','Otis Reale','Jake Digiorgio','Max Hi
 # game_13.outputs()
 
 
-# game_14 = DataExtractor(Game_ID=14,home_team='Rockford Regents',home_first_lineup=Rockford_Lineup,
-# 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Rockford,game_file_loc=file_loc,output_loc=output_dir)
-# game_14.generate_data(game_name='Rockford')
-# game_14.outputs()
+game_14 = DataExtractor(Game_ID=14,home_team='Rockford Regents',home_first_lineup=Rockford_Lineup,
+	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Rockford,game_file_loc=file_loc,output_loc=output_dir)
+game_14.generate_data(game_name='Rockford_1')
+game_14.outputs()
 
 # game_15 = DataExtractor(Game_ID=15,home_team='Dominican (IL) Stars',home_first_lineup=Dominican_2_lineup,
 # 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Dominican_2,game_file_loc=file_loc,output_loc=output_dir)
 # game_15.generate_data(game_name='Dominican_2')
 # game_15.outputs()
 
-game_16 = DataExtractor(Game_ID=16,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_Edgewood_2,
-	away_team='Edgewood College (WI) Eagles', away_first_lineup=Edgewood_2_Lineup,game_file_loc=file_loc,output_loc=output_dir)
-game_16.generate_data(game_name='Edgewood_2')
-game_16.outputs()
+# game_16 = DataExtractor(Game_ID=16,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_Edgewood_2,
+# 	away_team='Edgewood College (WI) Eagles', away_first_lineup=Edgewood_2_Lineup,game_file_loc=file_loc,output_loc=output_dir)
+# game_16.generate_data(game_name='Edgewood_2')
+# game_16.outputs()
+
+# game_17 = DataExtractor(Game_ID=17,home_team='Aurora University',home_first_lineup=Aurora_lineup_2,
+# 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Aurora_2,game_file_loc=file_loc,output_loc=output_dir)
+# game_17.generate_data(game_name='Aurora_2')
+# game_17.outputs()
+
+# game_18 = DataExtractor(Game_ID=18,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_Concordia_Wis_Lineup_2,
+# 	away_team='Concordia (WI) Falcons',away_first_lineup=Concordia_Wis_Lineup_2,game_file_loc=file_loc,output_loc=output_dir)
+# game_18.generate_data(game_name='Concordia_Wis_2')
+# game_18.outputs()
+
+game_19 = DataExtractor(Game_ID=19,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_Lutheran_2,
+	away_team='Wisconsin Lutheran Warriors',away_first_lineup=Wis_Lutheran_Lineup_2,game_file_loc=file_loc,output_loc=output_dir)
+game_19.generate_data(game_name='Lutheran_Wis_2')
+game_19.outputs()
+
 
 
 
