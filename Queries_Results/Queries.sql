@@ -100,7 +100,7 @@ and l.ended <= gt.time)
 select ign.game_name,lt.* from lineup_track lt, iit_games_name ign
 where lt.game_id = ign.game_id
 
-\copy (select * from game_breakdown) to 'game_breakdown_2_16.csv' csv header;
+\copy (select * from game_breakdown) to 'game_breakdown_2_18.csv' csv header;
 
 
 
@@ -125,6 +125,77 @@ and ta.category_id = c.category_id
 and ta.element_id = e.element_id
 and ta.team_id = t.team_id
 and c.category_id = 9;
+
+
+8) iit vs rockford
+
+(1) team level
+
+create view team_play_types as 
+(
+select t.team_name,f.format_name,c.category_name,e.element_name,ta.*
+from team t, format f, category c, element e,team_average ta
+where ta.team_id = t.team_id and ta.format_id=f.format_id
+and c.category_id = ta.category_id and e.element_id = ta.element_id
+and uploaded_date = '2019-02-12'
+and c.category_name = 'Play Types'
+)
+union
+(
+select t.team_name,f.format_name,c.category_name,e.element_name,ta.*
+from team t, format f, category c, element e,team_average ta
+where ta.team_id = t.team_id and ta.format_id=f.format_id
+and c.category_id = ta.category_id and e.element_id = ta.element_id
+and uploaded_date = '2019-02-12'
+and e.element_name = 'Overall'
+)
+
+create view player_play_types as 
+(
+select t.team_name,p.player_name,f.format_name,c.category_name,e.element_name,pa.*
+from team t, player p, format f, category c, element e,player_average pa
+where p.team_id = t.team_id and pa.player_id = p.player_id and pa.format_id=f.format_id
+and c.category_id = pa.category_id and e.element_id = pa.element_id
+and uploaded_date = '2019-02-12'
+and c.category_name = 'Play Types'
+)
+union
+(
+select t.team_name,p.player_name,f.format_name,c.category_name,e.element_name,pa.*
+from team t, player p, format f, category c, element e,player_average pa
+where p.team_id = t.team_id and pa.player_id = p.player_id and pa.format_id=f.format_id
+and c.category_id = pa.category_id and e.element_id = pa.element_id
+and uploaded_date = '2019-02-12'
+and e.element_name = 'Overall'
+);
+
+select * from player_play_types where team_name like '%Illinois Tech%' or team_name like '%Rockford%'
+
+
+
+(2) plater levels
+
+create view iit_rockford_games as
+( 
+select p.player_name,ign.game_name,pg.* 
+from iit_games_name ign, player_game pg, player p
+where ign.game_id = pg.game_id
+and p.player_id = pg.player_id 
+and ign.game_name
+like '%Scarlet Hawks vs Rockford%'
+
+union
+
+select p.player_name,ign.game_name,pg.* 
+from iit_games_name ign, player_game pg, player p
+where ign.game_id = pg.game_id
+and p.player_id = pg.player_id 
+and ign.game_name
+like '%Scarlet Hawks at Rockford%'
+);
+
+
+
 
 
 

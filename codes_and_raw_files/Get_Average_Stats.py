@@ -13,7 +13,7 @@ team_offensive_categories = ['Overall Offense','Play Types','Offense Including P
 'During Trapping Situations','Shot Attempt - Half Court','Catch and Shoot - Half Court',
 'Dribble Jumper - Half Court','Jump Shot Range - half court']
 
-player_element = ['Overall','Spot Up','P&R Ball Handler','Post-Up','Isolation','Off Screen','Hand Off','P&R Roll Man']
+player_element = ['Cut','Offensive Rebounds (put backs)','Transition','Overall','Spot Up','P&R Ball Handler','Post-Up','Isolation','Off Screen','Hand Off','P&R Roll Man','Miscellaneous']
 
 Team_First_Row = ['Team_Name','Uploaded_Date','Format_Name','Category_Name','Element_Name','Percentage_Time','Poss_Per_Game','Points','PPP','Rank','Rating','FG_miss','FG_Made',
 'FGA','FG','Adjusted_FG','Percent_Turnover','Percent_FT','Percent_Shooting_Foul','Percent_Score']
@@ -179,8 +179,8 @@ class Average_File_Converter:
 
 			
 if __name__ == "__main__":
-	os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Team_Player_Avg/')
-	afc = Average_File_Converter('2019-1-26')
+	os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/Updates/2.17 package/Team_Player_Average/')
+	afc = Average_File_Converter('2019-2-12')
 	team_dfs = []
 	player_dfs = []
 	for file in glob.glob("*"):

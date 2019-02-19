@@ -2,9 +2,9 @@ import pandas as pd
 import os
 import re
 
-os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Team_Player_Avg/')
+os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/Updates/2.17 package/Team_Player_Average/')
 
-team_average = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Team_Player_Avg/team_average_results.csv')
+team_average = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/Updates/2.17 package/Team_Player_Average/team_average_results.csv')
 print(list(team_average))
 
 formats = pd.read_csv('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/CSVs/format.csv')

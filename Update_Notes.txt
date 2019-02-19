@@ -42,7 +42,9 @@ insert into player values ('Brenden Lewison',230,3);
 insert into game values (18,'2019-02-16',12,3),(19,'2019-02-16',12,2);
 
 
+2.17
 
+1) insert into game values (20,'2019-2-17',12,4);
 
 
 
