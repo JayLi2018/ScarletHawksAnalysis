@@ -131,10 +131,10 @@ IIT_against_Rockford_2 = ['Jake Bruns','Otis Reale','Jake Digiorgio','Max Hisata
 # game_10.generate_data(game_name='Concordia_Chicago')
 # game_10.outputs()
 
-# game_11 = DataExtractor(Game_ID=11,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_MSOE_Lineup,
-# 	away_team='Milwaukee School of Engineering',away_first_lineup=MSOE_lineup,game_file_loc=file_loc,output_loc=output_dir)
-# game_11.generate_data(game_name='MSOE')
-# game_11.outputs()
+game_11 = DataExtractor(Game_ID=11,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_MSOE_Lineup,
+	away_team='Milwaukee School of Engineering',away_first_lineup=MSOE_lineup,game_file_loc=file_loc,output_loc=output_dir)
+game_11.generate_data(game_name='MSOE_2')
+game_11.outputs()
 
 
 # game_12 = DataExtractor(Game_ID=12,home_team='Edgewood College (WI) Eagles',home_first_lineup=Edgewood_Lineup,
@@ -179,9 +179,9 @@ IIT_against_Rockford_2 = ['Jake Bruns','Otis Reale','Jake Digiorgio','Max Hisata
 # game_19.generate_data(game_name='Lutheran_Wis_2')
 # game_19.outputs()
 
-game_20 = DataExtractor(Game_ID=20,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_Rockford_2,
-	away_team='Rockford Regents',away_first_lineup=Rockford_Lineup_2,game_file_loc=file_loc,output_loc=output_dir)
-game_20.generate_data(game_name='Rockford_2')
-game_20.outputs()
+# game_20 = DataExtractor(Game_ID=20,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_Rockford_2,
+# 	away_team='Rockford Regents',away_first_lineup=Rockford_Lineup_2,game_file_loc=file_loc,output_loc=output_dir)
+# game_20.generate_data(game_name='Rockford_2')
+# game_20.outputs()
 
 

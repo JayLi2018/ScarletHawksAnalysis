@@ -20,10 +20,16 @@ where t.team_id=p.team_id and pg.player_id=p.player_id
 and pg.game_id=l.game_id and pg.lineup_id=l.lineup_id and l.team_id=p.team_id
 
 3) lineup
+create view rockford_iit_lineups as 
 select l.*
 from lineup l, team t 
 where t.team_id = l.team_id
-and team_name = 'Illinois Tech Scarlet Hawks'
+and game_id = 20
+union
+select l.*
+from lineup l, team t 
+where t.team_id = l.team_id
+and game_id = 14
 
 4) team overalls
 create view Team_Overalls
@@ -169,7 +175,7 @@ and uploaded_date = '2019-02-12'
 and e.element_name = 'Overall'
 );
 
-select * from player_play_types where team_name like '%Illinois Tech%' or team_name like '%Rockford%'
+\copy (select * from player_play_types where team_name like '%Illinois Tech%' or team_name like '%Milwaukee School%') to 'iit_msoe_players.csv' csv header;
 
 
 
@@ -197,7 +203,175 @@ like '%Scarlet Hawks at Rockford%'
 
 
 
+9) Final Fours 
+
+create view final_four_games as 
+( 
+select t.team_id,p.player_name,ign.game_name,pg.* 
+from team t,iit_games_name ign, player_game pg, player p
+where ign.game_id = pg.game_id
+and t.team_id = p.team_id
+and p.player_id = pg.player_id 
+and ign.game_name
+like '%Scarlet Hawks vs Milwaukee School%'
+
+union
+
+select t.team_id,p.player_name,ign.game_name,pg.* 
+from team t,iit_games_name ign, player_game pg, player p
+where ign.game_id = pg.game_id
+and t.team_id = p.team_id
+and p.player_id = pg.player_id 
+and ign.game_name
+like '%Scarlet Hawks at Milwaukee School%'
+
+union 
+
+select t.team_id,p.player_name,ign.game_name,pg.* 
+from team t,iit_games_name ign, player_game pg, player p
+where ign.game_id = pg.game_id
+and t.team_id = p.team_id
+and p.player_id = pg.player_id 
+and ign.game_name
+like '%Scarlet Hawks at Aurora%'
+
+union
+
+select t.team_id,p.player_name,ign.game_name,pg.* 
+from team t,iit_games_name ign, player_game pg, player p
+where ign.game_id = pg.game_id
+and t.team_id = p.team_id
+and p.player_id = pg.player_id 
+and ign.game_name
+like '%Scarlet Hawks vs Aurora%'
+
+union
+
+select t.team_id,p.player_name,ign.game_name,pg.* 
+from team t,iit_games_name ign, player_game pg, player p
+where ign.game_id = pg.game_id
+and t.team_id = p.team_id
+and p.player_id = pg.player_id 
+and ign.game_name
+like '%Scarlet Hawks at Concordia (WI) Falcons%'
+
+union
+
+select t.team_id,p.player_name,ign.game_name,pg.* 
+from team t,iit_games_name ign, player_game pg, player p
+where ign.game_id = pg.game_id
+and t.team_id = p.team_id
+and p.player_id = pg.player_id 
+and ign.game_name
+like '%Scarlet Hawks vs Concordia (WI) Falcons%'
+);
+
+
+create view final_four_lineups as 
+select l.*
+from lineup l, team t 
+where t.team_id = l.team_id
+and game_id = 2
+union
+select l.*
+from lineup l, team t 
+where t.team_id = l.team_id
+and game_id = 4
+union
+select l.*
+from lineup l, team t 
+where t.team_id = l.team_id
+and game_id = 6
+union
+select l.*
+from lineup l, team t 
+where t.team_id = l.team_id
+and game_id = 11
+union
+select l.*
+from lineup l, team t 
+where t.team_id = l.team_id
+and game_id = 17
+union
+select l.*
+from lineup l, team t 
+where t.team_id = l.team_id
+and game_id = 18
 
 
 
+
+
+create view final_four_players as 
+select l.min,ffg.*
+from final_four_games ffg, lineup l
+where ffg.game_id = l.game_id
+and ffg.team_id = l.team_id
+and ffg.lineup_id = l.lineup_id
+
+
+\copy (select * from player_play_types where team_name like '%Illinois Tech%' or team_name like '%Milwaukee School%' or team_name like '%Aurora%' or team_name like 'Concordia (WI) Falcons') to 'final_four_player_types.csv' csv header;
+
+
+create view final_four_player_cumulatives as 
+
+select t.team_name, p.player_name, pc.*
+from team t, player p, player_cumulative pc
+where t.team_id = p.team_id
+and p.player_id = pc.player_id
+and pc.uploaded_date='2019-02-21'
+and t.team_name like '%Illinois Tech%'
+union
+select t.team_name, p.player_name, pc.*
+from team t, player p, player_cumulative pc
+where t.team_id = p.team_id
+and p.player_id = pc.player_id
+and pc.uploaded_date='2019-02-21'
+and t.team_name like '%Milwaukee School%'
+union
+select t.team_name, p.player_name, pc.*
+from team t, player p, player_cumulative pc
+where t.team_id = p.team_id
+and p.player_id = pc.player_id
+and pc.uploaded_date='2019-02-21'
+and t.team_name like '%Concordia (WI) Falcons%'
+union
+select t.team_name, p.player_name, pc.*
+from team t, player p, player_cumulative pc
+where t.team_id = p.team_id
+and p.player_id = pc.player_id
+and pc.uploaded_date='2019-02-21'
+and t.team_name like '%Aurora%'
+
+
+
+create view sum_final_four_players as
+select team_id,player_name,game_name,sum(min) as min,sum(ast) as ast, sum(block) as block, sum(defreb) as defreb, 
+sum(fga) as fga, sum(fg_made) as fg_made, sum(fg_miss) as fg_miss, sum(fta) as fta, sum(ft_made) as ft_made, sum(ft_miss) as ft_miss, 
+sum(foul) as foul, sum(offreb) as offreb, sum(pts) as pts, sum(stl) as stl, sum(three_fga) as three_fga, sum(three_fg_made) as three_fg_made, 
+sum(three_fg_miss) as three_fg_miss, sum(ttlreb) as ttlreb, sum(turnover) as turnover, sum(two_fga) as two_fga, 
+sum(two_fg_made) as two_fga_made, sum(two_fg_miss) as two_fg_miss
+from final_four_players 
+group by team_id,player_name,game_name
+having game_name like '%Hawks vs Milwaukee%'
+
+create view final_four_player_stats as 
+select team_name as team_name,ffpc.uploaded_date,ffpc.gp as gp,
+ffpc.min as avg_min,ffpc.sst as avg_sst,ffpc.sstexpts as avg_sstexpts,ffpc.pts as avg_pts,ffpc.ast as avg_ast,
+ffpc.turnover as avg_turnover,ffpc.ast_turnover_ratio as avg_ast_turnover_ratio,ffpc.stl as avg_stl,ffpc.stlpos as avg_stlpos,
+ffpc.blk as avg_blk,ffpc.ttlreb as avg_ttlreb,ffpc.offreb as avg_offreb,ffpc.defreb as avg_defreb,ffpc.fga as avg_fga,
+ffpc.fg_made as avg_fg_made,ffpc.fg_miss as avg_fg_miss,ffpc.fg as avg_fg,ffpc.adjusted_fg as avg_adjusted_fg,
+ffpc.two_fga as avg_two_fga,ffpc.two_fg_made as avg_two_fg_made,ffpc.two_fg_miss as avg_two_fg_miss,
+ffpc.two_fg as avg_two_fg,ffpc.three_fga as avg_three_fga,ffpc.three_fg_made as avg_three_fg_made,
+ffpc.three_fg_miss as avg_three_fg_miss,ffpc.three_fg as avg_three_fg,ffpc.fta as avg_fta,
+ffpc.ft_made as avg_ft_made,ffpc.ft_miss as avg_ft_miss,ffpc.ft as avg_ft,ffpc.andone as avg_andone,
+ffpc.pftkn as avg_pftkn,ffpc.pfcom as avg_pfcom,sffp.*
+from final_four_player_cumulatives ffpc, sum_final_four_players as sffp
+where ffpc.team_id = sffp.team_id
+and ffpc.player_name = sffp.player_name 
+
+
+create view final_four_players_all_stats as 
+
+\copy (select ppt.format_name,ppt.category_name,ppt.element_name,ppt.format_id,ppt.category_id,ppt.element_id,ppt.player_id,ppt.percentage_time,ppt.poss_per_game,ppt.points,ppt.ppp,ppt.rank,ppt.rating,ppt.fg_miss,ppt.fg_made,ppt.fga,ppt.fg,ppt.adjusted_fg,ppt.percent_turnover,ppt.percent_ft,ppt.percent_shooting_foul,ppt.percent_score,ffps.* from player_play_types ppt, final_four_player_stats ffps where ppt.team_name = ffps.team_name and ppt.player_name = ffps.player_name) to 'final_four_all_stats.csv' csv header;
 

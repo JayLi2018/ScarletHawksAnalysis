@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import re
 
-os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Player_Cumulative_Raw/')
+os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/Updates/2.21 package/Player_Cumulative/')
 
 Player_Cumulative = pd.read_csv('player_cumulatives.csv')
 

@@ -3,11 +3,11 @@ import os
 import glob
 import re
 
-os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/1.26 Package/Player_Cumulative_Raw/')
+os.chdir('/home/chenjie/Desktop/ScarletHawksAnalysis/codes_and_raw_files/Updates/2.21 package/Player_Cumulative/')
 
 
 hashtag = re.compile(r'\#')
-player = re.compile(r'\#[0-9][0-9]? ([A-Z][a-z]+ [A-Z][a-z]+)')
+player = re.compile(r'\#[0-9][0-9]?[0-9]? ([A-Z][a-z]+ [A-Z][a-z]+)')
 
 class FileProcessor:
 
@@ -19,7 +19,7 @@ class FileProcessor:
 
 	def process(self):
 
-		print("now processing"+str(self.file.split('.')[0])+': ')
+		print("now processing "+str(self.file.split('.')[0])+': ')
 
 		first_list = []
 		for line in self.opened_file:
@@ -37,7 +37,7 @@ class FileProcessor:
 
 		for cur_line in first_list:
 			cur_player = player.search(cur_line).group(1)
-			# print("cur_number: "+cur_player)
+			print("cur_number: "+cur_player)
 			if(cur_player in players):
 				for line in rows[1:]:
 					if(player.search(line[0]).group(1)==cur_player):
@@ -73,7 +73,7 @@ if __name__ == '__main__':
 	df_list = []
 
 	for file in glob.glob('*'):
-		processor = FileProcessor(file,'2019-01-30')
+		processor = FileProcessor(file,'2019-02-21')
 		df = processor.process()
 		df_list.append(df)
 
