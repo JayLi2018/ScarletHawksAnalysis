@@ -268,35 +268,41 @@ like '%Scarlet Hawks vs Concordia (WI) Falcons%'
 
 
 create view final_four_lineups as 
-select l.*
-from lineup l, team t 
+select l.*, ign.game_name,t.team_name
+from lineup l,iit_games_name ign, team t
 where t.team_id = l.team_id
-and game_id = 2
+and l.game_id = ign.game_id
+and l.game_id = 2
 union
-select l.*
-from lineup l, team t 
+select l.*, ign.game_name,t.team_name
+from lineup l,iit_games_name ign, team t
 where t.team_id = l.team_id
-and game_id = 4
+and l.game_id = ign.game_id
+and l.game_id = 4
 union
-select l.*
-from lineup l, team t 
+select l.*, ign.game_name,t.team_name
+from lineup l,iit_games_name ign, team t
 where t.team_id = l.team_id
-and game_id = 6
+and l.game_id = ign.game_id
+and l.game_id = 6
 union
-select l.*
-from lineup l, team t 
+select l.*, ign.game_name,t.team_name
+from lineup l,iit_games_name ign, team t
 where t.team_id = l.team_id
-and game_id = 11
+and l.game_id = ign.game_id
+and l.game_id = 11
 union
-select l.*
-from lineup l, team t 
+select l.*, ign.game_name,t.team_name
+from lineup l,iit_games_name ign, team t
 where t.team_id = l.team_id
-and game_id = 17
+and l.game_id = ign.game_id
+and l.game_id = 17
 union
-select l.*
-from lineup l, team t 
+select l.*, ign.game_name,t.team_name
+from lineup l,iit_games_name ign, team t
 where t.team_id = l.team_id
-and game_id = 18
+and l.game_id = ign.game_id
+and l.game_id = 18
 
 
 
