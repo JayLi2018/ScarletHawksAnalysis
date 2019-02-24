@@ -352,14 +352,34 @@ and t.team_name like '%Aurora%'
 
 
 create view sum_final_four_players as
-select team_id,player_name,game_name,sum(min) as min,sum(ast) as ast, sum(block) as block, sum(defreb) as defreb, 
-sum(fga) as fga, sum(fg_made) as fg_made, sum(fg_miss) as fg_miss, sum(fta) as fta, sum(ft_made) as ft_made, sum(ft_miss) as ft_miss, 
-sum(foul) as foul, sum(offreb) as offreb, sum(pts) as pts, sum(stl) as stl, sum(three_fga) as three_fga, sum(three_fg_made) as three_fg_made, 
-sum(three_fg_miss) as three_fg_miss, sum(ttlreb) as ttlreb, sum(turnover) as turnover, sum(two_fga) as two_fga, 
-sum(two_fg_made) as two_fga_made, sum(two_fg_miss) as two_fg_miss
-from final_four_players 
-group by team_id,player_name,game_name
-having game_name like '%Hawks vs Milwaukee%'
+ SELECT final_four_players.team_id,
+    final_four_players.player_name,
+    final_four_players.game_name,
+    sum(final_four_players.min) AS min,
+    sum(final_four_players.ast) AS ast,
+    sum(final_four_players.block) AS block,
+    sum(final_four_players.defreb) AS defreb,
+    sum(final_four_players.fga) AS fga,
+    sum(final_four_players.fg_made) AS fg_made,
+    sum(final_four_players.fg_miss) AS fg_miss,
+    sum(final_four_players.fta) AS fta,
+    sum(final_four_players.ft_made) AS ft_made,
+    sum(final_four_players.ft_miss) AS ft_miss,
+    sum(final_four_players.foul) AS foul,
+    sum(final_four_players.offreb) AS offreb,
+    sum(final_four_players.pts) AS pts,
+    sum(final_four_players.stl) AS stl,
+    sum(final_four_players.three_fga) AS three_fga,
+    sum(final_four_players.three_fg_made) AS three_fg_made,
+    sum(final_four_players.three_fg_miss) AS three_fg_miss,
+    sum(final_four_players.ttlreb) AS ttlreb,
+    sum(final_four_players.turnover) AS turnover,
+    sum(final_four_players.two_fga) AS two_fga,
+    sum(final_four_players.two_fg_made) AS two_fga_made,
+    sum(final_four_players.two_fg_miss) AS two_fg_miss
+   FROM final_four_players
+  GROUP BY final_four_players.team_id, final_four_players.player_name, final_four_players.game_name;
+
 
 create view final_four_player_stats as 
 select team_name as team_name,ffpc.uploaded_date,ffpc.gp as gp,
@@ -377,7 +397,5 @@ where ffpc.team_id = sffp.team_id
 and ffpc.player_name = sffp.player_name 
 
 
-create view final_four_players_all_stats as 
 
 \copy (select ppt.format_name,ppt.category_name,ppt.element_name,ppt.format_id,ppt.category_id,ppt.element_id,ppt.player_id,ppt.percentage_time,ppt.poss_per_game,ppt.points,ppt.ppp,ppt.rank,ppt.rating,ppt.fg_miss,ppt.fg_made,ppt.fga,ppt.fg,ppt.adjusted_fg,ppt.percent_turnover,ppt.percent_ft,ppt.percent_shooting_foul,ppt.percent_score,ffps.* from player_play_types ppt, final_four_player_stats ffps where ppt.team_name = ffps.team_name and ppt.player_name = ffps.player_name) to 'final_four_all_stats.csv' csv header;
-

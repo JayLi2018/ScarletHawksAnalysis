@@ -1,0 +1,16 @@
+Team_Name,Player_Name,Uploaded_Date,Category_Name,Format_Name,Element_Name,Percentage_Time,Poss_Per_Game,Points,PPP,Rank,Rating,FG_miss,FG_Made,FGA,FG,Adjusted_FG,Percent_Turnover,Percent_FT,Percent_Shooting_Foul,Percent_Score
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Offensive,Overall,0.02,8.2,7.6,0.93,0.7,Very Good,2.4,2.8,5.2,0.54,0.58,0.22,0.15,0.07,0.44
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Offensive,Spot Up,0.01,1.2,1,0.83,-,-,0.4,0.4,0.8,0.5,0.63,0.17,0.17,0.17,0.33
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Offensive,Transition,0.04,3.2,2,0.63,0.1,Poor,1.2,0.8,2,0.4,0.4,0.31,0.06,0.06,0.31
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Offensive,P&R Ball Handler,0.06,2.2,2.6,1.18,0.97,Excellent,0.6,1,1.6,0.63,0.69,0.18,0.09,0.09,0.55
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Offensive,Isolation,0.01,0.4,0.4,1,-,-,0.2,0.2,0.4,0.5,0.5,0,0,0,0.5
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Offensive,Cut,0.01,0.4,0.4,1,-,-,0,0.2,0.2,1,1,0.5,0,0,0.5
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Offensive,Offensive Rebounds (put backs),0.01,0.2,0.4,2,-,-,0,0.2,0.2,1,1,0,0,0,1
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Offensive,Miscellaneous,0.02,0.6,0.8,1.33,-,-,0,0,0,-,-,0,1,0,0.67
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Defensive,Overall,0.02,9.6,7.4,0.77,0.73,Very Good,5,2.6,7.6,0.34,0.41,0.15,0.08,0.06,0.33
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Defensive,Spot Up,0.02,2,2.2,1.1,0.19,Below Average,0.8,0.8,1.6,0.5,0.69,0.2,0,0,0.4
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Defensive,Post-Up,0.01,0.2,0.4,2,-,-,0,0,0,-,-,0,1,1,1
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Defensive,P&R Ball Handler,0.1,4,2.2,0.55,0.81,Very Good,2.6,0.8,3.4,0.24,0.27,0.1,0.05,0,0.25
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Defensive,Isolation,0.09,2,1.6,0.8,0.45,Average,0.8,0.6,1.4,0.43,0.43,0.2,0.2,0.2,0.4
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Defensive,P&R Roll Man,0.06,0.8,0.6,0.75,-,-,0.6,0.2,0.8,0.25,0.38,0,0,0,0.25
+Aurora University,Terrell Wilson,2019-02-12,Play Types,Defensive,Hand Off,0.05,0.6,0.4,0.67,-,-,0.2,0.2,0.4,0.5,0.5,0.33,0,0,0.33
