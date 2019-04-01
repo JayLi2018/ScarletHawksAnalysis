@@ -399,3 +399,14 @@ and ffpc.player_name = sffp.player_name
 
 
 \copy (select ppt.format_name,ppt.category_name,ppt.element_name,ppt.format_id,ppt.category_id,ppt.element_id,ppt.player_id,ppt.percentage_time,ppt.poss_per_game,ppt.points,ppt.ppp,ppt.rank,ppt.rating,ppt.fg_miss,ppt.fg_made,ppt.fga,ppt.fg,ppt.adjusted_fg,ppt.percent_turnover,ppt.percent_ft,ppt.percent_shooting_foul,ppt.percent_score,ffps.* from player_play_types ppt, final_four_player_stats ffps where ppt.team_name = ffps.team_name and ppt.player_name = ffps.player_name) to 'final_four_all_stats.csv' csv header;
+
+
+
+
+create view season_lineups as 
+select l.*, ign.game_name,t.team_name
+from lineup l,iit_games_name ign, team t
+where t.team_id = l.team_id
+and l.game_id = ign.game_id
+
+\copy (select * from season_lineups) to 'season_lineups.csv' csv header;

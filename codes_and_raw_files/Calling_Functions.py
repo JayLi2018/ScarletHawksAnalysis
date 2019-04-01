@@ -73,6 +73,18 @@ Rockford_Lineup_2 = ['Tony Diemer','Kevin Diemer','Brandon Emerick','Will Adams'
 
 IIT_against_Rockford_2 = ['Jake Bruns','Otis Reale','Jake Digiorgio','Max Hisatake','Parker Joncus']
 
+IIT_against_Rockford_3 = ['Jake Digiorgio','Parker Joncus','Max Hisatake','Otis Reale','Calvin Schmitz']
+
+Rockford_Lineup_3 = ['Tony Diemer','Kevin Diemer','Will Adams','Brandon Emerick','Kivontay Shaw']
+
+IIT_against_MSOE_Lineup_3 = ['Jake Digiorgio','Parker Joncus','Max Hisatake','Otis Reale','Calvin Schmitz']
+
+MSOE_lineup_3 = ['Jake Gebert','Travis Ballard','Gabe Wear','Jason Palesse','Matthew Kirmse']
+
+IIT_against_Aurora_Lineup_3 = ['Jake Digiorgio','Parker Joncus','Max Hisatake','Otis Reale','Calvin Schmitz']
+
+Aurora_lineup_3 = ['Bailey Vance','Max Vickers','Brandon James','Ty Carlson','Terrell Wilson']
+
 
 # game_1 = DataExtractor(Game_ID=1,home_team='Benedictine (IL) Eagles',home_first_lineup=Benedictine_lineup,
 # 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_lineup,game_file_loc=file_loc,output_loc=output_dir)
@@ -164,10 +176,10 @@ IIT_against_Rockford_2 = ['Jake Bruns','Otis Reale','Jake Digiorgio','Max Hisata
 # game_16.generate_data(game_name='Edgewood_2')
 # game_16.outputs()
 
-game_17 = DataExtractor(Game_ID=17,home_team='Aurora University',home_first_lineup=Aurora_lineup_2,
-	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Aurora_2,game_file_loc=file_loc,output_loc=output_dir)
-game_17.generate_data(game_name='Aurora_2')
-game_17.outputs()
+# game_17 = DataExtractor(Game_ID=17,home_team='Aurora University',home_first_lineup=Aurora_lineup_2,
+# 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Aurora_2,game_file_loc=file_loc,output_loc=output_dir)
+# game_17.generate_data(game_name='Aurora_2')
+# game_17.outputs()
 
 # game_18 = DataExtractor(Game_ID=18,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_Concordia_Wis_Lineup_2,
 # 	away_team='Concordia (WI) Falcons',away_first_lineup=Concordia_Wis_Lineup_2,game_file_loc=file_loc,output_loc=output_dir)
@@ -185,3 +197,17 @@ game_17.outputs()
 # game_20.outputs()
 
 
+# game_21 = DataExtractor(Game_ID=21,home_team='Illinois Tech Scarlet Hawks',home_first_lineup=IIT_against_Rockford_3,
+# 	away_team='Rockford Regents',away_first_lineup=Rockford_Lineup_3,game_file_loc=file_loc,output_loc=output_dir)
+# game_21.generate_data(game_name='Rockford_3')
+# game_21.outputs()
+
+# game_22 = DataExtractor(Game_ID=22,home_team='Milwaukee School of Engineering',home_first_lineup=MSOE_lineup_3,
+# 	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_MSOE_Lineup_3,game_file_loc=file_loc,output_loc=output_dir)
+# game_22.generate_data(game_name='MSOE_3')
+# game_22.outputs()
+
+game_23 = DataExtractor(Game_ID=23,home_team='Aurora University',home_first_lineup=Aurora_lineup_3,
+	away_team='Illinois Tech Scarlet Hawks',away_first_lineup=IIT_against_Aurora_Lineup_3,game_file_loc=file_loc,output_loc=output_dir)
+game_23.generate_data(game_name='Aurora_3')
+game_23.outputs()

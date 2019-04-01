@@ -1,8 +1,616 @@
 Ast,Block,DefReb,FGA,FGM,FGm,FTA,FTM,FTm,Foul,Game_ID,Lineup_ID,OffReb,Player_Name,Pts,Stl,Team_Name,Three_FGA,Three_FGM,Three_FGm,TtlReb,Turnover,Two_FGA,Two_FGM,Two_FGm
-0,0,0,1,0,1,2,2,0,0,17,2,0,Terrell Wilson,2,1,Aurora University,0,0,0,0,0,1,0,1
-0,0,0,0,0,0,0,0,0,1,17,3,0,Terrell Wilson,0,0,Aurora University,0,0,0,0,0,0,0,0
-0,0,0,4,2,2,2,2,0,1,17,10,0,Terrell Wilson,6,1,Aurora University,0,0,0,0,0,4,2,2
-0,0,0,0,0,0,0,0,0,0,17,11,0,Terrell Wilson,0,0,Aurora University,0,0,0,0,1,0,0,0
-1,0,0,1,1,0,0,0,0,1,17,12,0,Terrell Wilson,3,0,Aurora University,1,1,0,0,0,0,0,0
-0,0,0,0,0,0,1,0,1,0,17,13,0,Terrell Wilson,0,0,Aurora University,0,0,0,0,1,0,0,0
-0,0,1,2,2,0,0,0,0,1,17,14,0,Terrell Wilson,4,0,Aurora University,0,0,0,1,0,2,2,0
+0,0,1,3,1,2,0,0,0,0,21,1,0,Tony Diemer,3,0,Rockford Regents,1,1,0,1,0,2,0,2
+0,1,3,4,4,0,0,0,0,0,21,1,0,Kevin Diemer,10,1,Rockford Regents,2,2,0,3,0,2,2,0
+1,0,1,1,0,1,0,0,0,1,21,1,0,Will Adams,0,0,Rockford Regents,0,0,0,1,1,1,0,1
+0,0,0,2,0,2,0,0,0,0,21,1,0,Brandon Emerick,0,1,Rockford Regents,1,0,1,0,0,1,0,1
+2,0,0,0,0,0,0,0,0,0,21,1,0,Kivontay Shaw,0,0,Rockford Regents,0,0,0,0,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,2,0,Tony Diemer,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,2,2,0,0,21,2,0,Brandon Emerick,2,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,21,2,0,Kivontay Shaw,0,0,Rockford Regents,0,0,0,1,0,0,0,0
+0,0,0,1,1,0,0,0,0,1,21,2,0,Talon Hardin,2,0,Rockford Regents,0,0,0,0,0,1,1,0
+0,0,0,0,0,0,0,0,0,1,21,2,0,Taylor Krocker,0,0,Rockford Regents,0,0,0,0,1,0,0,0
+0,0,0,2,2,0,0,0,0,0,21,3,0,Brandon Emerick,6,0,Rockford Regents,2,2,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,3,0,Kivontay Shaw,0,0,Rockford Regents,0,0,0,0,1,0,0,0
+0,0,1,0,0,0,0,0,0,0,21,3,0,Talon Hardin,0,0,Rockford Regents,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,3,0,Taylor Krocker,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,21,3,0,Kevin Diemer,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,3,1,2,0,0,0,0,21,4,0,Brandon Emerick,2,0,Rockford Regents,1,0,1,0,1,2,1,1
+0,0,0,0,0,0,0,0,0,0,21,4,0,Talon Hardin,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,21,4,0,Taylor Krocker,0,0,Rockford Regents,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,2,1,1,1,21,4,0,Kevin Diemer,1,1,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,1,1,0,1,0,0,0,0,21,4,0,Will Adams,0,0,Rockford Regents,1,0,1,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,5,0,Brandon Emerick,0,1,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,1,1,0,1,2,2,0,0,21,5,0,Talon Hardin,2,0,Rockford Regents,1,0,1,1,0,0,0,0
+1,0,0,1,0,1,1,0,1,0,21,5,0,Taylor Krocker,0,0,Rockford Regents,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,21,5,0,Will Adams,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,1,1,1,0,3,3,0,0,21,5,0,Tony Diemer,5,0,Rockford Regents,0,0,0,1,0,1,1,0
+0,0,0,1,0,1,0,0,0,0,21,6,0,Brandon Emerick,0,0,Rockford Regents,1,0,1,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,1,21,6,0,Taylor Krocker,0,0,Rockford Regents,0,0,0,0,0,1,0,1
+0,0,1,1,0,1,1,0,1,0,21,6,0,Will Adams,0,0,Rockford Regents,0,0,0,1,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,21,6,0,Tony Diemer,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,6,0,Kivontay Shaw,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,1,2,1,1,2,2,0,0,21,7,0,Tony Diemer,5,0,Rockford Regents,1,1,0,1,0,1,0,1
+1,0,0,2,1,1,0,0,0,1,21,7,0,Kevin Diemer,2,1,Rockford Regents,0,0,0,0,0,2,1,1
+0,0,1,2,1,1,0,0,0,0,21,7,0,Will Adams,2,0,Rockford Regents,0,0,0,1,0,2,1,1
+0,0,0,0,0,0,0,0,0,0,21,7,0,Brandon Emerick,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+1,0,0,1,1,0,0,0,0,0,21,7,1,Kivontay Shaw,2,0,Rockford Regents,0,0,0,1,0,1,1,0
+0,0,1,2,1,1,0,0,0,2,21,8,0,Tony Diemer,3,0,Rockford Regents,1,1,0,1,0,1,0,1
+0,0,1,0,0,0,0,0,0,1,21,8,0,Will Adams,0,0,Rockford Regents,0,0,0,1,1,0,0,0
+1,0,0,0,0,0,0,0,0,0,21,8,0,Brandon Emerick,0,1,Rockford Regents,0,0,0,0,2,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,8,0,Kivontay Shaw,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,21,8,0,Taylor Krocker,0,0,Rockford Regents,0,0,0,1,2,0,0,0
+1,0,0,0,0,0,1,0,1,0,21,9,0,Brandon Emerick,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,2,1,1,0,21,9,0,Kivontay Shaw,1,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,2,1,1,1,21,9,0,Taylor Krocker,3,0,Rockford Regents,0,0,0,0,0,1,1,0
+0,0,0,0,0,0,3,0,3,1,21,9,0,Talon Hardin,0,0,Rockford Regents,0,0,0,0,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,9,0,Kevin Diemer,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,10,0,Brandon Emerick,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,21,10,0,Kivontay Shaw,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,10,0,Taylor Krocker,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,10,0,Kevin Diemer,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,10,0,Will Adams,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,11,0,Brandon Emerick,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,11,0,Kivontay Shaw,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,21,11,0,Kevin Diemer,0,0,Rockford Regents,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,11,0,Will Adams,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,21,11,0,Tony Diemer,0,0,Rockford Regents,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,21,12,0,Brandon Emerick,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,12,0,Kivontay Shaw,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,12,0,Will Adams,0,0,Rockford Regents,0,0,0,0,1,0,0,0
+0,0,1,1,0,1,0,0,0,0,21,12,0,Tony Diemer,0,0,Rockford Regents,0,0,0,1,0,1,0,1
+0,0,0,1,1,0,3,3,0,0,21,12,0,Taylor Krocker,5,0,Rockford Regents,0,0,0,0,1,1,1,0
+1,0,0,1,1,0,0,0,0,0,21,13,0,Brandon Emerick,3,0,Rockford Regents,1,1,0,0,0,0,0,0
+1,0,2,1,0,1,2,1,1,0,21,13,2,Kivontay Shaw,1,0,Rockford Regents,0,0,0,4,1,1,0,1
+0,0,1,2,0,2,0,0,0,1,21,13,0,Tony Diemer,0,0,Rockford Regents,1,0,1,1,0,1,0,1
+0,0,0,4,2,2,0,0,0,1,21,13,1,Taylor Krocker,5,0,Rockford Regents,1,1,0,1,0,3,1,2
+0,0,0,0,0,0,0,0,0,0,21,13,0,Talon Hardin,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,14,0,Brandon Emerick,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,14,0,Kivontay Shaw,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,14,0,Tony Diemer,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,21,14,0,Taylor Krocker,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,14,0,Will Adams,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,15,0,Brandon Emerick,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,15,0,Kivontay Shaw,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,15,0,Tony Diemer,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,1,21,15,0,Will Adams,0,0,Rockford Regents,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,21,15,0,Kevin Diemer,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,21,16,0,Brandon Emerick,0,0,Rockford Regents,0,0,0,0,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,16,0,Kivontay Shaw,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+0,0,1,1,0,1,0,0,0,0,21,16,0,Tony Diemer,0,0,Rockford Regents,1,0,1,1,1,0,0,0
+0,0,0,1,1,0,0,0,0,1,21,16,0,Will Adams,3,0,Rockford Regents,1,1,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,16,0,Talon Hardin,0,0,Rockford Regents,0,0,0,0,0,0,0,0
+1,0,1,2,1,1,0,0,0,0,23,3,0,Ahmad Muhammad,2,0,Illinois Tech Scarlet Hawks,1,0,1,1,0,1,1,0
+0,0,0,1,0,1,2,2,0,0,23,4,0,Ahmad Muhammad,2,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,2,2,0,0,23,5,0,Ahmad Muhammad,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,6,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0,23,7,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,10,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,23,11,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,1,1,0,0,0,0,0,23,12,0,Ahmad Muhammad,3,0,Illinois Tech Scarlet Hawks,1,1,0,0,0,0,0,0
+0,0,0,2,0,2,0,0,0,0,23,13,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,23,14,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,15,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,16,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,17,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,2,1,1,0,23,18,0,Ahmad Muhammad,1,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,19,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,23,20,0,Ahmad Muhammad,3,0,Illinois Tech Scarlet Hawks,1,1,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,23,21,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,1,0,0,0
+0,0,0,3,2,1,2,2,0,0,23,1,0,Calvin Schmitz,7,0,Illinois Tech Scarlet Hawks,2,1,1,0,0,1,1,0
+0,0,0,1,0,1,0,0,0,0,23,2,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,1,0,1,0,0,0,0,23,4,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,1,23,5,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,6,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,7,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,8,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,9,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,23,10,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,23,11,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,14,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,23,15,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,16,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,17,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,18,0,Calvin Schmitz,0,1,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,19,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,23,20,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,23,21,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,12,0,Cody Mattson,0,1,Illinois Tech Scarlet Hawks,0,0,0,0,2,0,0,0
+1,0,0,1,0,1,0,0,0,0,23,2,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,23,3,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,15,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,23,21,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,1,3,1,0,1,0,0,0,0,23,1,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,3,0,1,0,1
+0,0,3,2,1,1,0,0,0,0,23,3,0,Jake Digiorgio,2,0,Illinois Tech Scarlet Hawks,0,0,0,3,0,2,1,1
+0,0,1,1,0,1,0,0,0,0,23,5,2,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,3,1,1,0,1
+0,0,1,1,1,0,0,0,0,0,23,6,0,Jake Digiorgio,2,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,1,1,0
+0,0,0,0,0,0,0,0,0,0,23,7,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,2,1,1,0,0,0,0,23,8,1,Jake Digiorgio,2,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,2,1,1
+0,0,0,0,0,0,0,0,0,0,23,9,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,1,23,10,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,23,11,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,1,0,0,0
+1,0,0,0,0,0,0,0,0,0,23,12,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,13,1,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,3,2,1,0,0,0,0,23,14,0,Jake Digiorgio,4,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,3,2,1
+0,0,0,0,0,0,0,0,0,0,23,15,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,16,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,17,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,23,18,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,20,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,23,1,0,Max Hisatake,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,1,0
+0,0,2,0,0,0,0,0,0,0,23,2,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,2,0,0,0,0
+0,0,1,0,0,0,0,0,0,1,23,4,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,2,0,0,0
+0,0,0,0,0,0,0,0,0,1,23,5,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,23,7,0,Max Hisatake,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,1,0
+0,0,1,0,0,0,0,0,0,1,23,8,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,1,0,0,0
+0,0,1,0,0,0,0,0,0,0,23,11,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,12,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,23,13,0,Max Hisatake,0,1,Illinois Tech Scarlet Hawks,0,0,0,1,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,17,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,1,1,0,0,0,0,0,23,19,0,Max Hisatake,3,0,Illinois Tech Scarlet Hawks,1,1,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,20,1,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,21,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,1,23,2,0,Milos Dugalic,3,0,Illinois Tech Scarlet Hawks,1,1,0,0,0,0,0,0
+0,0,1,2,0,2,0,0,0,0,23,3,0,Milos Dugalic,0,1,Illinois Tech Scarlet Hawks,2,0,2,1,1,0,0,0
+0,0,0,0,0,0,0,0,0,1,23,6,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,2,23,9,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,16,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,2,2,0,0,23,17,0,Milos Dugalic,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,23,18,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,2,0,2,0,0,0,1,23,19,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,1,0,1
+1,0,1,2,0,2,0,0,0,0,23,1,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,1,0,1,1,0,1,0,1
+0,0,0,2,1,1,0,0,0,1,23,2,0,Otis Reale,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,2,1,1
+0,0,0,0,0,0,0,0,0,0,23,4,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,2,0,2,0,0,0,0,23,5,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,1,0,1
+0,0,1,0,0,0,0,0,0,1,23,6,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,7,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,2,2,0,0,23,8,0,Otis Reale,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,9,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,2,1,1,0,0,0,0,23,10,0,Otis Reale,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,2,1,1
+0,0,0,0,0,0,0,0,0,0,23,11,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,12,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,2,1,1,2,1,1,1,23,13,0,Otis Reale,4,0,Illinois Tech Scarlet Hawks,1,1,0,0,1,1,0,1
+0,0,0,0,0,0,0,0,0,0,23,14,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,15,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,16,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,23,1,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,23,3,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,4,0,Parker Joncus,0,1,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,23,8,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,9,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+1,0,0,0,0,0,2,1,1,0,23,13,0,Parker Joncus,1,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,14,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,19,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,20,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,21,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,10,0,Ricardo Whitehead,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,18,0,Ricardo Whitehead,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,2,2,1,1,0,0,0,1,23,1,0,Bailey Vance,2,0,Aurora University,0,0,0,2,0,2,1,1
+1,0,0,2,1,1,0,0,0,0,23,1,0,Max Vickers,2,0,Aurora University,1,0,1,0,0,1,1,0
+0,0,1,0,0,0,0,0,0,0,23,1,0,Brandon James,0,0,Aurora University,0,0,0,1,0,0,0,0
+1,0,0,4,2,2,0,0,0,0,23,1,0,Ty Carlson,6,0,Aurora University,3,2,1,0,0,1,0,1
+1,1,1,1,0,1,0,0,0,0,23,1,0,Terrell Wilson,0,0,Aurora University,1,0,1,1,1,0,0,0
+0,0,1,0,0,0,2,2,0,0,23,2,0,Max Vickers,2,0,Aurora University,0,0,0,1,0,0,0,0
+0,0,1,1,0,1,0,0,0,0,23,2,0,Ty Carlson,0,0,Aurora University,1,0,1,1,0,0,0,0
+0,0,1,1,0,1,0,0,0,0,23,2,0,Terrell Wilson,0,0,Aurora University,0,0,0,1,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,23,2,0,Garrett Hoffman,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,2,1,Jesse Young,0,0,Aurora University,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,3,0,Ty Carlson,0,1,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,4,3,1,0,0,0,0,23,3,0,Terrell Wilson,6,0,Aurora University,1,0,1,0,0,3,3,0
+0,0,2,1,0,1,0,0,0,0,23,3,0,Garrett Hoffman,0,0,Aurora University,1,0,1,2,0,0,0,0
+0,0,1,3,0,3,0,0,0,1,23,3,1,Jesse Young,0,0,Aurora University,1,0,1,2,0,2,0,2
+0,0,2,1,0,1,0,0,0,0,23,3,0,Jarek Hotwagner,0,0,Aurora University,1,0,1,2,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,4,0,Terrell Wilson,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,4,0,Jesse Young,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,1,2,1,1,0,0,0,1,23,4,0,Demetrius Pointer,2,0,Aurora University,0,0,0,1,1,2,1,1
+0,0,0,1,0,1,0,0,0,1,23,4,0,Max Vickers,0,0,Aurora University,0,0,0,0,0,1,0,1
+0,0,1,1,1,0,0,0,0,0,23,4,0,Bailey Vance,2,0,Aurora University,0,0,0,1,0,1,1,0
+0,0,0,0,0,0,0,0,0,0,23,5,0,Terrell Wilson,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,5,0,Demetrius Pointer,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,23,5,0,Max Vickers,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,23,5,1,Bailey Vance,2,0,Aurora University,0,0,0,1,0,1,1,0
+0,0,0,1,0,1,0,0,0,0,23,5,0,Ty Carlson,0,0,Aurora University,0,0,0,0,0,1,0,1
+0,0,0,1,1,0,0,0,0,0,23,6,1,Terrell Wilson,2,1,Aurora University,0,0,0,1,1,1,1,0
+0,0,0,0,0,0,0,0,0,1,23,6,0,Demetrius Pointer,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,2,1,0,1,0,0,0,0,23,6,0,Bailey Vance,0,0,Aurora University,1,0,1,2,0,0,0,0
+0,0,0,0,0,0,2,2,0,0,23,6,0,Ty Carlson,2,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,6,0,Jarek Hotwagner,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,7,0,Terrell Wilson,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,23,7,0,Bailey Vance,0,0,Aurora University,0,0,0,0,0,1,0,1
+0,0,0,1,0,1,0,0,0,0,23,7,0,Ty Carlson,0,0,Aurora University,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,7,0,Jarek Hotwagner,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,7,0,Garrett Hoffman,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,23,8,0,Terrell Wilson,2,0,Aurora University,0,0,0,0,0,1,1,0
+0,0,0,0,0,0,0,0,0,0,23,8,0,Bailey Vance,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,8,0,Ty Carlson,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,8,0,Garrett Hoffman,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,8,0,Jesse Young,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,4,2,2,1,0,1,0,23,9,1,Bailey Vance,4,1,Aurora University,0,0,0,1,0,4,2,2
+0,0,0,1,0,1,2,2,0,1,23,9,1,Max Vickers,2,0,Aurora University,0,0,0,1,1,1,0,1
+0,0,0,0,0,0,0,0,0,0,23,9,0,Brandon James,0,0,Aurora University,0,0,0,0,0,0,0,0
+1,0,1,1,0,1,0,0,0,1,23,9,0,Ty Carlson,0,0,Aurora University,0,0,0,1,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,23,9,0,Terrell Wilson,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,23,10,0,Bailey Vance,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,10,0,Brandon James,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,23,10,0,Ty Carlson,2,0,Aurora University,0,0,0,0,1,1,1,0
+0,0,0,2,1,1,0,0,0,0,23,10,0,Terrell Wilson,2,0,Aurora University,0,0,0,0,0,2,1,1
+0,0,1,1,0,1,0,0,0,0,23,10,0,Jesse Young,0,0,Aurora University,0,0,0,1,0,1,0,1
+1,0,0,0,0,0,0,0,0,1,23,11,0,Bailey Vance,0,1,Aurora University,0,0,0,0,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,11,0,Ty Carlson,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,23,11,0,Terrell Wilson,2,1,Aurora University,0,0,0,0,0,1,1,0
+0,0,0,0,0,0,0,0,0,1,23,11,0,Jesse Young,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,11,0,Max Vickers,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,12,0,Ty Carlson,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,12,0,Terrell Wilson,0,0,Aurora University,0,0,0,0,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,12,0,Jesse Young,0,0,Aurora University,0,0,0,0,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,12,0,Max Vickers,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,12,0,Garrett Hoffman,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,23,13,0,Ty Carlson,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,2,0,0,0,0,0,0,0,23,13,0,Terrell Wilson,0,0,Aurora University,0,0,0,2,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,13,0,Max Vickers,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,23,13,0,Garrett Hoffman,0,0,Aurora University,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,23,13,0,Bailey Vance,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,1,2,2,0,0,0,0,2,23,14,0,Ty Carlson,5,0,Aurora University,1,1,0,1,0,1,1,0
+0,0,1,1,1,0,0,0,0,1,23,14,0,Terrell Wilson,2,1,Aurora University,0,0,0,1,1,1,1,0
+0,0,0,2,2,0,2,1,1,0,23,14,0,Max Vickers,5,0,Aurora University,0,0,0,0,0,2,2,0
+1,0,1,1,1,0,0,0,0,0,23,14,0,Bailey Vance,2,0,Aurora University,0,0,0,1,0,1,1,0
+0,0,0,2,1,1,0,0,0,0,23,14,1,Jesse Young,2,0,Aurora University,0,0,0,1,0,2,1,1
+0,0,0,0,0,0,2,2,0,0,23,15,0,Terrell Wilson,2,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,15,0,Max Vickers,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,1,23,15,0,Bailey Vance,0,0,Aurora University,0,0,0,1,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,23,15,0,Jesse Young,0,0,Aurora University,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,1,23,15,0,Garrett Hoffman,0,0,Aurora University,0,0,0,0,1,0,0,0
+1,0,0,0,0,0,6,5,1,0,23,16,1,Terrell Wilson,5,0,Aurora University,0,0,0,1,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,23,16,0,Max Vickers,0,0,Aurora University,0,0,0,1,0,0,0,0
+0,0,1,1,1,0,0,0,0,0,23,16,0,Bailey Vance,3,0,Aurora University,1,1,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,23,16,0,Jesse Young,0,0,Aurora University,0,0,0,0,0,0,0,0
+0,0,1,2,0,2,2,2,0,0,23,16,0,Ty Carlson,2,0,Aurora University,1,0,1,1,0,1,0,1
+0,0,0,1,0,1,0,0,0,0,21,1,1,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,1,0,1
+0,0,0,1,1,0,0,0,0,0,21,1,0,Parker Joncus,3,0,Illinois Tech Scarlet Hawks,1,1,0,0,1,0,0,0
+0,1,0,1,0,1,0,0,0,0,21,1,1,Max Hisatake,0,1,Illinois Tech Scarlet Hawks,0,0,0,1,1,1,0,1
+2,0,1,2,1,1,0,0,0,0,21,1,0,Otis Reale,3,0,Illinois Tech Scarlet Hawks,2,1,1,1,0,0,0,0
+1,0,0,3,1,2,0,0,0,0,21,1,0,Calvin Schmitz,3,0,Illinois Tech Scarlet Hawks,3,1,2,0,0,0,0,0
+0,0,2,1,0,1,0,0,0,0,21,2,0,Max Hisatake,0,1,Illinois Tech Scarlet Hawks,0,0,0,2,0,1,0,1
+0,0,0,1,1,0,0,0,0,0,21,2,1,Otis Reale,2,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,1,1,0
+0,0,1,0,0,0,0,0,0,0,21,2,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,1,0,0,0
+0,0,0,1,0,1,0,0,0,1,21,2,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,1,0,1,0,0,0,0,21,2,0,Ricardo Whitehead,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,21,3,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,21,3,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,3,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,3,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,3,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,21,4,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,21,4,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,21,4,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,4,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,4,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+1,0,0,2,0,2,0,0,0,0,21,5,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,1,0,1
+0,0,0,1,1,0,0,0,0,0,21,5,0,Calvin Schmitz,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,1,0
+0,0,0,0,0,0,0,0,0,0,21,5,2,Jake Digiorgio,0,1,Illinois Tech Scarlet Hawks,0,0,0,2,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,21,5,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,2,1,1,0,0,0,0,21,5,0,Max Hisatake,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,2,1,1
+0,0,0,0,0,0,0,0,0,0,21,6,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,6,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,6,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,1,1,0,0,0,0,0,21,6,0,Max Hisatake,2,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,1,1,0
+0,0,0,0,0,0,0,0,0,1,21,6,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,1,0,0,0
+0,0,1,1,1,0,0,0,0,0,21,7,1,Jake Digiorgio,2,0,Illinois Tech Scarlet Hawks,0,0,0,2,0,1,1,0
+0,0,0,1,0,1,0,0,0,3,21,7,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,2,0,2,0,0,0,0,21,7,0,Otis Reale,0,1,Illinois Tech Scarlet Hawks,1,0,1,0,0,1,0,1
+0,0,0,1,0,1,0,0,0,0,21,7,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,1,2,1,1,2,1,1,0,21,7,1,Milos Dugalic,3,0,Illinois Tech Scarlet Hawks,0,0,0,2,0,2,1,1
+0,0,2,1,0,1,0,0,0,0,21,8,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,2,0,1,0,1
+0,0,0,1,1,0,0,0,0,0,21,8,0,Otis Reale,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,1,1,1,0
+0,0,0,1,0,1,0,0,0,0,21,8,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,8,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,21,8,0,Kohl Linder,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,1,1,1,0,1,2,1,1,0,21,9,2,Jake Digiorgio,1,0,Illinois Tech Scarlet Hawks,0,0,0,3,0,1,0,1
+0,0,0,1,1,0,0,0,0,0,21,9,0,Otis Reale,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,1,0
+0,0,1,0,0,0,0,0,0,1,21,9,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,2,1,1,0,0,0,0,21,9,0,Milos Dugalic,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,2,1,1
+0,0,1,1,0,1,0,0,0,0,21,9,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,1,0,1,1,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,21,10,0,Jake Digiorgio,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,1,0
+0,0,0,0,0,0,0,0,0,1,21,10,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,1,0,0,0
+0,0,0,0,0,0,0,0,0,1,21,10,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,1,0,0,0
+1,0,1,0,0,0,0,0,0,1,21,10,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,1,0,0,0
+0,0,0,1,0,1,0,0,0,0,21,10,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,11,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,1,0,1,0,0,0,0,21,11,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,1,0,1,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,11,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0,21,11,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,21,11,0,Milos Dugalic,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,1,0
+0,0,0,0,0,0,0,0,0,0,21,12,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,12,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,21,12,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,21,12,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,12,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,13,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,2,1,1,0,0,0,0,21,13,0,Milos Dugalic,2,1,Illinois Tech Scarlet Hawks,0,0,0,0,0,2,1,1
+0,0,0,1,0,1,0,0,0,0,21,13,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,1,1,1,0,1,1,0,0,21,13,0,Ahmad Muhammad,3,0,Illinois Tech Scarlet Hawks,0,0,0,1,1,1,1,0
+0,1,0,0,0,0,0,0,0,1,21,13,0,Ricardo Whitehead,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,21,14,0,Jake Digiorgio,0,1,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,21,14,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,14,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,2,1,1,0,21,14,0,Ahmad Muhammad,1,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,14,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,15,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,15,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,15,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,15,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,15,0,Ricardo Whitehead,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,16,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,21,16,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,16,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,16,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,21,16,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,1,0,0,0
+0,0,2,0,0,0,0,0,0,1,21,17,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,2,0,0,0,0
+0,0,1,2,1,1,1,1,0,0,21,17,0,Milos Dugalic,3,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,2,1,1
+0,0,0,1,1,0,0,0,0,1,21,17,0,Jake Bruns,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,1,0
+1,0,0,0,0,0,0,0,0,0,21,17,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,21,17,0,Ricardo Whitehead,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,3,2,1,0,0,0,1,21,18,3,Jake Digiorgio,4,1,Illinois Tech Scarlet Hawks,0,0,0,4,0,3,2,1
+0,0,3,2,1,1,0,0,0,1,21,18,1,Milos Dugalic,2,0,Illinois Tech Scarlet Hawks,1,0,1,4,0,1,1,0
+0,0,0,4,1,3,0,0,0,0,21,18,0,Ahmad Muhammad,2,0,Illinois Tech Scarlet Hawks,2,0,2,0,0,2,1,1
+1,0,0,2,0,2,0,0,0,0,21,18,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,1,0,1
+0,0,0,0,0,0,2,2,0,2,21,18,1,Kohl Linder,2,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,1,0,2,1,1,1,0,1,1,21,19,1,Jake Digiorgio,3,0,Illinois Tech Scarlet Hawks,1,1,0,1,0,1,0,1
+1,0,1,0,0,0,0,0,0,0,21,19,1,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,2,0,0,0,0
+1,0,2,5,4,1,2,2,0,0,21,19,0,Ahmad Muhammad,12,0,Illinois Tech Scarlet Hawks,3,2,1,2,0,2,2,0
+0,0,0,1,0,1,2,2,0,0,21,19,0,Otis Reale,2,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+1,1,1,0,0,0,1,0,1,0,21,19,0,Ricardo Whitehead,0,1,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,1,1,0,2,1,1,0,21,20,0,Jake Digiorgio,3,1,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,1,0
+1,0,0,0,0,0,0,0,0,0,21,20,0,Milos Dugalic,0,1,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,20,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,20,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,20,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,21,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,21,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,21,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,21,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,2,1,1,0,21,21,0,Jake Bruns,1,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,22,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,22,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,22,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,22,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,21,22,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,22,1,0,Jake Gebert,0,0,Milwaukee School of Engineering,0,0,0,1,0,0,0,0
+0,0,1,1,0,1,0,0,0,0,22,1,0,Travis Ballard,0,0,Milwaukee School of Engineering,1,0,1,1,0,0,0,0
+0,0,0,2,1,1,0,0,0,0,22,1,0,Gabe Wear,2,0,Milwaukee School of Engineering,0,0,0,0,0,2,1,1
+0,0,1,1,0,1,0,0,0,0,22,1,0,Jason Palesse,0,0,Milwaukee School of Engineering,0,0,0,1,0,1,0,1
+0,0,0,0,0,0,2,2,0,0,22,1,0,Matthew Kirmse,2,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,2,0,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,22,2,0,Gabe Wear,2,0,Milwaukee School of Engineering,0,0,0,0,0,1,1,0
+0,0,0,0,0,0,0,0,0,0,22,2,0,Jason Palesse,0,1,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0,22,2,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,2,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,2,0,2,0,0,0,0,22,3,0,Gabe Wear,0,0,Milwaukee School of Engineering,2,0,2,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,22,3,2,Jason Palesse,2,0,Milwaukee School of Engineering,0,0,0,2,0,1,1,0
+0,0,1,0,0,0,0,0,0,0,22,3,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,0,0,0,1,0,0,0,0
+0,0,0,2,1,1,0,0,0,0,22,3,0,Michael Pitrof,2,0,Milwaukee School of Engineering,0,0,0,0,0,2,1,1
+0,0,0,1,1,0,0,0,0,0,22,3,0,Dylan Hamlin,2,0,Milwaukee School of Engineering,0,0,0,0,0,1,1,0
+0,0,0,0,0,0,0,0,0,0,22,4,0,Jason Palesse,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,4,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,4,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,4,0,Dylan Hamlin,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,4,0,Sammy Linn,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,5,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,1,0,1
+0,0,1,1,0,1,0,0,0,0,22,5,0,Sammy Linn,0,1,Milwaukee School of Engineering,0,0,0,1,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,22,5,0,Bailey Mcdaniel,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,22,5,0,Josh Herzog,0,0,Milwaukee School of Engineering,0,0,0,1,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,5,0,Travis Ballard,0,0,Milwaukee School of Engineering,1,0,1,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,22,6,0,Sammy Linn,0,0,Milwaukee School of Engineering,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,6,0,Bailey Mcdaniel,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,6,0,Josh Herzog,0,0,Milwaukee School of Engineering,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,6,0,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,6,0,Jason Palesse,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,7,0,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,2,1,1,0,0,0,0,22,7,0,Matthew Kirmse,2,0,Milwaukee School of Engineering,1,0,1,0,0,1,1,0
+0,0,0,0,0,0,0,0,0,0,22,7,0,Gabe Wear,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,22,7,0,Ty Miklowski,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,22,7,0,Jake Gebert,0,0,Milwaukee School of Engineering,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,8,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,8,0,Gabe Wear,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,1,0,0,0,0,0,0,0,1,22,8,0,Ty Miklowski,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,8,0,Jake Gebert,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,22,8,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,9,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,9,0,Gabe Wear,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,9,0,Jake Gebert,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,9,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,22,9,0,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,22,10,0,Jake Gebert,0,0,Milwaukee School of Engineering,0,0,0,0,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,10,0,Jason Palesse,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,2,1,1,0,22,10,0,Bailey Mcdaniel,1,0,Milwaukee School of Engineering,0,0,0,1,1,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,10,0,Sammy Linn,0,0,Milwaukee School of Engineering,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,10,0,Ty Miklowski,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,22,11,0,Jason Palesse,2,0,Milwaukee School of Engineering,0,0,0,0,0,1,1,0
+1,0,0,0,0,0,0,0,0,0,22,11,0,Bailey Mcdaniel,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,1,2,1,0,1,0,0,0,1,22,11,0,Sammy Linn,0,0,Milwaukee School of Engineering,0,0,0,2,0,1,0,1
+0,0,0,2,0,2,0,0,0,0,22,11,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,1,0,1,0,0,1,0,1
+0,0,1,0,0,0,0,0,0,0,22,11,0,Dylan Hamlin,0,0,Milwaukee School of Engineering,0,0,0,1,0,0,0,0
+1,0,0,0,0,0,0,0,0,0,22,12,0,Jason Palesse,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,1,1,0,1,0,0,0,0,22,12,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,0,0,0,1,0,1,0,1
+0,0,1,2,1,1,0,0,0,0,22,12,0,Josh Herzog,3,0,Milwaukee School of Engineering,1,1,0,1,0,1,0,1
+0,0,0,1,1,0,0,0,0,0,22,12,0,Jake Gebert,3,0,Milwaukee School of Engineering,1,1,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,22,12,0,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,1,0,0,0,0
+1,0,0,1,0,1,0,0,0,0,22,13,1,Jake Gebert,0,0,Milwaukee School of Engineering,0,0,0,1,0,1,0,1
+0,0,0,1,0,1,0,0,0,0,22,13,0,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,0,0,1,0,1
+0,0,0,1,1,0,0,0,0,2,22,13,0,Gabe Wear,2,0,Milwaukee School of Engineering,0,0,0,0,1,1,1,0
+0,0,0,1,0,1,0,0,0,0,22,13,0,Jason Palesse,0,0,Milwaukee School of Engineering,1,0,1,0,0,0,0,0
+0,0,2,2,0,2,0,0,0,0,22,13,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,0,0,0,2,0,2,0,2
+1,0,0,0,0,0,0,0,0,0,22,14,0,Jason Palesse,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,14,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,0,0,0,0,1,0,0,0
+0,0,0,0,0,0,0,0,0,1,22,14,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,1,1,1,0,0,0,0,0,22,14,0,Sammy Linn,2,0,Milwaukee School of Engineering,0,0,0,1,0,1,1,0
+0,0,0,1,0,1,0,0,0,0,22,14,0,Dylan Hamlin,0,0,Milwaukee School of Engineering,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,22,15,0,Jason Palesse,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,15,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,15,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,15,0,Gabe Wear,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,22,15,0,Ty Miklowski,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,16,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,0,0,0,0,0,1,0,1
+0,0,0,2,0,2,0,0,0,1,22,16,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,2,0,2
+0,0,0,0,0,0,0,0,0,0,22,16,0,Gabe Wear,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,22,16,1,Ty Miklowski,2,0,Milwaukee School of Engineering,0,0,0,1,0,1,1,0
+0,0,0,0,0,0,0,0,0,0,22,16,0,Josh Herzog,0,1,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,17,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,22,17,0,Josh Herzog,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,17,0,Bailey Mcdaniel,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,17,0,Jake Gebert,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,17,0,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,18,0,Josh Herzog,0,0,Milwaukee School of Engineering,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,18,0,Bailey Mcdaniel,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,18,0,Jake Gebert,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,18,0,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,18,0,Gabe Wear,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,19,0,Bailey Mcdaniel,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,19,0,Jake Gebert,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,22,19,0,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,19,0,Gabe Wear,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,19,0,Jason Palesse,0,0,Milwaukee School of Engineering,1,0,1,0,1,0,0,0
+0,0,0,1,0,1,0,0,0,1,22,20,0,Travis Ballard,0,0,Milwaukee School of Engineering,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,20,0,Gabe Wear,0,1,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,2,1,1,0,22,20,0,Jason Palesse,1,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+1,0,1,0,0,0,0,0,0,0,22,20,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,1,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,22,20,0,Matthew Kirmse,2,0,Milwaukee School of Engineering,0,0,0,0,0,1,1,0
+0,0,0,0,0,0,0,0,0,0,22,21,0,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,21,0,Gabe Wear,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+1,0,0,0,0,0,2,1,1,0,22,21,0,Michael Pitrof,1,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,22,21,0,Matthew Kirmse,2,0,Milwaukee School of Engineering,0,0,0,0,0,1,1,0
+0,0,0,0,0,0,0,0,0,0,22,21,0,Bailey Mcdaniel,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,22,22,0,Gabe Wear,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,22,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,1,0,1
+0,0,0,1,0,1,0,0,0,0,22,22,1,Matthew Kirmse,0,0,Milwaukee School of Engineering,1,0,1,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,22,0,Bailey Mcdaniel,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,1,1,0,1,0,0,0,0,22,22,0,Dylan Hamlin,0,0,Milwaukee School of Engineering,0,0,0,1,0,1,0,1
+0,0,1,0,0,0,0,0,0,0,22,23,0,Gabe Wear,0,0,Milwaukee School of Engineering,0,0,0,1,0,0,0,0
+1,0,0,0,0,0,0,0,0,0,22,23,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,2,2,0,0,0,0,0,22,23,0,Matthew Kirmse,5,0,Milwaukee School of Engineering,1,1,0,0,0,1,1,0
+0,0,0,0,0,0,0,0,0,0,22,23,0,Bailey Mcdaniel,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+1,0,1,0,0,0,0,0,0,1,22,23,0,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,24,0,Gabe Wear,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,22,24,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,1,0,0,0,0
+0,0,0,1,0,1,0,0,0,1,22,24,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,0,0,0,0,0,1,0,1
+0,0,0,1,0,1,0,0,0,0,22,24,2,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,2,0,1,0,1
+0,0,0,2,1,1,2,2,0,0,22,24,0,Jason Palesse,4,0,Milwaukee School of Engineering,0,0,0,0,0,2,1,1
+0,0,0,0,0,0,0,0,0,0,22,25,0,Gabe Wear,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,25,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,25,0,Jason Palesse,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,25,0,Ty Miklowski,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,25,0,Bailey Mcdaniel,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,26,0,Gabe Wear,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,26,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,2,2,0,0,22,26,0,Jason Palesse,2,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,26,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,26,0,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,22,27,0,Michael Pitrof,3,0,Milwaukee School of Engineering,1,1,0,0,0,0,0,0
+1,0,1,0,0,0,0,0,0,0,22,27,0,Jason Palesse,0,0,Milwaukee School of Engineering,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,22,27,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,27,0,Ty Miklowski,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,27,0,Jake Gebert,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,28,0,Michael Pitrof,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,1,22,28,0,Jason Palesse,0,0,Milwaukee School of Engineering,1,0,1,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,28,0,Matthew Kirmse,0,0,Milwaukee School of Engineering,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,22,28,0,Jake Gebert,0,0,Milwaukee School of Engineering,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,28,1,Travis Ballard,0,0,Milwaukee School of Engineering,0,0,0,1,0,1,0,1
+0,0,1,1,0,1,0,0,0,0,22,1,1,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,1,0,1,2,1,0,0,0
+0,0,0,2,0,2,0,0,0,1,22,1,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,1,0,1
+0,0,1,3,2,1,0,0,0,0,22,1,1,Max Hisatake,4,0,Illinois Tech Scarlet Hawks,0,0,0,2,0,3,2,1
+0,0,0,1,0,1,0,0,0,0,22,1,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,1,22,1,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,2,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,22,2,0,Max Hisatake,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,1,0
+1,0,0,0,0,0,0,0,0,0,22,2,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,2,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,2,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,1,1,0,0,0,0,0,22,3,1,Max Hisatake,2,0,Illinois Tech Scarlet Hawks,0,0,0,2,0,1,1,0
+0,0,0,1,0,1,0,0,0,0,22,3,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,22,3,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,2,0,2,0,0,0,0,22,3,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,22,3,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,1,22,4,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,4,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,4,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,4,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,4,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,22,5,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,1,0,0,0
+0,0,1,0,0,0,0,0,0,0,22,5,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,5,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,5,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,2,0,2,0,0,0,0,22,5,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,1,0,1,1,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,22,6,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,2,2,0,0,0,0,0,22,6,0,Ahmad Muhammad,4,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,2,2,0
+0,0,0,0,0,0,0,0,0,0,22,6,0,Jake Bruns,0,1,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,6,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,1,0,1,0,0,0,0,22,6,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,22,7,1,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,22,7,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,7,1,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,1,1,0,1
+0,0,0,1,0,1,0,0,0,0,22,7,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,1,0,1,0,0,0,0,22,7,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,8,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,22,8,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,8,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,8,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,8,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,9,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,22,9,0,Calvin Schmitz,3,0,Illinois Tech Scarlet Hawks,1,1,0,0,0,0,0,0
+1,0,1,3,1,2,0,0,0,0,22,9,0,Ahmad Muhammad,2,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,3,1,2
+0,0,2,0,0,0,0,0,0,0,22,9,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,2,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,9,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,0,0,0,0,0,0,0,0,22,10,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,3,1,2,0,0,0,0,22,10,0,Calvin Schmitz,3,0,Illinois Tech Scarlet Hawks,3,1,2,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,10,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,10,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+1,0,1,0,0,0,0,0,0,0,22,10,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,1,0,0,0,2,0,2,0,22,11,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+1,0,1,1,1,0,0,0,0,0,22,11,0,Parker Joncus,3,0,Illinois Tech Scarlet Hawks,1,1,0,1,0,0,0,0
+2,0,1,0,0,0,0,0,0,0,22,11,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,1,0,0,0
+0,0,0,2,1,1,0,0,0,0,22,11,0,Otis Reale,3,0,Illinois Tech Scarlet Hawks,1,1,0,0,0,1,0,1
+0,0,1,1,1,0,0,0,0,0,22,11,0,Calvin Schmitz,3,0,Illinois Tech Scarlet Hawks,1,1,0,1,1,0,0,0
+0,0,1,0,0,0,0,0,0,0,22,12,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,12,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,12,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,12,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,12,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,2,1,1,0,22,13,1,Jake Digiorgio,1,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,2,2,0,0,22,13,0,Max Hisatake,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,22,13,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,2,1,1,0,0,0,0,22,13,0,Milos Dugalic,2,1,Illinois Tech Scarlet Hawks,1,0,1,0,0,1,1,0
+0,0,1,1,1,0,0,0,0,0,22,13,0,Ahmad Muhammad,2,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,1,1,0
+0,0,1,0,0,0,0,0,0,0,22,14,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,14,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,14,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,14,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,1,0,0,0,0,0,0,0,0,22,14,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,1,0,0,0
+0,0,1,1,1,0,0,0,0,0,22,15,0,Max Hisatake,2,1,Illinois Tech Scarlet Hawks,0,0,0,1,0,1,1,0
+0,0,0,1,0,1,2,2,0,0,22,15,0,Ahmad Muhammad,2,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+1,0,0,0,0,0,0,0,0,0,22,15,0,Jake Bruns,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,1,22,15,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,1,0,1
+0,0,1,0,0,0,0,0,0,0,22,15,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,22,16,0,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,16,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,16,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,22,16,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,0,1,0,0,0,0,22,16,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,1,1,1,0,3,1,2,0,22,17,1,Max Hisatake,3,0,Illinois Tech Scarlet Hawks,0,0,0,2,1,1,1,0
+1,0,1,0,0,0,0,0,0,0,22,17,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+1,0,1,0,0,0,0,0,0,0,22,17,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,1,0,1,0,0,0,1,22,17,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,1,0,1,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,1,22,17,0,Milos Dugalic,3,0,Illinois Tech Scarlet Hawks,1,1,0,0,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,18,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,18,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,18,0,Otis Reale,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,22,18,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,18,0,Jake Digiorgio,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,19,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,2,22,19,0,Otis Reale,3,0,Illinois Tech Scarlet Hawks,1,1,0,0,0,0,0,0
+1,0,0,0,0,0,2,1,1,0,22,19,0,Milos Dugalic,1,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,3,1,2,2,1,1,0,22,19,0,Ahmad Muhammad,3,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,3,1,2
+0,0,1,0,0,0,2,0,2,0,22,19,1,Max Hisatake,0,0,Illinois Tech Scarlet Hawks,0,0,0,2,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,20,0,Parker Joncus,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,20,0,Milos Dugalic,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,20,0,Ahmad Muhammad,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,2,1,1,0,22,20,0,Max Hisatake,1,0,Illinois Tech Scarlet Hawks,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,22,20,0,Calvin Schmitz,0,0,Illinois Tech Scarlet Hawks,0,0,0,0,0,0,0,0
