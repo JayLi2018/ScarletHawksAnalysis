@@ -410,3 +410,5 @@ where t.team_id = l.team_id
 and l.game_id = ign.game_id
 
 \copy (select * from season_lineups) to 'season_lineups.csv' csv header;
+
+

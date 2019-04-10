@@ -1,0 +1,931 @@
+,chosen_player,pair,min,metric_name,metric_desc,metric_value
+0,Anthony Mosley,"Anthony Mosley,Max Hisatake,Milos Dugalic",80.4333333333334,plusminus,Net performance Evaluation Metric,42.0
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Max Hisatake",169.916666666667,plusminus,Net performance Evaluation Metric,44.0
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Milos Dugalic",83.7666666666667,plusminus,Net performance Evaluation Metric,50.0
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Jake Digiorgio",191.616666666667,plusminus,Net performance Evaluation Metric,59.0
+0,Anthony Mosley,"Anthony Mosley,Jake Digiorgio,Max Hisatake",206.983333333333,plusminus,Net performance Evaluation Metric,47.0
+0,Ben Wagner,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,plusminus,Net performance Evaluation Metric,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,plusminus,Net performance Evaluation Metric,0.0
+0,Ben Wagner,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,plusminus,Net performance Evaluation Metric,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,plusminus,Net performance Evaluation Metric,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Kohl Linder",1.05,plusminus,Net performance Evaluation Metric,0.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Anthony Mosley,Max Hisatake",169.916666666667,plusminus,Net performance Evaluation Metric,44.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Jake Digiorgio,Max Hisatake",279.516666666667,plusminus,Net performance Evaluation Metric,51.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Anthony Mosley,Milos Dugalic",83.7666666666667,plusminus,Net performance Evaluation Metric,50.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Anthony Mosley,Jake Digiorgio",191.616666666667,plusminus,Net performance Evaluation Metric,59.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Jake Digiorgio,Milos Dugalic",176.166666666667,plusminus,Net performance Evaluation Metric,74.0
+0,Jake Bruns,"Jake Bruns,Otis Reale,Parker Joncus",40.1,plusminus,Net performance Evaluation Metric,19.0
+0,Jake Bruns,"Anthony Mosley,Jake Bruns,Max Hisatake",44.9666666666667,plusminus,Net performance Evaluation Metric,24.0
+0,Jake Bruns,"Jake Bruns,Max Hisatake,Milos Dugalic",79.5333333333333,plusminus,Net performance Evaluation Metric,33.0
+0,Jake Bruns,"Jake Bruns,Jake Digiorgio,Max Hisatake",105.433333333333,plusminus,Net performance Evaluation Metric,37.0
+0,Jake Bruns,"Jake Bruns,Max Hisatake,Parker Joncus",76.1666666666667,plusminus,Net performance Evaluation Metric,29.0
+0,Jalen Lomax,"Cody Mattson,Jake Digiorgio,Jalen Lomax",3.83333333333333,plusminus,Net performance Evaluation Metric,9.0
+0,Jalen Lomax,"Ahmad Muhammad,Jalen Lomax,Milos Dugalic",3.83333333333333,plusminus,Net performance Evaluation Metric,9.0
+0,Jalen Lomax,"Ahmad Muhammad,Cody Mattson,Jalen Lomax",3.83333333333333,plusminus,Net performance Evaluation Metric,9.0
+0,Jalen Lomax,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,plusminus,Net performance Evaluation Metric,9.0
+0,Jalen Lomax,"Cody Mattson,Jalen Lomax,Milos Dugalic",3.83333333333333,plusminus,Net performance Evaluation Metric,9.0
+0,Calvin Schmitz,"Calvin Schmitz,Parker Joncus,Zach Parduhn",5.75,plusminus,Net performance Evaluation Metric,7.0
+0,Calvin Schmitz,"Calvin Schmitz,Otis Reale,Ricardo Whitehead",8.51666666666667,plusminus,Net performance Evaluation Metric,8.0
+0,Calvin Schmitz,"Calvin Schmitz,Max Hisatake,Milos Dugalic",55.3,plusminus,Net performance Evaluation Metric,23.0
+0,Calvin Schmitz,"Calvin Schmitz,Kohl Linder,Milos Dugalic",10.65,plusminus,Net performance Evaluation Metric,12.0
+0,Calvin Schmitz,"Calvin Schmitz,Max Hisatake,Otis Reale",170.166666666667,plusminus,Net performance Evaluation Metric,8.0
+0,Capriest Gardner,"Ahmad Muhammad,Capriest Gardner,Max Hisatake",19.3833333333333,plusminus,Net performance Evaluation Metric,9.0
+0,Capriest Gardner,"Capriest Gardner,Jake Digiorgio,Milos Dugalic",14.8833333333333,plusminus,Net performance Evaluation Metric,9.0
+0,Capriest Gardner,"Anthony Mosley,Capriest Gardner,Max Hisatake",26.0833333333333,plusminus,Net performance Evaluation Metric,9.0
+0,Capriest Gardner,"Anthony Mosley,Capriest Gardner,Jake Digiorgio",17.7,plusminus,Net performance Evaluation Metric,13.0
+0,Capriest Gardner,"Anthony Mosley,Capriest Gardner,Milos Dugalic",24.9333333333334,plusminus,Net performance Evaluation Metric,10.0
+0,Brett Ott,"Brett Ott,Cody Mattson,Zach Parduhn",3.13333333333333,plusminus,Net performance Evaluation Metric,0.0
+0,Brett Ott,"Brett Ott,Jake Digiorgio,Kohl Linder",0.899999999999999,plusminus,Net performance Evaluation Metric,1.0
+0,Brett Ott,"Brett Ott,Calvin Schmitz,Jake Digiorgio",0.899999999999999,plusminus,Net performance Evaluation Metric,1.0
+0,Brett Ott,"Brett Ott,Calvin Schmitz,Jake Bruns",0.899999999999999,plusminus,Net performance Evaluation Metric,1.0
+0,Brett Ott,"Brett Ott,Jake Bruns,Kohl Linder",0.899999999999999,plusminus,Net performance Evaluation Metric,1.0
+0,Jake Digiorgio,"Anthony Mosley,Jake Digiorgio,Max Hisatake",206.983333333333,plusminus,Net performance Evaluation Metric,47.0
+0,Jake Digiorgio,"Jake Digiorgio,Max Hisatake,Milos Dugalic",124.633333333333,plusminus,Net performance Evaluation Metric,50.0
+0,Jake Digiorgio,"Ahmad Muhammad,Jake Digiorgio,Milos Dugalic",176.166666666667,plusminus,Net performance Evaluation Metric,74.0
+0,Jake Digiorgio,"Ahmad Muhammad,Anthony Mosley,Jake Digiorgio",191.616666666667,plusminus,Net performance Evaluation Metric,59.0
+0,Jake Digiorgio,"Ahmad Muhammad,Jake Digiorgio,Max Hisatake",279.516666666667,plusminus,Net performance Evaluation Metric,51.0
+0,Max Hisatake,"Anthony Mosley,Max Hisatake,Milos Dugalic",80.4333333333334,plusminus,Net performance Evaluation Metric,42.0
+0,Max Hisatake,"Anthony Mosley,Jake Digiorgio,Max Hisatake",206.983333333333,plusminus,Net performance Evaluation Metric,47.0
+0,Max Hisatake,"Ahmad Muhammad,Anthony Mosley,Max Hisatake",169.916666666667,plusminus,Net performance Evaluation Metric,44.0
+0,Max Hisatake,"Ahmad Muhammad,Jake Digiorgio,Max Hisatake",279.516666666667,plusminus,Net performance Evaluation Metric,51.0
+0,Max Hisatake,"Jake Digiorgio,Max Hisatake,Milos Dugalic",124.633333333333,plusminus,Net performance Evaluation Metric,50.0
+0,Otis Reale,"Jake Bruns,Milos Dugalic,Otis Reale",51.5833333333333,plusminus,Net performance Evaluation Metric,18.0
+0,Otis Reale,"Kohl Linder,Milos Dugalic,Otis Reale",21.7333333333333,plusminus,Net performance Evaluation Metric,18.0
+0,Otis Reale,"Jake Bruns,Max Hisatake,Otis Reale",72.0333333333333,plusminus,Net performance Evaluation Metric,18.0
+0,Otis Reale,"Max Hisatake,Otis Reale,Parker Joncus",238.033333333333,plusminus,Net performance Evaluation Metric,25.0
+0,Otis Reale,"Jake Bruns,Otis Reale,Parker Joncus",40.1,plusminus,Net performance Evaluation Metric,19.0
+0,Milos Dugalic,"Anthony Mosley,Jake Digiorgio,Milos Dugalic",106.716666666667,plusminus,Net performance Evaluation Metric,42.0
+0,Milos Dugalic,"Ahmad Muhammad,Anthony Mosley,Milos Dugalic",83.7666666666667,plusminus,Net performance Evaluation Metric,50.0
+0,Milos Dugalic,"Anthony Mosley,Max Hisatake,Milos Dugalic",80.4333333333334,plusminus,Net performance Evaluation Metric,42.0
+0,Milos Dugalic,"Ahmad Muhammad,Jake Digiorgio,Milos Dugalic",176.166666666667,plusminus,Net performance Evaluation Metric,74.0
+0,Milos Dugalic,"Jake Digiorgio,Max Hisatake,Milos Dugalic",124.633333333333,plusminus,Net performance Evaluation Metric,50.0
+0,Cody Mattson,"Ahmad Muhammad,Cody Mattson,Milos Dugalic",5.76666666666667,plusminus,Net performance Evaluation Metric,6.0
+0,Cody Mattson,"Cody Mattson,Jake Digiorgio,Milos Dugalic",5.13333333333333,plusminus,Net performance Evaluation Metric,7.0
+0,Cody Mattson,"Cody Mattson,Jake Digiorgio,Jalen Lomax",3.83333333333333,plusminus,Net performance Evaluation Metric,9.0
+0,Cody Mattson,"Ahmad Muhammad,Cody Mattson,Jalen Lomax",3.83333333333333,plusminus,Net performance Evaluation Metric,9.0
+0,Cody Mattson,"Cody Mattson,Jalen Lomax,Milos Dugalic",3.83333333333333,plusminus,Net performance Evaluation Metric,9.0
+0,Parker Joncus,"Anthony Mosley,Jake Digiorgio,Parker Joncus",164.366666666667,plusminus,Net performance Evaluation Metric,23.0
+0,Parker Joncus,"Max Hisatake,Otis Reale,Parker Joncus",238.033333333333,plusminus,Net performance Evaluation Metric,25.0
+0,Parker Joncus,"Jake Bruns,Max Hisatake,Parker Joncus",76.1666666666667,plusminus,Net performance Evaluation Metric,29.0
+0,Parker Joncus,"Ahmad Muhammad,Anthony Mosley,Parker Joncus",124.016666666667,plusminus,Net performance Evaluation Metric,30.0
+0,Parker Joncus,"Jake Digiorgio,Max Hisatake,Parker Joncus",299.8,plusminus,Net performance Evaluation Metric,27.0
+0,Ricardo Whitehead,"Ahmad Muhammad,Milos Dugalic,Ricardo Whitehead",28.35,plusminus,Net performance Evaluation Metric,8.0
+0,Ricardo Whitehead,"Max Hisatake,Otis Reale,Ricardo Whitehead",9.83333333333333,plusminus,Net performance Evaluation Metric,9.0
+0,Ricardo Whitehead,"Ahmad Muhammad,Otis Reale,Ricardo Whitehead",15.7166666666667,plusminus,Net performance Evaluation Metric,8.0
+0,Ricardo Whitehead,"Jake Digiorgio,Milos Dugalic,Ricardo Whitehead",21.5166666666667,plusminus,Net performance Evaluation Metric,9.0
+0,Ricardo Whitehead,"Milos Dugalic,Otis Reale,Ricardo Whitehead",25.4,plusminus,Net performance Evaluation Metric,17.0
+0,Kohl Linder,"Ahmad Muhammad,Jake Bruns,Kohl Linder",14.25,plusminus,Net performance Evaluation Metric,9.0
+0,Kohl Linder,"Kohl Linder,Max Hisatake,Milos Dugalic",11.8166666666667,plusminus,Net performance Evaluation Metric,10.0
+0,Kohl Linder,"Ahmad Muhammad,Kohl Linder,Milos Dugalic",22.6666666666667,plusminus,Net performance Evaluation Metric,17.0
+0,Kohl Linder,"Calvin Schmitz,Kohl Linder,Milos Dugalic",10.65,plusminus,Net performance Evaluation Metric,12.0
+0,Kohl Linder,"Kohl Linder,Milos Dugalic,Otis Reale",21.7333333333333,plusminus,Net performance Evaluation Metric,18.0
+0,Zach Parduhn,"Max Hisatake,Ricardo Whitehead,Zach Parduhn",1.73333333333334,plusminus,Net performance Evaluation Metric,2.0
+0,Zach Parduhn,"Kohl Linder,Max Hisatake,Zach Parduhn",1.61666666666667,plusminus,Net performance Evaluation Metric,2.0
+0,Zach Parduhn,"Ahmad Muhammad,Capriest Gardner,Zach Parduhn",1.26666666666667,plusminus,Net performance Evaluation Metric,2.0
+0,Zach Parduhn,"Calvin Schmitz,Parker Joncus,Zach Parduhn",5.75,plusminus,Net performance Evaluation Metric,7.0
+0,Zach Parduhn,"Ahmad Muhammad,Jake Bruns,Zach Parduhn",2.73333333333333,plusminus,Net performance Evaluation Metric,3.0
+0,Anthony Mosley,"Anthony Mosley,Milos Dugalic,Parker Joncus",41.3666666666667,three_point_percentage,average 3 point percentage,0.421052631578947
+0,Anthony Mosley,"Anthony Mosley,Jake Bruns,Max Hisatake",44.9666666666667,three_point_percentage,average 3 point percentage,0.423076923076923
+0,Anthony Mosley,"Anthony Mosley,Otis Reale,Ricardo Whitehead",9.40000000000002,three_point_percentage,average 3 point percentage,0.666666666666667
+0,Anthony Mosley,"Anthony Mosley,Capriest Gardner,Ricardo Whitehead",5.80000000000001,three_point_percentage,average 3 point percentage,1.0
+0,Anthony Mosley,"Anthony Mosley,Calvin Schmitz,Jake Bruns",18.9166666666667,three_point_percentage,average 3 point percentage,0.444444444444444
+0,Ahmad Muhammad,"Ahmad Muhammad,Jake Digiorgio,Zach Parduhn",9.36666666666667,three_point_percentage,average 3 point percentage,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Calvin Schmitz,Zach Parduhn",4.58333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Jake Bruns,Zach Parduhn",2.73333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Cody Mattson,Jake Bruns",4.56666666666667,three_point_percentage,average 3 point percentage,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Cody Mattson,Otis Reale",3.13333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Jake Bruns,"Jake Bruns,Otis Reale,Ricardo Whitehead",9.46666666666667,three_point_percentage,average 3 point percentage,1.0
+0,Jake Bruns,"Cody Mattson,Jake Bruns,Jake Digiorgio",5.43333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Jake Bruns,"Ahmad Muhammad,Jake Bruns,Zach Parduhn",2.73333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Jake Bruns,"Ahmad Muhammad,Cody Mattson,Jake Bruns",4.56666666666667,three_point_percentage,average 3 point percentage,1.0
+0,Jake Bruns,"Cody Mattson,Jake Bruns,Milos Dugalic",2.21666666666667,three_point_percentage,average 3 point percentage,1.0
+0,Jalen Lomax,"Cody Mattson,Jake Digiorgio,Jalen Lomax",3.83333333333333,three_point_percentage,average 3 point percentage,0.75
+0,Jalen Lomax,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,three_point_percentage,average 3 point percentage,0.75
+0,Jalen Lomax,"Ahmad Muhammad,Cody Mattson,Jalen Lomax",3.83333333333333,three_point_percentage,average 3 point percentage,0.75
+0,Jalen Lomax,"Ahmad Muhammad,Jalen Lomax,Milos Dugalic",3.83333333333333,three_point_percentage,average 3 point percentage,0.75
+0,Jalen Lomax,"Cody Mattson,Jalen Lomax,Milos Dugalic",3.83333333333333,three_point_percentage,average 3 point percentage,0.75
+0,Calvin Schmitz,"Calvin Schmitz,Milos Dugalic,Parker Joncus",41.4833333333333,three_point_percentage,average 3 point percentage,0.48
+0,Calvin Schmitz,"Calvin Schmitz,Capriest Gardner,Parker Joncus",3.06666666666667,three_point_percentage,average 3 point percentage,0.5
+0,Calvin Schmitz,"Calvin Schmitz,Jake Bruns,Parker Joncus",21.2666666666667,three_point_percentage,average 3 point percentage,0.5
+0,Calvin Schmitz,"Ahmad Muhammad,Calvin Schmitz,Zach Parduhn",4.58333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Calvin Schmitz,"Calvin Schmitz,Capriest Gardner,Max Hisatake",2.8,three_point_percentage,average 3 point percentage,1.0
+0,Capriest Gardner,"Calvin Schmitz,Capriest Gardner,Parker Joncus",3.06666666666667,three_point_percentage,average 3 point percentage,0.5
+0,Capriest Gardner,"Capriest Gardner,Otis Reale,Ricardo Whitehead",8.48333333333334,three_point_percentage,average 3 point percentage,1.0
+0,Capriest Gardner,"Anthony Mosley,Capriest Gardner,Ricardo Whitehead",5.80000000000001,three_point_percentage,average 3 point percentage,1.0
+0,Capriest Gardner,"Calvin Schmitz,Capriest Gardner,Max Hisatake",2.8,three_point_percentage,average 3 point percentage,1.0
+0,Capriest Gardner,"Capriest Gardner,Milos Dugalic,Ricardo Whitehead",8.48333333333334,three_point_percentage,average 3 point percentage,1.0
+0,Brett Ott,"Brett Ott,Parker Joncus,Zach Parduhn",1.53333333333333,three_point_percentage,average 3 point percentage,0.0
+0,Brett Ott,"Anthony Mosley,Brett Ott,Milos Dugalic",2.81666666666667,three_point_percentage,average 3 point percentage,0.0
+0,Brett Ott,"Anthony Mosley,Brett Ott,Zach Parduhn",2.81666666666667,three_point_percentage,average 3 point percentage,0.0
+0,Brett Ott,"Brett Ott,Jake Bruns,Jake Digiorgio",4.1,three_point_percentage,average 3 point percentage,0.0
+0,Brett Ott,"Brett Ott,Kohl Linder,Zach Parduhn",3.86666666666666,three_point_percentage,average 3 point percentage,0.0
+0,Jake Digiorgio,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,three_point_percentage,average 3 point percentage,0.75
+0,Jake Digiorgio,"Cody Mattson,Jake Digiorgio,Milos Dugalic",5.13333333333333,three_point_percentage,average 3 point percentage,0.8
+0,Jake Digiorgio,"Cody Mattson,Jake Bruns,Jake Digiorgio",5.43333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Jake Digiorgio,"Ahmad Muhammad,Jake Digiorgio,Zach Parduhn",9.36666666666667,three_point_percentage,average 3 point percentage,1.0
+0,Jake Digiorgio,"Jake Digiorgio,Kohl Linder,Max Hisatake",2.15,three_point_percentage,average 3 point percentage,1.0
+0,Max Hisatake,"Max Hisatake,Milos Dugalic,Ricardo Whitehead",8.45,three_point_percentage,average 3 point percentage,1.0
+0,Max Hisatake,"Max Hisatake,Otis Reale,Ricardo Whitehead",9.83333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Max Hisatake,"Jake Digiorgio,Kohl Linder,Max Hisatake",2.15,three_point_percentage,average 3 point percentage,1.0
+0,Max Hisatake,"Calvin Schmitz,Capriest Gardner,Max Hisatake",2.8,three_point_percentage,average 3 point percentage,1.0
+0,Max Hisatake,"Max Hisatake,Parker Joncus,Ricardo Whitehead",3.48333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Otis Reale,"Milos Dugalic,Otis Reale,Ricardo Whitehead",25.4,three_point_percentage,average 3 point percentage,0.7
+0,Otis Reale,"Max Hisatake,Otis Reale,Ricardo Whitehead",9.83333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Otis Reale,"Ahmad Muhammad,Cody Mattson,Otis Reale",3.13333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Otis Reale,"Jake Bruns,Otis Reale,Ricardo Whitehead",9.46666666666667,three_point_percentage,average 3 point percentage,1.0
+0,Otis Reale,"Capriest Gardner,Otis Reale,Ricardo Whitehead",8.48333333333334,three_point_percentage,average 3 point percentage,1.0
+0,Milos Dugalic,"Cody Mattson,Jake Digiorgio,Milos Dugalic",5.13333333333333,three_point_percentage,average 3 point percentage,0.8
+0,Milos Dugalic,"Ahmad Muhammad,Cody Mattson,Milos Dugalic",5.76666666666667,three_point_percentage,average 3 point percentage,0.8
+0,Milos Dugalic,"Capriest Gardner,Milos Dugalic,Ricardo Whitehead",8.48333333333334,three_point_percentage,average 3 point percentage,1.0
+0,Milos Dugalic,"Cody Mattson,Jake Bruns,Milos Dugalic",2.21666666666667,three_point_percentage,average 3 point percentage,1.0
+0,Milos Dugalic,"Max Hisatake,Milos Dugalic,Ricardo Whitehead",8.45,three_point_percentage,average 3 point percentage,1.0
+0,Cody Mattson,"Cody Mattson,Jake Digiorgio,Milos Dugalic",5.13333333333333,three_point_percentage,average 3 point percentage,0.8
+0,Cody Mattson,"Cody Mattson,Jake Bruns,Milos Dugalic",2.21666666666667,three_point_percentage,average 3 point percentage,1.0
+0,Cody Mattson,"Ahmad Muhammad,Cody Mattson,Otis Reale",3.13333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Cody Mattson,"Ahmad Muhammad,Cody Mattson,Jake Bruns",4.56666666666667,three_point_percentage,average 3 point percentage,1.0
+0,Cody Mattson,"Cody Mattson,Jake Bruns,Jake Digiorgio",5.43333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Parker Joncus,"Kohl Linder,Max Hisatake,Parker Joncus",3.13333333333333,three_point_percentage,average 3 point percentage,0.5
+0,Parker Joncus,"Otis Reale,Parker Joncus,Ricardo Whitehead",7.90000000000001,three_point_percentage,average 3 point percentage,0.5
+0,Parker Joncus,"Calvin Schmitz,Jake Bruns,Parker Joncus",21.2666666666667,three_point_percentage,average 3 point percentage,0.5
+0,Parker Joncus,"Max Hisatake,Parker Joncus,Ricardo Whitehead",3.48333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Parker Joncus,"Ahmad Muhammad,Kohl Linder,Parker Joncus",12.0666666666667,three_point_percentage,average 3 point percentage,0.714285714285714
+0,Ricardo Whitehead,"Max Hisatake,Milos Dugalic,Ricardo Whitehead",8.45,three_point_percentage,average 3 point percentage,1.0
+0,Ricardo Whitehead,"Jake Bruns,Otis Reale,Ricardo Whitehead",9.46666666666667,three_point_percentage,average 3 point percentage,1.0
+0,Ricardo Whitehead,"Capriest Gardner,Otis Reale,Ricardo Whitehead",8.48333333333334,three_point_percentage,average 3 point percentage,1.0
+0,Ricardo Whitehead,"Anthony Mosley,Capriest Gardner,Ricardo Whitehead",5.80000000000001,three_point_percentage,average 3 point percentage,1.0
+0,Ricardo Whitehead,"Max Hisatake,Parker Joncus,Ricardo Whitehead",3.48333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Kohl Linder,"Kohl Linder,Otis Reale,Ricardo Whitehead",4.78333333333334,three_point_percentage,average 3 point percentage,0.5
+0,Kohl Linder,"Ahmad Muhammad,Kohl Linder,Max Hisatake",10.7333333333333,three_point_percentage,average 3 point percentage,0.5
+0,Kohl Linder,"Ahmad Muhammad,Kohl Linder,Parker Joncus",12.0666666666667,three_point_percentage,average 3 point percentage,0.714285714285714
+0,Kohl Linder,"Jake Digiorgio,Kohl Linder,Max Hisatake",2.15,three_point_percentage,average 3 point percentage,1.0
+0,Kohl Linder,"Kohl Linder,Milos Dugalic,Ricardo Whitehead",4.23333333333334,three_point_percentage,average 3 point percentage,0.5
+0,Zach Parduhn,"Jake Bruns,Jake Digiorgio,Zach Parduhn",17.8833333333333,three_point_percentage,average 3 point percentage,0.375
+0,Zach Parduhn,"Calvin Schmitz,Jake Digiorgio,Zach Parduhn",18.4833333333333,three_point_percentage,average 3 point percentage,0.375
+0,Zach Parduhn,"Ahmad Muhammad,Jake Digiorgio,Zach Parduhn",9.36666666666667,three_point_percentage,average 3 point percentage,1.0
+0,Zach Parduhn,"Ahmad Muhammad,Jake Bruns,Zach Parduhn",2.73333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Zach Parduhn,"Ahmad Muhammad,Calvin Schmitz,Zach Parduhn",4.58333333333333,three_point_percentage,average 3 point percentage,1.0
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Jake Bruns",2.48333333333333,foul_rate,number of fouls committed per minute,1.61073825503356
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Max Hisatake",169.916666666667,foul_rate,number of fouls committed per minute,0.388425698871996
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Capriest Gardner",18.0,foul_rate,number of fouls committed per minute,0.5
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Calvin Schmitz",29.1666666666667,foul_rate,number of fouls committed per minute,0.377142857142857
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Jake Digiorgio",191.616666666667,foul_rate,number of fouls committed per minute,0.380968948421327
+0,Ben Wagner,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,foul_rate,number of fouls committed per minute,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,foul_rate,number of fouls committed per minute,0.0
+0,Ben Wagner,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,foul_rate,number of fouls committed per minute,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,foul_rate,number of fouls committed per minute,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Kohl Linder",1.05,foul_rate,number of fouls committed per minute,0.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Anthony Mosley,Jake Bruns",2.48333333333333,foul_rate,number of fouls committed per minute,1.61073825503356
+0,Ahmad Muhammad,"Ahmad Muhammad,Anthony Mosley,Max Hisatake",169.916666666667,foul_rate,number of fouls committed per minute,0.388425698871996
+0,Ahmad Muhammad,"Ahmad Muhammad,Anthony Mosley,Capriest Gardner",18.0,foul_rate,number of fouls committed per minute,0.5
+0,Ahmad Muhammad,"Ahmad Muhammad,Anthony Mosley,Calvin Schmitz",29.1666666666667,foul_rate,number of fouls committed per minute,0.377142857142857
+0,Ahmad Muhammad,"Ahmad Muhammad,Anthony Mosley,Jake Digiorgio",191.616666666667,foul_rate,number of fouls committed per minute,0.380968948421327
+0,Jake Bruns,"Ahmad Muhammad,Anthony Mosley,Jake Bruns",2.48333333333333,foul_rate,number of fouls committed per minute,1.61073825503356
+0,Jake Bruns,"Anthony Mosley,Calvin Schmitz,Jake Bruns",18.9166666666667,foul_rate,number of fouls committed per minute,0.581497797356828
+0,Jake Bruns,"Anthony Mosley,Capriest Gardner,Jake Bruns",5.95,foul_rate,number of fouls committed per minute,0.504201680672269
+0,Jake Bruns,"Anthony Mosley,Jake Bruns,Jake Digiorgio",53.3666666666667,foul_rate,number of fouls committed per minute,0.393504059962523
+0,Jake Bruns,"Anthony Mosley,Jake Bruns,Max Hisatake",44.9666666666667,foul_rate,number of fouls committed per minute,0.422535211267606
+0,Jalen Lomax,"Jalen Lomax,Kohl Linder,Milos Dugalic",0.666666666666667,foul_rate,number of fouls committed per minute,1.5
+0,Jalen Lomax,"Ahmad Muhammad,Cody Mattson,Jalen Lomax",3.83333333333333,foul_rate,number of fouls committed per minute,0.0
+0,Jalen Lomax,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,foul_rate,number of fouls committed per minute,0.0
+0,Jalen Lomax,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,foul_rate,number of fouls committed per minute,0.0
+0,Jalen Lomax,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,foul_rate,number of fouls committed per minute,0.0
+0,Calvin Schmitz,"Calvin Schmitz,Capriest Gardner,Zach Parduhn",3.63333333333333,foul_rate,number of fouls committed per minute,1.10091743119266
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Jake Bruns",18.9166666666667,foul_rate,number of fouls committed per minute,0.581497797356828
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Capriest Gardner",2.41666666666667,foul_rate,number of fouls committed per minute,0.0
+0,Calvin Schmitz,"Ahmad Muhammad,Anthony Mosley,Calvin Schmitz",29.1666666666667,foul_rate,number of fouls committed per minute,0.377142857142857
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Jake Digiorgio",42.4833333333333,foul_rate,number of fouls committed per minute,0.494311494703805
+0,Capriest Gardner,"Capriest Gardner,Jake Bruns,Ricardo Whitehead",2.68333333333333,foul_rate,number of fouls committed per minute,1.49068322981367
+0,Capriest Gardner,"Ahmad Muhammad,Anthony Mosley,Capriest Gardner",18.0,foul_rate,number of fouls committed per minute,0.5
+0,Capriest Gardner,"Anthony Mosley,Calvin Schmitz,Capriest Gardner",2.41666666666667,foul_rate,number of fouls committed per minute,0.0
+0,Capriest Gardner,"Anthony Mosley,Brett Ott,Capriest Gardner",2.81666666666667,foul_rate,number of fouls committed per minute,0.0
+0,Capriest Gardner,"Anthony Mosley,Capriest Gardner,Jake Digiorgio",17.7,foul_rate,number of fouls committed per minute,0.451977401129943
+0,Brett Ott,"Brett Ott,Cody Mattson,Kohl Linder",1.28333333333333,foul_rate,number of fouls committed per minute,0.779220779220781
+0,Brett Ott,"Anthony Mosley,Brett Ott,Milos Dugalic",2.81666666666667,foul_rate,number of fouls committed per minute,0.0
+0,Brett Ott,"Anthony Mosley,Brett Ott,Zach Parduhn",2.81666666666667,foul_rate,number of fouls committed per minute,0.0
+0,Brett Ott,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,foul_rate,number of fouls committed per minute,0.0
+0,Brett Ott,"Brett Ott,Capriest Gardner,Jake Bruns",1.66666666666667,foul_rate,number of fouls committed per minute,0.0
+0,Jake Digiorgio,"Jake Bruns,Jake Digiorgio,Ricardo Whitehead",11.9833333333333,foul_rate,number of fouls committed per minute,1.00139082058415
+0,Jake Digiorgio,"Anthony Mosley,Capriest Gardner,Jake Digiorgio",17.7,foul_rate,number of fouls committed per minute,0.451977401129943
+0,Jake Digiorgio,"Anthony Mosley,Jake Bruns,Jake Digiorgio",53.3666666666667,foul_rate,number of fouls committed per minute,0.393504059962523
+0,Jake Digiorgio,"Anthony Mosley,Jake Digiorgio,Max Hisatake",206.983333333333,foul_rate,number of fouls committed per minute,0.372010628875111
+0,Jake Digiorgio,"Ahmad Muhammad,Anthony Mosley,Jake Digiorgio",191.616666666667,foul_rate,number of fouls committed per minute,0.380968948421327
+0,Max Hisatake,"Cody Mattson,Max Hisatake,Milos Dugalic",0.916666666666666,foul_rate,number of fouls committed per minute,2.18181818181818
+0,Max Hisatake,"Anthony Mosley,Capriest Gardner,Max Hisatake",26.0833333333333,foul_rate,number of fouls committed per minute,0.460063897763578
+0,Max Hisatake,"Anthony Mosley,Jake Bruns,Max Hisatake",44.9666666666667,foul_rate,number of fouls committed per minute,0.422535211267606
+0,Max Hisatake,"Anthony Mosley,Jake Digiorgio,Max Hisatake",206.983333333333,foul_rate,number of fouls committed per minute,0.372010628875111
+0,Max Hisatake,"Ahmad Muhammad,Anthony Mosley,Max Hisatake",169.916666666667,foul_rate,number of fouls committed per minute,0.388425698871996
+0,Otis Reale,"Cody Mattson,Milos Dugalic,Otis Reale",0.283333333333333,foul_rate,number of fouls committed per minute,3.52941176470588
+0,Otis Reale,"Anthony Mosley,Max Hisatake,Otis Reale",26.0333333333333,foul_rate,number of fouls committed per minute,0.384122919334187
+0,Otis Reale,"Anthony Mosley,Jake Digiorgio,Otis Reale",31.4833333333333,foul_rate,number of fouls committed per minute,0.349391212281631
+0,Otis Reale,"Anthony Mosley,Calvin Schmitz,Otis Reale",1.78333333333333,foul_rate,number of fouls committed per minute,0.0
+0,Otis Reale,"Anthony Mosley,Capriest Gardner,Otis Reale",21.2666666666667,foul_rate,number of fouls committed per minute,0.376175548589342
+0,Milos Dugalic,"Cody Mattson,Milos Dugalic,Otis Reale",0.283333333333333,foul_rate,number of fouls committed per minute,3.52941176470588
+0,Milos Dugalic,"Anthony Mosley,Capriest Gardner,Milos Dugalic",24.9333333333334,foul_rate,number of fouls committed per minute,0.441176470588235
+0,Milos Dugalic,"Anthony Mosley,Jake Bruns,Milos Dugalic",21.1,foul_rate,number of fouls committed per minute,0.42654028436019
+0,Milos Dugalic,"Anthony Mosley,Brett Ott,Milos Dugalic",2.81666666666667,foul_rate,number of fouls committed per minute,0.0
+0,Milos Dugalic,"Ahmad Muhammad,Anthony Mosley,Milos Dugalic",83.7666666666667,foul_rate,number of fouls committed per minute,0.370075606844409
+0,Cody Mattson,"Cody Mattson,Milos Dugalic,Otis Reale",0.283333333333333,foul_rate,number of fouls committed per minute,3.52941176470588
+0,Cody Mattson,"Anthony Mosley,Cody Mattson,Jake Digiorgio",5.63333333333334,foul_rate,number of fouls committed per minute,0.355029585798816
+0,Cody Mattson,"Anthony Mosley,Calvin Schmitz,Cody Mattson",6.75000000000001,foul_rate,number of fouls committed per minute,0.148148148148148
+0,Cody Mattson,"Anthony Mosley,Cody Mattson,Jake Bruns",2.91666666666667,foul_rate,number of fouls committed per minute,0.0
+0,Cody Mattson,"Ahmad Muhammad,Anthony Mosley,Cody Mattson",9.26666666666667,foul_rate,number of fouls committed per minute,0.323741007194245
+0,Parker Joncus,"Kohl Linder,Milos Dugalic,Parker Joncus",1.21666666666667,foul_rate,number of fouls committed per minute,2.46575342465753
+0,Parker Joncus,"Anthony Mosley,Calvin Schmitz,Parker Joncus",7.11666666666666,foul_rate,number of fouls committed per minute,0.421545667447307
+0,Parker Joncus,"Ahmad Muhammad,Anthony Mosley,Parker Joncus",124.016666666667,foul_rate,number of fouls committed per minute,0.395108184383819
+0,Parker Joncus,"Anthony Mosley,Jake Digiorgio,Parker Joncus",164.366666666667,foul_rate,number of fouls committed per minute,0.365037517744879
+0,Parker Joncus,"Anthony Mosley,Jake Bruns,Parker Joncus",36.3166666666666,foul_rate,number of fouls committed per minute,0.385497934832492
+0,Ricardo Whitehead,"Capriest Gardner,Jake Bruns,Ricardo Whitehead",2.68333333333333,foul_rate,number of fouls committed per minute,1.49068322981367
+0,Ricardo Whitehead,"Anthony Mosley,Capriest Gardner,Ricardo Whitehead",5.80000000000001,foul_rate,number of fouls committed per minute,0.344827586206896
+0,Ricardo Whitehead,"Anthony Mosley,Calvin Schmitz,Ricardo Whitehead",7.13333333333333,foul_rate,number of fouls committed per minute,0.280373831775701
+0,Ricardo Whitehead,"Anthony Mosley,Jake Bruns,Ricardo Whitehead",4.15,foul_rate,number of fouls committed per minute,0.240963855421687
+0,Ricardo Whitehead,"Ahmad Muhammad,Anthony Mosley,Ricardo Whitehead",9.56666666666667,foul_rate,number of fouls committed per minute,0.313588850174216
+0,Kohl Linder,"Kohl Linder,Milos Dugalic,Parker Joncus",1.21666666666667,foul_rate,number of fouls committed per minute,2.46575342465753
+0,Kohl Linder,"Anthony Mosley,Calvin Schmitz,Kohl Linder",3.23333333333333,foul_rate,number of fouls committed per minute,0.927835051546392
+0,Kohl Linder,"Anthony Mosley,Jake Bruns,Kohl Linder",6.78333333333333,foul_rate,number of fouls committed per minute,0.737100737100737
+0,Kohl Linder,"Anthony Mosley,Jake Digiorgio,Kohl Linder",8.91666666666667,foul_rate,number of fouls committed per minute,0.336448598130841
+0,Kohl Linder,"Ahmad Muhammad,Anthony Mosley,Kohl Linder",6.10000000000001,foul_rate,number of fouls committed per minute,0.491803278688524
+0,Zach Parduhn,"Capriest Gardner,Max Hisatake,Zach Parduhn",0.85,foul_rate,number of fouls committed per minute,1.17647058823529
+0,Zach Parduhn,"Anthony Mosley,Max Hisatake,Zach Parduhn",3.25,foul_rate,number of fouls committed per minute,0.307692307692308
+0,Zach Parduhn,"Anthony Mosley,Brett Ott,Zach Parduhn",2.81666666666667,foul_rate,number of fouls committed per minute,0.0
+0,Zach Parduhn,"Anthony Mosley,Capriest Gardner,Zach Parduhn",2.81666666666667,foul_rate,number of fouls committed per minute,0.0
+0,Zach Parduhn,"Anthony Mosley,Jake Digiorgio,Zach Parduhn",3.25,foul_rate,number of fouls committed per minute,0.307692307692308
+0,Anthony Mosley,"Anthony Mosley,Capriest Gardner,Jake Digiorgio",17.7,block_rate,Block(s) per minute,0.169491525423729
+0,Anthony Mosley,"Anthony Mosley,Otis Reale,Parker Joncus",23.5833333333333,block_rate,Block(s) per minute,0.169611307420495
+0,Anthony Mosley,"Anthony Mosley,Max Hisatake,Otis Reale",26.0333333333333,block_rate,Block(s) per minute,0.230473751600512
+0,Anthony Mosley,"Anthony Mosley,Calvin Schmitz,Parker Joncus",7.11666666666666,block_rate,Block(s) per minute,0.281030444964871
+0,Anthony Mosley,"Anthony Mosley,Max Hisatake,Ricardo Whitehead",4.3,block_rate,Block(s) per minute,0.232558139534884
+0,Ben Wagner,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,block_rate,Block(s) per minute,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,block_rate,Block(s) per minute,0.0
+0,Ben Wagner,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,block_rate,Block(s) per minute,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,block_rate,Block(s) per minute,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Kohl Linder",1.05,block_rate,Block(s) per minute,0.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Kohl Linder,Milos Dugalic",22.6666666666667,block_rate,Block(s) per minute,0.220588235294118
+0,Ahmad Muhammad,"Ahmad Muhammad,Milos Dugalic,Zach Parduhn",4.13333333333334,block_rate,Block(s) per minute,0.241935483870967
+0,Ahmad Muhammad,"Ahmad Muhammad,Calvin Schmitz,Kohl Linder",7.03333333333333,block_rate,Block(s) per minute,0.28436018957346
+0,Ahmad Muhammad,"Ahmad Muhammad,Otis Reale,Ricardo Whitehead",15.7166666666667,block_rate,Block(s) per minute,0.254506892895016
+0,Ahmad Muhammad,"Ahmad Muhammad,Kohl Linder,Ricardo Whitehead",4.40000000000001,block_rate,Block(s) per minute,0.454545454545454
+0,Jake Bruns,"Jake Bruns,Milos Dugalic,Otis Reale",51.5833333333333,block_rate,Block(s) per minute,0.155088852988691
+0,Jake Bruns,"Calvin Schmitz,Capriest Gardner,Jake Bruns",6.0,block_rate,Block(s) per minute,0.166666666666667
+0,Jake Bruns,"Anthony Mosley,Capriest Gardner,Jake Bruns",5.95,block_rate,Block(s) per minute,0.168067226890756
+0,Jake Bruns,"Capriest Gardner,Jake Bruns,Ricardo Whitehead",2.68333333333333,block_rate,Block(s) per minute,0.372670807453416
+0,Jake Bruns,"Capriest Gardner,Jake Bruns,Parker Joncus",8.66666666666667,block_rate,Block(s) per minute,0.230769230769231
+0,Jalen Lomax,"Brett Ott,Capriest Gardner,Jalen Lomax",1.85,block_rate,Block(s) per minute,0.54054054054054
+0,Jalen Lomax,"Brett Ott,Cody Mattson,Jalen Lomax",3.13333333333333,block_rate,Block(s) per minute,0.957446808510639
+0,Jalen Lomax,"Capriest Gardner,Jalen Lomax,Zach Parduhn",1.85,block_rate,Block(s) per minute,0.54054054054054
+0,Jalen Lomax,"Cody Mattson,Jalen Lomax,Kohl Linder",1.28333333333333,block_rate,Block(s) per minute,1.55844155844156
+0,Jalen Lomax,"Cody Mattson,Jalen Lomax,Zach Parduhn",3.13333333333333,block_rate,Block(s) per minute,0.957446808510639
+0,Calvin Schmitz,"Calvin Schmitz,Kohl Linder,Milos Dugalic",10.65,block_rate,Block(s) per minute,0.187793427230047
+0,Calvin Schmitz,"Ahmad Muhammad,Calvin Schmitz,Kohl Linder",7.03333333333333,block_rate,Block(s) per minute,0.28436018957346
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Parker Joncus",7.11666666666666,block_rate,Block(s) per minute,0.281030444964871
+0,Calvin Schmitz,"Calvin Schmitz,Capriest Gardner,Otis Reale",1.68333333333334,block_rate,Block(s) per minute,0.594059405940593
+0,Calvin Schmitz,"Calvin Schmitz,Kohl Linder,Ricardo Whitehead",2.31666666666667,block_rate,Block(s) per minute,0.431654676258993
+0,Capriest Gardner,"Brett Ott,Capriest Gardner,Cody Mattson",1.85,block_rate,Block(s) per minute,0.54054054054054
+0,Capriest Gardner,"Brett Ott,Capriest Gardner,Jalen Lomax",1.85,block_rate,Block(s) per minute,0.54054054054054
+0,Capriest Gardner,"Capriest Gardner,Jalen Lomax,Zach Parduhn",1.85,block_rate,Block(s) per minute,0.54054054054054
+0,Capriest Gardner,"Calvin Schmitz,Capriest Gardner,Otis Reale",1.68333333333334,block_rate,Block(s) per minute,0.594059405940593
+0,Capriest Gardner,"Capriest Gardner,Cody Mattson,Zach Parduhn",1.85,block_rate,Block(s) per minute,0.54054054054054
+0,Brett Ott,"Brett Ott,Capriest Gardner,Cody Mattson",1.85,block_rate,Block(s) per minute,0.54054054054054
+0,Brett Ott,"Brett Ott,Cody Mattson,Jalen Lomax",3.13333333333333,block_rate,Block(s) per minute,0.957446808510639
+0,Brett Ott,"Brett Ott,Capriest Gardner,Jalen Lomax",1.85,block_rate,Block(s) per minute,0.54054054054054
+0,Brett Ott,"Brett Ott,Cody Mattson,Kohl Linder",1.28333333333333,block_rate,Block(s) per minute,1.55844155844156
+0,Brett Ott,"Brett Ott,Cody Mattson,Zach Parduhn",3.13333333333333,block_rate,Block(s) per minute,0.957446808510639
+0,Jake Digiorgio,"Jake Digiorgio,Kohl Linder,Parker Joncus",13.1666666666667,block_rate,Block(s) per minute,0.151898734177215
+0,Jake Digiorgio,"Jake Digiorgio,Max Hisatake,Milos Dugalic",124.633333333333,block_rate,Block(s) per minute,0.152447178389944
+0,Jake Digiorgio,"Anthony Mosley,Jake Digiorgio,Otis Reale",31.4833333333333,block_rate,Block(s) per minute,0.158814187400741
+0,Jake Digiorgio,"Anthony Mosley,Capriest Gardner,Jake Digiorgio",17.7,block_rate,Block(s) per minute,0.169491525423729
+0,Jake Digiorgio,"Jake Digiorgio,Milos Dugalic,Otis Reale",118.383333333333,block_rate,Block(s) per minute,0.160495565254118
+0,Max Hisatake,"Ahmad Muhammad,Max Hisatake,Zach Parduhn",5.38333333333334,block_rate,Block(s) per minute,0.185758513931888
+0,Max Hisatake,"Max Hisatake,Otis Reale,Ricardo Whitehead",9.83333333333333,block_rate,Block(s) per minute,0.203389830508475
+0,Max Hisatake,"Anthony Mosley,Max Hisatake,Otis Reale",26.0333333333333,block_rate,Block(s) per minute,0.230473751600512
+0,Max Hisatake,"Anthony Mosley,Max Hisatake,Ricardo Whitehead",4.3,block_rate,Block(s) per minute,0.232558139534884
+0,Max Hisatake,"Max Hisatake,Parker Joncus,Ricardo Whitehead",3.48333333333333,block_rate,Block(s) per minute,0.574162679425837
+0,Otis Reale,"Kohl Linder,Otis Reale,Ricardo Whitehead",4.78333333333334,block_rate,Block(s) per minute,0.209059233449477
+0,Otis Reale,"Anthony Mosley,Max Hisatake,Otis Reale",26.0333333333333,block_rate,Block(s) per minute,0.230473751600512
+0,Otis Reale,"Ahmad Muhammad,Otis Reale,Ricardo Whitehead",15.7166666666667,block_rate,Block(s) per minute,0.254506892895016
+0,Otis Reale,"Calvin Schmitz,Capriest Gardner,Otis Reale",1.68333333333334,block_rate,Block(s) per minute,0.594059405940593
+0,Otis Reale,"Otis Reale,Parker Joncus,Ricardo Whitehead",7.90000000000001,block_rate,Block(s) per minute,0.253164556962025
+0,Milos Dugalic,"Ahmad Muhammad,Milos Dugalic,Ricardo Whitehead",28.35,block_rate,Block(s) per minute,0.17636684303351
+0,Milos Dugalic,"Calvin Schmitz,Kohl Linder,Milos Dugalic",10.65,block_rate,Block(s) per minute,0.187793427230047
+0,Milos Dugalic,"Ahmad Muhammad,Milos Dugalic,Zach Parduhn",4.13333333333334,block_rate,Block(s) per minute,0.241935483870967
+0,Milos Dugalic,"Ahmad Muhammad,Kohl Linder,Milos Dugalic",22.6666666666667,block_rate,Block(s) per minute,0.220588235294118
+0,Milos Dugalic,"Kohl Linder,Milos Dugalic,Ricardo Whitehead",4.23333333333334,block_rate,Block(s) per minute,0.472440944881889
+0,Cody Mattson,"Brett Ott,Cody Mattson,Zach Parduhn",3.13333333333333,block_rate,Block(s) per minute,0.957446808510639
+0,Cody Mattson,"Brett Ott,Cody Mattson,Jalen Lomax",3.13333333333333,block_rate,Block(s) per minute,0.957446808510639
+0,Cody Mattson,"Cody Mattson,Jalen Lomax,Kohl Linder",1.28333333333333,block_rate,Block(s) per minute,1.55844155844156
+0,Cody Mattson,"Brett Ott,Cody Mattson,Kohl Linder",1.28333333333333,block_rate,Block(s) per minute,1.55844155844156
+0,Cody Mattson,"Cody Mattson,Kohl Linder,Zach Parduhn",1.28333333333333,block_rate,Block(s) per minute,1.55844155844156
+0,Parker Joncus,"Anthony Mosley,Otis Reale,Parker Joncus",23.5833333333333,block_rate,Block(s) per minute,0.169611307420495
+0,Parker Joncus,"Capriest Gardner,Jake Bruns,Parker Joncus",8.66666666666667,block_rate,Block(s) per minute,0.230769230769231
+0,Parker Joncus,"Anthony Mosley,Calvin Schmitz,Parker Joncus",7.11666666666666,block_rate,Block(s) per minute,0.281030444964871
+0,Parker Joncus,"Max Hisatake,Parker Joncus,Ricardo Whitehead",3.48333333333333,block_rate,Block(s) per minute,0.574162679425837
+0,Parker Joncus,"Otis Reale,Parker Joncus,Ricardo Whitehead",7.90000000000001,block_rate,Block(s) per minute,0.253164556962025
+0,Ricardo Whitehead,"Capriest Gardner,Jake Bruns,Ricardo Whitehead",2.68333333333333,block_rate,Block(s) per minute,0.372670807453416
+0,Ricardo Whitehead,"Calvin Schmitz,Kohl Linder,Ricardo Whitehead",2.31666666666667,block_rate,Block(s) per minute,0.431654676258993
+0,Ricardo Whitehead,"Max Hisatake,Parker Joncus,Ricardo Whitehead",3.48333333333333,block_rate,Block(s) per minute,0.574162679425837
+0,Ricardo Whitehead,"Ahmad Muhammad,Kohl Linder,Ricardo Whitehead",4.40000000000001,block_rate,Block(s) per minute,0.454545454545454
+0,Ricardo Whitehead,"Kohl Linder,Milos Dugalic,Ricardo Whitehead",4.23333333333334,block_rate,Block(s) per minute,0.472440944881889
+0,Kohl Linder,"Jalen Lomax,Kohl Linder,Zach Parduhn",3.86666666666666,block_rate,Block(s) per minute,0.517241379310345
+0,Kohl Linder,"Brett Ott,Kohl Linder,Zach Parduhn",3.86666666666666,block_rate,Block(s) per minute,0.517241379310345
+0,Kohl Linder,"Cody Mattson,Jalen Lomax,Kohl Linder",1.28333333333333,block_rate,Block(s) per minute,1.55844155844156
+0,Kohl Linder,"Brett Ott,Cody Mattson,Kohl Linder",1.28333333333333,block_rate,Block(s) per minute,1.55844155844156
+0,Kohl Linder,"Cody Mattson,Kohl Linder,Zach Parduhn",1.28333333333333,block_rate,Block(s) per minute,1.55844155844156
+0,Zach Parduhn,"Capriest Gardner,Cody Mattson,Zach Parduhn",1.85,block_rate,Block(s) per minute,0.54054054054054
+0,Zach Parduhn,"Capriest Gardner,Jalen Lomax,Zach Parduhn",1.85,block_rate,Block(s) per minute,0.54054054054054
+0,Zach Parduhn,"Cody Mattson,Jalen Lomax,Zach Parduhn",3.13333333333333,block_rate,Block(s) per minute,0.957446808510639
+0,Zach Parduhn,"Brett Ott,Cody Mattson,Zach Parduhn",3.13333333333333,block_rate,Block(s) per minute,0.957446808510639
+0,Zach Parduhn,"Cody Mattson,Kohl Linder,Zach Parduhn",1.28333333333333,block_rate,Block(s) per minute,1.55844155844156
+0,Anthony Mosley,"Anthony Mosley,Calvin Schmitz,Parker Joncus",7.11666666666666,four_rate,number of turnovers committed per min,1.12412177985949
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Calvin Schmitz",29.1666666666667,four_rate,number of turnovers committed per min,0.48
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Capriest Gardner",18.0,four_rate,number of turnovers committed per min,0.277777777777778
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Jake Digiorgio",191.616666666667,four_rate,number of turnovers committed per min,0.386187701139428
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Max Hisatake",169.916666666667,four_rate,number of turnovers committed per min,0.423737126042178
+0,Ben Wagner,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,four_rate,number of turnovers committed per min,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,four_rate,number of turnovers committed per min,0.0
+0,Ben Wagner,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,four_rate,number of turnovers committed per min,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,four_rate,number of turnovers committed per min,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Kohl Linder",1.05,four_rate,number of turnovers committed per min,0.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Cody Mattson,Zach Parduhn",1.23333333333333,four_rate,number of turnovers committed per min,1.62162162162162
+0,Ahmad Muhammad,"Ahmad Muhammad,Anthony Mosley,Calvin Schmitz",29.1666666666667,four_rate,number of turnovers committed per min,0.48
+0,Ahmad Muhammad,"Ahmad Muhammad,Anthony Mosley,Capriest Gardner",18.0,four_rate,number of turnovers committed per min,0.277777777777778
+0,Ahmad Muhammad,"Ahmad Muhammad,Anthony Mosley,Jake Digiorgio",191.616666666667,four_rate,number of turnovers committed per min,0.386187701139428
+0,Ahmad Muhammad,"Ahmad Muhammad,Anthony Mosley,Max Hisatake",169.916666666667,four_rate,number of turnovers committed per min,0.423737126042178
+0,Jake Bruns,"Brett Ott,Capriest Gardner,Jake Bruns",1.66666666666667,four_rate,number of turnovers committed per min,1.2
+0,Jake Bruns,"Anthony Mosley,Jake Bruns,Jake Digiorgio",53.3666666666667,four_rate,number of turnovers committed per min,0.318550905683948
+0,Jake Bruns,"Anthony Mosley,Capriest Gardner,Jake Bruns",5.95,four_rate,number of turnovers committed per min,0.168067226890756
+0,Jake Bruns,"Anthony Mosley,Jake Bruns,Max Hisatake",44.9666666666667,four_rate,number of turnovers committed per min,0.311341734618236
+0,Jake Bruns,"Anthony Mosley,Calvin Schmitz,Jake Bruns",18.9166666666667,four_rate,number of turnovers committed per min,0.317180616740088
+0,Jalen Lomax,"Jalen Lomax,Kohl Linder,Ricardo Whitehead",2.1,four_rate,number of turnovers committed per min,0.952380952380952
+0,Jalen Lomax,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,four_rate,number of turnovers committed per min,0.0
+0,Jalen Lomax,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,four_rate,number of turnovers committed per min,0.0
+0,Jalen Lomax,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,four_rate,number of turnovers committed per min,0.0
+0,Jalen Lomax,"Jake Bruns,Jalen Lomax,Milos Dugalic",0.666666666666667,four_rate,number of turnovers committed per min,0.0
+0,Calvin Schmitz,"Calvin Schmitz,Otis Reale,Zach Parduhn",0.583333333333334,four_rate,number of turnovers committed per min,1.71428571428571
+0,Calvin Schmitz,"Ahmad Muhammad,Anthony Mosley,Calvin Schmitz",29.1666666666667,four_rate,number of turnovers committed per min,0.48
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Capriest Gardner",2.41666666666667,four_rate,number of turnovers committed per min,0.0
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Jake Bruns",18.9166666666667,four_rate,number of turnovers committed per min,0.317180616740088
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Max Hisatake",33.8666666666667,four_rate,number of turnovers committed per min,0.47244094488189
+0,Capriest Gardner,"Brett Ott,Capriest Gardner,Parker Joncus",1.66666666666667,four_rate,number of turnovers committed per min,1.2
+0,Capriest Gardner,"Ahmad Muhammad,Anthony Mosley,Capriest Gardner",18.0,four_rate,number of turnovers committed per min,0.277777777777778
+0,Capriest Gardner,"Anthony Mosley,Calvin Schmitz,Capriest Gardner",2.41666666666667,four_rate,number of turnovers committed per min,0.0
+0,Capriest Gardner,"Anthony Mosley,Brett Ott,Capriest Gardner",2.81666666666667,four_rate,number of turnovers committed per min,0.0
+0,Capriest Gardner,"Anthony Mosley,Capriest Gardner,Jake Bruns",5.95,four_rate,number of turnovers committed per min,0.168067226890756
+0,Brett Ott,"Brett Ott,Capriest Gardner,Parker Joncus",1.66666666666667,four_rate,number of turnovers committed per min,1.2
+0,Brett Ott,"Anthony Mosley,Brett Ott,Milos Dugalic",2.81666666666667,four_rate,number of turnovers committed per min,0.0
+0,Brett Ott,"Anthony Mosley,Brett Ott,Zach Parduhn",2.81666666666667,four_rate,number of turnovers committed per min,0.0
+0,Brett Ott,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,four_rate,number of turnovers committed per min,0.0
+0,Brett Ott,"Ben Wagner,Brett Ott,Kohl Linder",1.05,four_rate,number of turnovers committed per min,0.0
+0,Jake Digiorgio,"Jake Digiorgio,Ricardo Whitehead,Zach Parduhn",1.4,four_rate,number of turnovers committed per min,2.14285714285714
+0,Jake Digiorgio,"Anthony Mosley,Jake Digiorgio,Max Hisatake",206.983333333333,four_rate,number of turnovers committed per min,0.39616716321765
+0,Jake Digiorgio,"Ahmad Muhammad,Anthony Mosley,Jake Digiorgio",191.616666666667,four_rate,number of turnovers committed per min,0.386187701139428
+0,Jake Digiorgio,"Anthony Mosley,Capriest Gardner,Jake Digiorgio",17.7,four_rate,number of turnovers committed per min,0.282485875706215
+0,Jake Digiorgio,"Anthony Mosley,Jake Bruns,Jake Digiorgio",53.3666666666667,four_rate,number of turnovers committed per min,0.318550905683948
+0,Max Hisatake,"Max Hisatake,Otis Reale,Zach Parduhn",0.583333333333334,four_rate,number of turnovers committed per min,1.71428571428571
+0,Max Hisatake,"Ahmad Muhammad,Anthony Mosley,Max Hisatake",169.916666666667,four_rate,number of turnovers committed per min,0.423737126042178
+0,Max Hisatake,"Anthony Mosley,Capriest Gardner,Max Hisatake",26.0833333333333,four_rate,number of turnovers committed per min,0.383386581469648
+0,Max Hisatake,"Anthony Mosley,Jake Bruns,Max Hisatake",44.9666666666667,four_rate,number of turnovers committed per min,0.311341734618236
+0,Max Hisatake,"Anthony Mosley,Jake Digiorgio,Max Hisatake",206.983333333333,four_rate,number of turnovers committed per min,0.39616716321765
+0,Otis Reale,"Kohl Linder,Otis Reale,Zach Parduhn",0.583333333333334,four_rate,number of turnovers committed per min,1.71428571428571
+0,Otis Reale,"Anthony Mosley,Capriest Gardner,Otis Reale",21.2666666666667,four_rate,number of turnovers committed per min,0.423197492163009
+0,Otis Reale,"Anthony Mosley,Jake Digiorgio,Otis Reale",31.4833333333333,four_rate,number of turnovers committed per min,0.381154049761779
+0,Otis Reale,"Anthony Mosley,Milos Dugalic,Otis Reale",26.35,four_rate,number of turnovers committed per min,0.417457305502846
+0,Otis Reale,"Anthony Mosley,Max Hisatake,Otis Reale",26.0333333333333,four_rate,number of turnovers committed per min,0.422535211267606
+0,Milos Dugalic,"Cody Mattson,Max Hisatake,Milos Dugalic",0.916666666666666,four_rate,number of turnovers committed per min,1.09090909090909
+0,Milos Dugalic,"Ahmad Muhammad,Anthony Mosley,Milos Dugalic",83.7666666666667,four_rate,number of turnovers committed per min,0.370075606844409
+0,Milos Dugalic,"Anthony Mosley,Brett Ott,Milos Dugalic",2.81666666666667,four_rate,number of turnovers committed per min,0.0
+0,Milos Dugalic,"Anthony Mosley,Jake Bruns,Milos Dugalic",21.1,four_rate,number of turnovers committed per min,0.33175355450237
+0,Milos Dugalic,"Anthony Mosley,Capriest Gardner,Milos Dugalic",24.9333333333334,four_rate,number of turnovers committed per min,0.360962566844919
+0,Cody Mattson,"Cody Mattson,Jake Digiorgio,Ricardo Whitehead",1.23333333333333,four_rate,number of turnovers committed per min,1.62162162162162
+0,Cody Mattson,"Anthony Mosley,Calvin Schmitz,Cody Mattson",6.75000000000001,four_rate,number of turnovers committed per min,0.592592592592592
+0,Cody Mattson,"Ahmad Muhammad,Anthony Mosley,Cody Mattson",9.26666666666667,four_rate,number of turnovers committed per min,0.539568345323741
+0,Cody Mattson,"Anthony Mosley,Cody Mattson,Jake Bruns",2.91666666666667,four_rate,number of turnovers committed per min,0.342857142857142
+0,Cody Mattson,"Anthony Mosley,Cody Mattson,Max Hisatake",5.43333333333333,four_rate,number of turnovers committed per min,0.368098159509203
+0,Parker Joncus,"Brett Ott,Capriest Gardner,Parker Joncus",1.66666666666667,four_rate,number of turnovers committed per min,1.2
+0,Parker Joncus,"Anthony Mosley,Capriest Gardner,Parker Joncus",17.75,four_rate,number of turnovers committed per min,0.394366197183099
+0,Parker Joncus,"Ahmad Muhammad,Anthony Mosley,Parker Joncus",124.016666666667,four_rate,number of turnovers committed per min,0.370917887380728
+0,Parker Joncus,"Anthony Mosley,Jake Bruns,Parker Joncus",36.3166666666666,four_rate,number of turnovers committed per min,0.357962368058743
+0,Parker Joncus,"Anthony Mosley,Jake Digiorgio,Parker Joncus",164.366666666667,four_rate,number of turnovers committed per min,0.389373352261205
+0,Ricardo Whitehead,"Jake Digiorgio,Ricardo Whitehead,Zach Parduhn",1.4,four_rate,number of turnovers committed per min,2.14285714285714
+0,Ricardo Whitehead,"Anthony Mosley,Jake Digiorgio,Ricardo Whitehead",10.3333333333333,four_rate,number of turnovers committed per min,0.387096774193548
+0,Ricardo Whitehead,"Ahmad Muhammad,Anthony Mosley,Ricardo Whitehead",9.56666666666667,four_rate,number of turnovers committed per min,0.313588850174216
+0,Ricardo Whitehead,"Anthony Mosley,Jake Bruns,Ricardo Whitehead",4.15,four_rate,number of turnovers committed per min,0.240963855421687
+0,Ricardo Whitehead,"Anthony Mosley,Capriest Gardner,Ricardo Whitehead",5.80000000000001,four_rate,number of turnovers committed per min,0.344827586206896
+0,Kohl Linder,"Kohl Linder,Otis Reale,Zach Parduhn",0.583333333333334,four_rate,number of turnovers committed per min,1.71428571428571
+0,Kohl Linder,"Anthony Mosley,Jake Digiorgio,Kohl Linder",8.91666666666667,four_rate,number of turnovers committed per min,0.11214953271028
+0,Kohl Linder,"Anthony Mosley,Calvin Schmitz,Kohl Linder",3.23333333333333,four_rate,number of turnovers committed per min,0.0
+0,Kohl Linder,"Anthony Mosley,Capriest Gardner,Kohl Linder",1.51666666666667,four_rate,number of turnovers committed per min,0.0
+0,Kohl Linder,"Ahmad Muhammad,Anthony Mosley,Kohl Linder",6.10000000000001,four_rate,number of turnovers committed per min,0.0
+0,Zach Parduhn,"Jake Digiorgio,Ricardo Whitehead,Zach Parduhn",1.4,four_rate,number of turnovers committed per min,2.14285714285714
+0,Zach Parduhn,"Anthony Mosley,Max Hisatake,Zach Parduhn",3.25,four_rate,number of turnovers committed per min,0.615384615384615
+0,Zach Parduhn,"Anthony Mosley,Brett Ott,Zach Parduhn",2.81666666666667,four_rate,number of turnovers committed per min,0.0
+0,Zach Parduhn,"Anthony Mosley,Capriest Gardner,Zach Parduhn",2.81666666666667,four_rate,number of turnovers committed per min,0.0
+0,Zach Parduhn,"Anthony Mosley,Calvin Schmitz,Zach Parduhn",1.98333333333333,four_rate,number of turnovers committed per min,0.50420168067227
+0,Anthony Mosley,"Anthony Mosley,Calvin Schmitz,Kohl Linder",3.23333333333333,three_point_rate,number of 3 point attempts per minute,0.927835051546392
+0,Anthony Mosley,"Anthony Mosley,Cody Mattson,Jake Bruns",2.91666666666667,three_point_rate,number of 3 point attempts per minute,1.02857142857143
+0,Anthony Mosley,"Anthony Mosley,Jake Bruns,Kohl Linder",6.78333333333333,three_point_rate,number of 3 point attempts per minute,1.32678132678133
+0,Anthony Mosley,"Anthony Mosley,Calvin Schmitz,Capriest Gardner",2.41666666666667,three_point_rate,number of 3 point attempts per minute,1.24137931034483
+0,Anthony Mosley,"Anthony Mosley,Kohl Linder,Max Hisatake",3.26666666666667,three_point_rate,number of 3 point attempts per minute,1.83673469387755
+0,Ben Wagner,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,three_point_rate,number of 3 point attempts per minute,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,three_point_rate,number of 3 point attempts per minute,0.0
+0,Ben Wagner,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,three_point_rate,number of 3 point attempts per minute,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,three_point_rate,number of 3 point attempts per minute,0.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Kohl Linder",1.05,three_point_rate,number of 3 point attempts per minute,0.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Cody Mattson,Jalen Lomax",3.83333333333333,three_point_rate,number of 3 point attempts per minute,1.04347826086956
+0,Ahmad Muhammad,"Ahmad Muhammad,Jalen Lomax,Milos Dugalic",3.83333333333333,three_point_rate,number of 3 point attempts per minute,1.04347826086956
+0,Ahmad Muhammad,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,three_point_rate,number of 3 point attempts per minute,1.04347826086956
+0,Ahmad Muhammad,"Ahmad Muhammad,Calvin Schmitz,Kohl Linder",7.03333333333333,three_point_rate,number of 3 point attempts per minute,1.13744075829384
+0,Ahmad Muhammad,"Ahmad Muhammad,Kohl Linder,Max Hisatake",10.7333333333333,three_point_rate,number of 3 point attempts per minute,1.11801242236025
+0,Jake Bruns,"Cody Mattson,Jake Bruns,Ricardo Whitehead",4.41666666666667,three_point_rate,number of 3 point attempts per minute,0.90566037735849
+0,Jake Bruns,"Anthony Mosley,Cody Mattson,Jake Bruns",2.91666666666667,three_point_rate,number of 3 point attempts per minute,1.02857142857143
+0,Jake Bruns,"Anthony Mosley,Jake Bruns,Kohl Linder",6.78333333333333,three_point_rate,number of 3 point attempts per minute,1.32678132678133
+0,Jake Bruns,"Jake Bruns,Jalen Lomax,Milos Dugalic",0.666666666666667,three_point_rate,number of 3 point attempts per minute,1.5
+0,Jake Bruns,"Jake Bruns,Kohl Linder,Parker Joncus",10.2666666666667,three_point_rate,number of 3 point attempts per minute,1.26623376623377
+0,Jalen Lomax,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,three_point_rate,number of 3 point attempts per minute,1.04347826086956
+0,Jalen Lomax,"Jalen Lomax,Milos Dugalic,Parker Joncus",0.666666666666667,three_point_rate,number of 3 point attempts per minute,1.5
+0,Jalen Lomax,"Ahmad Muhammad,Cody Mattson,Jalen Lomax",3.83333333333333,three_point_rate,number of 3 point attempts per minute,1.04347826086956
+0,Jalen Lomax,"Jake Bruns,Jalen Lomax,Milos Dugalic",0.666666666666667,three_point_rate,number of 3 point attempts per minute,1.5
+0,Jalen Lomax,"Jalen Lomax,Kohl Linder,Milos Dugalic",0.666666666666667,three_point_rate,number of 3 point attempts per minute,1.5
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Kohl Linder",3.23333333333333,three_point_rate,number of 3 point attempts per minute,0.927835051546392
+0,Calvin Schmitz,"Ahmad Muhammad,Calvin Schmitz,Capriest Gardner",7.5,three_point_rate,number of 3 point attempts per minute,0.933333333333333
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Capriest Gardner",2.41666666666667,three_point_rate,number of 3 point attempts per minute,1.24137931034483
+0,Calvin Schmitz,"Ahmad Muhammad,Calvin Schmitz,Kohl Linder",7.03333333333333,three_point_rate,number of 3 point attempts per minute,1.13744075829384
+0,Calvin Schmitz,"Calvin Schmitz,Kohl Linder,Parker Joncus",0.816666666666666,three_point_rate,number of 3 point attempts per minute,1.22448979591837
+0,Capriest Gardner,"Ahmad Muhammad,Capriest Gardner,Jake Bruns",7.23333333333333,three_point_rate,number of 3 point attempts per minute,0.691244239631337
+0,Capriest Gardner,"Capriest Gardner,Jake Bruns,Parker Joncus",8.66666666666667,three_point_rate,number of 3 point attempts per minute,0.692307692307692
+0,Capriest Gardner,"Anthony Mosley,Calvin Schmitz,Capriest Gardner",2.41666666666667,three_point_rate,number of 3 point attempts per minute,1.24137931034483
+0,Capriest Gardner,"Ahmad Muhammad,Calvin Schmitz,Capriest Gardner",7.5,three_point_rate,number of 3 point attempts per minute,0.933333333333333
+0,Capriest Gardner,"Calvin Schmitz,Capriest Gardner,Jake Digiorgio",9.35,three_point_rate,number of 3 point attempts per minute,0.748663101604278
+0,Brett Ott,"Brett Ott,Milos Dugalic,Zach Parduhn",2.81666666666667,three_point_rate,number of 3 point attempts per minute,0.355029585798816
+0,Brett Ott,"Brett Ott,Calvin Schmitz,Zach Parduhn",2.58333333333333,three_point_rate,number of 3 point attempts per minute,0.387096774193548
+0,Brett Ott,"Brett Ott,Jake Digiorgio,Zach Parduhn",1.53333333333333,three_point_rate,number of 3 point attempts per minute,0.652173913043478
+0,Brett Ott,"Brett Ott,Jake Bruns,Zach Parduhn",1.53333333333333,three_point_rate,number of 3 point attempts per minute,0.652173913043478
+0,Brett Ott,"Brett Ott,Parker Joncus,Zach Parduhn",1.53333333333333,three_point_rate,number of 3 point attempts per minute,0.652173913043478
+0,Jake Digiorgio,"Anthony Mosley,Jake Digiorgio,Kohl Linder",8.91666666666667,three_point_rate,number of 3 point attempts per minute,0.785046728971963
+0,Jake Digiorgio,"Cody Mattson,Jake Digiorgio,Milos Dugalic",5.13333333333333,three_point_rate,number of 3 point attempts per minute,0.974025974025974
+0,Jake Digiorgio,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,three_point_rate,number of 3 point attempts per minute,1.04347826086956
+0,Jake Digiorgio,"Jake Digiorgio,Jalen Lomax,Milos Dugalic",3.83333333333333,three_point_rate,number of 3 point attempts per minute,1.04347826086956
+0,Jake Digiorgio,"Cody Mattson,Jake Digiorgio,Jalen Lomax",3.83333333333333,three_point_rate,number of 3 point attempts per minute,1.04347826086956
+0,Max Hisatake,"Jake Bruns,Kohl Linder,Max Hisatake",10.7333333333333,three_point_rate,number of 3 point attempts per minute,0.745341614906832
+0,Max Hisatake,"Calvin Schmitz,Kohl Linder,Max Hisatake",9.96666666666667,three_point_rate,number of 3 point attempts per minute,0.903010033444816
+0,Max Hisatake,"Ahmad Muhammad,Kohl Linder,Max Hisatake",10.7333333333333,three_point_rate,number of 3 point attempts per minute,1.11801242236025
+0,Max Hisatake,"Anthony Mosley,Kohl Linder,Max Hisatake",3.26666666666667,three_point_rate,number of 3 point attempts per minute,1.83673469387755
+0,Max Hisatake,"Kohl Linder,Max Hisatake,Parker Joncus",3.13333333333333,three_point_rate,number of 3 point attempts per minute,1.91489361702128
+0,Otis Reale,"Jake Bruns,Otis Reale,Parker Joncus",40.1,three_point_rate,number of 3 point attempts per minute,0.548628428927681
+0,Otis Reale,"Kohl Linder,Milos Dugalic,Otis Reale",21.7333333333333,three_point_rate,number of 3 point attempts per minute,0.552147239263804
+0,Otis Reale,"Ahmad Muhammad,Kohl Linder,Otis Reale",17.5833333333333,three_point_rate,number of 3 point attempts per minute,0.739336492890995
+0,Otis Reale,"Jake Digiorgio,Kohl Linder,Otis Reale",18.3666666666667,three_point_rate,number of 3 point attempts per minute,0.598911070780399
+0,Otis Reale,"Kohl Linder,Otis Reale,Parker Joncus",8.9,three_point_rate,number of 3 point attempts per minute,0.561797752808989
+0,Milos Dugalic,"Ahmad Muhammad,Jalen Lomax,Milos Dugalic",3.83333333333333,three_point_rate,number of 3 point attempts per minute,1.04347826086956
+0,Milos Dugalic,"Jalen Lomax,Milos Dugalic,Parker Joncus",0.666666666666667,three_point_rate,number of 3 point attempts per minute,1.5
+0,Milos Dugalic,"Jake Digiorgio,Jalen Lomax,Milos Dugalic",3.83333333333333,three_point_rate,number of 3 point attempts per minute,1.04347826086956
+0,Milos Dugalic,"Jake Bruns,Jalen Lomax,Milos Dugalic",0.666666666666667,three_point_rate,number of 3 point attempts per minute,1.5
+0,Milos Dugalic,"Jalen Lomax,Kohl Linder,Milos Dugalic",0.666666666666667,three_point_rate,number of 3 point attempts per minute,1.5
+0,Cody Mattson,"Cody Mattson,Jake Digiorgio,Milos Dugalic",5.13333333333333,three_point_rate,number of 3 point attempts per minute,0.974025974025974
+0,Cody Mattson,"Anthony Mosley,Cody Mattson,Jake Bruns",2.91666666666667,three_point_rate,number of 3 point attempts per minute,1.02857142857143
+0,Cody Mattson,"Ahmad Muhammad,Cody Mattson,Jalen Lomax",3.83333333333333,three_point_rate,number of 3 point attempts per minute,1.04347826086956
+0,Cody Mattson,"Cody Mattson,Jake Digiorgio,Jalen Lomax",3.83333333333333,three_point_rate,number of 3 point attempts per minute,1.04347826086956
+0,Cody Mattson,"Cody Mattson,Jalen Lomax,Milos Dugalic",3.83333333333333,three_point_rate,number of 3 point attempts per minute,1.04347826086956
+0,Parker Joncus,"Anthony Mosley,Kohl Linder,Parker Joncus",8.83333333333334,three_point_rate,number of 3 point attempts per minute,0.90566037735849
+0,Parker Joncus,"Calvin Schmitz,Kohl Linder,Parker Joncus",0.816666666666666,three_point_rate,number of 3 point attempts per minute,1.22448979591837
+0,Parker Joncus,"Jake Bruns,Kohl Linder,Parker Joncus",10.2666666666667,three_point_rate,number of 3 point attempts per minute,1.26623376623377
+0,Parker Joncus,"Jalen Lomax,Milos Dugalic,Parker Joncus",0.666666666666667,three_point_rate,number of 3 point attempts per minute,1.5
+0,Parker Joncus,"Kohl Linder,Max Hisatake,Parker Joncus",3.13333333333333,three_point_rate,number of 3 point attempts per minute,1.91489361702128
+0,Ricardo Whitehead,"Anthony Mosley,Calvin Schmitz,Ricardo Whitehead",7.13333333333333,three_point_rate,number of 3 point attempts per minute,0.700934579439252
+0,Ricardo Whitehead,"Anthony Mosley,Jake Bruns,Ricardo Whitehead",4.15,three_point_rate,number of 3 point attempts per minute,0.72289156626506
+0,Ricardo Whitehead,"Cody Mattson,Jake Bruns,Ricardo Whitehead",4.41666666666667,three_point_rate,number of 3 point attempts per minute,0.90566037735849
+0,Ricardo Whitehead,"Anthony Mosley,Cody Mattson,Ricardo Whitehead",6.55,three_point_rate,number of 3 point attempts per minute,0.763358778625954
+0,Ricardo Whitehead,"Calvin Schmitz,Cody Mattson,Ricardo Whitehead",5.91666666666667,three_point_rate,number of 3 point attempts per minute,0.845070422535211
+0,Kohl Linder,"Jake Bruns,Kohl Linder,Parker Joncus",10.2666666666667,three_point_rate,number of 3 point attempts per minute,1.26623376623377
+0,Kohl Linder,"Jalen Lomax,Kohl Linder,Milos Dugalic",0.666666666666667,three_point_rate,number of 3 point attempts per minute,1.5
+0,Kohl Linder,"Anthony Mosley,Jake Bruns,Kohl Linder",6.78333333333333,three_point_rate,number of 3 point attempts per minute,1.32678132678133
+0,Kohl Linder,"Anthony Mosley,Kohl Linder,Max Hisatake",3.26666666666667,three_point_rate,number of 3 point attempts per minute,1.83673469387755
+0,Kohl Linder,"Kohl Linder,Max Hisatake,Parker Joncus",3.13333333333333,three_point_rate,number of 3 point attempts per minute,1.91489361702128
+0,Zach Parduhn,"Jake Bruns,Ricardo Whitehead,Zach Parduhn",3.2,three_point_rate,number of 3 point attempts per minute,0.625
+0,Zach Parduhn,"Brett Ott,Jake Digiorgio,Zach Parduhn",1.53333333333333,three_point_rate,number of 3 point attempts per minute,0.652173913043478
+0,Zach Parduhn,"Brett Ott,Jake Bruns,Zach Parduhn",1.53333333333333,three_point_rate,number of 3 point attempts per minute,0.652173913043478
+0,Zach Parduhn,"Ahmad Muhammad,Jake Bruns,Zach Parduhn",2.73333333333333,three_point_rate,number of 3 point attempts per minute,0.731707317073171
+0,Zach Parduhn,"Brett Ott,Parker Joncus,Zach Parduhn",1.53333333333333,three_point_rate,number of 3 point attempts per minute,0.652173913043478
+0,Anthony Mosley,"Anthony Mosley,Max Hisatake,Ricardo Whitehead",4.3,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Anthony Mosley,"Anthony Mosley,Jake Bruns,Kohl Linder",6.78333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Anthony Mosley,"Anthony Mosley,Jake Bruns,Ricardo Whitehead",4.15,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Anthony Mosley,"Anthony Mosley,Cody Mattson,Jake Bruns",2.91666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Anthony Mosley,"Anthony Mosley,Cody Mattson,Ricardo Whitehead",6.55,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ben Wagner,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ben Wagner,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Kohl Linder",1.05,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Parker Joncus,Zach Parduhn",1.46666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Cody Mattson,Jake Bruns",4.56666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Jake Bruns,Zach Parduhn",2.73333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Kohl Linder,Ricardo Whitehead",4.40000000000001,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jake Bruns,"Jake Bruns,Kohl Linder,Ricardo Whitehead",2.1,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jake Bruns,"Anthony Mosley,Jake Bruns,Ricardo Whitehead",4.15,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jake Bruns,"Anthony Mosley,Jake Bruns,Kohl Linder",6.78333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jake Bruns,"Anthony Mosley,Cody Mattson,Jake Bruns",2.91666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jake Bruns,"Jake Bruns,Ricardo Whitehead,Zach Parduhn",3.2,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jalen Lomax,"Jalen Lomax,Kohl Linder,Parker Joncus",2.76666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jalen Lomax,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jalen Lomax,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jalen Lomax,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jalen Lomax,"Jalen Lomax,Kohl Linder,Ricardo Whitehead",2.1,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Calvin Schmitz,"Calvin Schmitz,Ricardo Whitehead,Zach Parduhn",3.76666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Cody Mattson",6.75000000000001,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Capriest Gardner",2.41666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Otis Reale",1.78333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Calvin Schmitz,"Calvin Schmitz,Kohl Linder,Zach Parduhn",4.2,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Capriest Gardner,"Capriest Gardner,Cody Mattson,Zach Parduhn",1.85,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Capriest Gardner,"Ahmad Muhammad,Calvin Schmitz,Capriest Gardner",7.5,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Capriest Gardner,"Anthony Mosley,Calvin Schmitz,Capriest Gardner",2.41666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Capriest Gardner,"Anthony Mosley,Capriest Gardner,Ricardo Whitehead",5.80000000000001,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Capriest Gardner,"Capriest Gardner,Parker Joncus,Zach Parduhn",2.48333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Brett Ott,"Brett Ott,Capriest Gardner,Parker Joncus",1.66666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Brett Ott,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Brett Ott,"Ben Wagner,Brett Ott,Kohl Linder",1.05,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Brett Ott,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Brett Ott,"Brett Ott,Jake Digiorgio,Kohl Linder",0.899999999999999,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jake Digiorgio,"Cody Mattson,Jake Digiorgio,Parker Joncus",1.65,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jake Digiorgio,"Cody Mattson,Jake Bruns,Jake Digiorgio",5.43333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jake Digiorgio,"Jake Digiorgio,Jalen Lomax,Milos Dugalic",3.83333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jake Digiorgio,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Jake Digiorgio,"Cody Mattson,Jake Digiorgio,Kohl Linder",1.55,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Max Hisatake,"Max Hisatake,Ricardo Whitehead,Zach Parduhn",1.73333333333334,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Max Hisatake,"Jake Bruns,Max Hisatake,Zach Parduhn",5.4,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Max Hisatake,"Ahmad Muhammad,Max Hisatake,Zach Parduhn",5.38333333333334,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Max Hisatake,"Anthony Mosley,Max Hisatake,Ricardo Whitehead",4.3,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Max Hisatake,"Kohl Linder,Max Hisatake,Zach Parduhn",1.61666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Otis Reale,"Kohl Linder,Otis Reale,Ricardo Whitehead",4.78333333333334,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Otis Reale,"Ahmad Muhammad,Cody Mattson,Otis Reale",3.13333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Otis Reale,"Ahmad Muhammad,Capriest Gardner,Otis Reale",2.33333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Otis Reale,"Anthony Mosley,Calvin Schmitz,Otis Reale",1.78333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Otis Reale,"Kohl Linder,Otis Reale,Zach Parduhn",0.583333333333334,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Milos Dugalic,"Milos Dugalic,Parker Joncus,Zach Parduhn",0.316666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Milos Dugalic,"Ahmad Muhammad,Milos Dugalic,Zach Parduhn",4.13333333333334,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Milos Dugalic,"Anthony Mosley,Calvin Schmitz,Milos Dugalic",2.05,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Milos Dugalic,"Ahmad Muhammad,Jalen Lomax,Milos Dugalic",3.83333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Milos Dugalic,"Kohl Linder,Milos Dugalic,Ricardo Whitehead",4.23333333333334,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Cody Mattson,"Cody Mattson,Jake Digiorgio,Parker Joncus",1.65,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Cody Mattson,"Anthony Mosley,Cody Mattson,Ricardo Whitehead",6.55,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Cody Mattson,"Anthony Mosley,Calvin Schmitz,Cody Mattson",6.75000000000001,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Cody Mattson,"Anthony Mosley,Cody Mattson,Jake Bruns",2.91666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Cody Mattson,"Cody Mattson,Jake Digiorgio,Kohl Linder",1.55,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Parker Joncus,"Kohl Linder,Parker Joncus,Ricardo Whitehead",3.61666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Parker Joncus,"Jake Bruns,Parker Joncus,Ricardo Whitehead",7.93333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Parker Joncus,"Ahmad Muhammad,Parker Joncus,Zach Parduhn",1.46666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Parker Joncus,"Jake Bruns,Jalen Lomax,Parker Joncus",2.76666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Parker Joncus,"Parker Joncus,Ricardo Whitehead,Zach Parduhn",1.7,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ricardo Whitehead,"Kohl Linder,Parker Joncus,Ricardo Whitehead",3.61666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ricardo Whitehead,"Anthony Mosley,Jake Bruns,Ricardo Whitehead",4.15,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ricardo Whitehead,"Anthony Mosley,Max Hisatake,Ricardo Whitehead",4.3,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ricardo Whitehead,"Anthony Mosley,Capriest Gardner,Ricardo Whitehead",5.80000000000001,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Ricardo Whitehead,"Parker Joncus,Ricardo Whitehead,Zach Parduhn",1.7,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Kohl Linder,"Kohl Linder,Milos Dugalic,Ricardo Whitehead",4.23333333333334,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Kohl Linder,"Ben Wagner,Brett Ott,Kohl Linder",1.05,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Kohl Linder,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Kohl Linder,"Anthony Mosley,Jake Bruns,Kohl Linder",6.78333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Kohl Linder,"Kohl Linder,Parker Joncus,Ricardo Whitehead",3.61666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Zach Parduhn,"Milos Dugalic,Parker Joncus,Zach Parduhn",0.316666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Zach Parduhn,"Ahmad Muhammad,Calvin Schmitz,Zach Parduhn",4.58333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Zach Parduhn,"Ahmad Muhammad,Capriest Gardner,Zach Parduhn",1.26666666666667,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Zach Parduhn,"Ahmad Muhammad,Jake Bruns,Zach Parduhn",2.73333333333333,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Zach Parduhn,"Parker Joncus,Ricardo Whitehead,Zach Parduhn",1.7,deffensive_rebound_rate,def_rebound/(def_rebound+opponent_off_rebound,1.0
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Kohl Linder",6.10000000000001,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Anthony Mosley,"Anthony Mosley,Parker Joncus,Ricardo Whitehead",6.38333333333334,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Anthony Mosley,"Anthony Mosley,Calvin Schmitz,Parker Joncus",7.11666666666666,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.571428571428571
+0,Anthony Mosley,"Anthony Mosley,Calvin Schmitz,Ricardo Whitehead",7.13333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.571428571428571
+0,Anthony Mosley,"Anthony Mosley,Jake Digiorgio,Ricardo Whitehead",10.3333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.545454545454545
+0,Ben Wagner,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Ben Wagner,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Ben Wagner,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Ben Wagner,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Ben Wagner,"Ben Wagner,Brett Ott,Kohl Linder",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Ahmad Muhammad,"Ahmad Muhammad,Anthony Mosley,Kohl Linder",6.10000000000001,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Ahmad Muhammad,"Ahmad Muhammad,Cody Mattson,Otis Reale",3.13333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Ahmad Muhammad,"Ahmad Muhammad,Jalen Lomax,Milos Dugalic",3.83333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Ahmad Muhammad,"Ahmad Muhammad,Calvin Schmitz,Kohl Linder",7.03333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Ahmad Muhammad,"Ahmad Muhammad,Kohl Linder,Max Hisatake",10.7333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.583333333333333
+0,Jake Bruns,"Jake Bruns,Milos Dugalic,Zach Parduhn",6.31666666666667,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Jake Bruns,"Jake Bruns,Max Hisatake,Zach Parduhn",5.4,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Jake Bruns,"Capriest Gardner,Jake Bruns,Zach Parduhn",6.96666666666666,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Jake Bruns,"Calvin Schmitz,Capriest Gardner,Jake Bruns",6.0,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Jake Bruns,"Cody Mattson,Jake Bruns,Zach Parduhn",3.0,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,1.0
+0,Jalen Lomax,"Cody Mattson,Jake Digiorgio,Jalen Lomax",3.83333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Jalen Lomax,"Cody Mattson,Jalen Lomax,Milos Dugalic",3.83333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Jalen Lomax,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Jalen Lomax,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Jalen Lomax,"Ben Wagner,Calvin Schmitz,Jalen Lomax",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Calvin Schmitz,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Calvin Schmitz,"Ben Wagner,Calvin Schmitz,Jalen Lomax",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Calvin Schmitz,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Calvin Schmitz,"Calvin Schmitz,Cody Mattson,Zach Parduhn",3.0,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,1.0
+0,Calvin Schmitz,"Calvin Schmitz,Parker Joncus,Ricardo Whitehead",3.43333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.75
+0,Capriest Gardner,"Capriest Gardner,Max Hisatake,Milos Dugalic",18.4333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Capriest Gardner,"Capriest Gardner,Jake Bruns,Zach Parduhn",6.96666666666666,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Capriest Gardner,"Calvin Schmitz,Capriest Gardner,Zach Parduhn",3.63333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Capriest Gardner,"Calvin Schmitz,Capriest Gardner,Jake Bruns",6.0,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Capriest Gardner,"Capriest Gardner,Max Hisatake,Zach Parduhn",0.85,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Brett Ott,"Brett Ott,Jalen Lomax,Kohl Linder",4.91666666666666,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.4
+0,Brett Ott,"Brett Ott,Calvin Schmitz,Kohl Linder",4.53333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.4
+0,Brett Ott,"Ben Wagner,Brett Ott,Kohl Linder",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Brett Ott,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Brett Ott,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Jake Digiorgio,"Cody Mattson,Jake Digiorgio,Parker Joncus",1.65,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Jake Digiorgio,"Anthony Mosley,Jake Digiorgio,Ricardo Whitehead",10.3333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.545454545454545
+0,Jake Digiorgio,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Jake Digiorgio,"Calvin Schmitz,Jake Digiorgio,Zach Parduhn",18.4833333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.6
+0,Jake Digiorgio,"Cody Mattson,Jake Digiorgio,Zach Parduhn",2.73333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,1.0
+0,Max Hisatake,"Max Hisatake,Milos Dugalic,Zach Parduhn",7.41666666666668,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Max Hisatake,"Ahmad Muhammad,Kohl Linder,Max Hisatake",10.7333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.583333333333333
+0,Max Hisatake,"Calvin Schmitz,Max Hisatake,Ricardo Whitehead",5.51666666666667,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Max Hisatake,"Capriest Gardner,Max Hisatake,Zach Parduhn",0.85,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Max Hisatake,"Calvin Schmitz,Max Hisatake,Zach Parduhn",10.3166666666667,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.6
+0,Otis Reale,"Ahmad Muhammad,Kohl Linder,Otis Reale",17.5833333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.470588235294118
+0,Otis Reale,"Capriest Gardner,Max Hisatake,Otis Reale",11.5333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Otis Reale,"Cody Mattson,Jake Digiorgio,Otis Reale",4.58333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Otis Reale,"Ahmad Muhammad,Cody Mattson,Otis Reale",3.13333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Otis Reale,"Jake Digiorgio,Kohl Linder,Otis Reale",18.3666666666667,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Milos Dugalic,"Max Hisatake,Milos Dugalic,Zach Parduhn",7.41666666666668,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Milos Dugalic,"Jake Bruns,Milos Dugalic,Zach Parduhn",6.31666666666667,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Milos Dugalic,"Ahmad Muhammad,Jalen Lomax,Milos Dugalic",3.83333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Milos Dugalic,"Calvin Schmitz,Milos Dugalic,Zach Parduhn",6.81666666666667,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.6
+0,Milos Dugalic,"Kohl Linder,Milos Dugalic,Parker Joncus",1.21666666666667,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Cody Mattson,"Cody Mattson,Jake Digiorgio,Parker Joncus",1.65,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Cody Mattson,"Calvin Schmitz,Cody Mattson,Zach Parduhn",3.0,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,1.0
+0,Cody Mattson,"Ahmad Muhammad,Cody Mattson,Otis Reale",3.13333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Cody Mattson,"Cody Mattson,Jake Bruns,Zach Parduhn",3.0,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,1.0
+0,Cody Mattson,"Cody Mattson,Jake Digiorgio,Zach Parduhn",2.73333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,1.0
+0,Parker Joncus,"Anthony Mosley,Parker Joncus,Ricardo Whitehead",6.38333333333334,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Parker Joncus,"Cody Mattson,Jake Digiorgio,Parker Joncus",1.65,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Parker Joncus,"Anthony Mosley,Calvin Schmitz,Parker Joncus",7.11666666666666,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.571428571428571
+0,Parker Joncus,"Calvin Schmitz,Parker Joncus,Ricardo Whitehead",3.43333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.75
+0,Parker Joncus,"Kohl Linder,Milos Dugalic,Parker Joncus",1.21666666666667,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Ricardo Whitehead,"Anthony Mosley,Parker Joncus,Ricardo Whitehead",6.38333333333334,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.5
+0,Ricardo Whitehead,"Anthony Mosley,Jake Digiorgio,Ricardo Whitehead",10.3333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.545454545454545
+0,Ricardo Whitehead,"Anthony Mosley,Calvin Schmitz,Ricardo Whitehead",7.13333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.571428571428571
+0,Ricardo Whitehead,"Calvin Schmitz,Max Hisatake,Ricardo Whitehead",5.51666666666667,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Ricardo Whitehead,"Calvin Schmitz,Parker Joncus,Ricardo Whitehead",3.43333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.75
+0,Kohl Linder,"Ahmad Muhammad,Kohl Linder,Max Hisatake",10.7333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.583333333333333
+0,Kohl Linder,"Ahmad Muhammad,Calvin Schmitz,Kohl Linder",7.03333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Kohl Linder,"Ben Wagner,Brett Ott,Kohl Linder",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Kohl Linder,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Kohl Linder,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Zach Parduhn,"Calvin Schmitz,Max Hisatake,Zach Parduhn",10.3166666666667,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.6
+0,Zach Parduhn,"Capriest Gardner,Max Hisatake,Zach Parduhn",0.85,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,0.666666666666667
+0,Zach Parduhn,"Calvin Schmitz,Cody Mattson,Zach Parduhn",3.0,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,1.0
+0,Zach Parduhn,"Cody Mattson,Jake Bruns,Zach Parduhn",3.0,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,1.0
+0,Zach Parduhn,"Cody Mattson,Jake Digiorgio,Zach Parduhn",2.73333333333333,offensive_rebound_rate,off_rebound/(off_rebound+opponent_def_rebound,1.0
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Calvin Schmitz",29.1666666666667,free_throw_percentage,average free throw percentage,0.833333333333333
+0,Anthony Mosley,"Anthony Mosley,Jake Bruns,Milos Dugalic",21.1,free_throw_percentage,average free throw percentage,0.9
+0,Anthony Mosley,"Anthony Mosley,Capriest Gardner,Jake Bruns",5.95,free_throw_percentage,average free throw percentage,1.0
+0,Anthony Mosley,"Anthony Mosley,Calvin Schmitz,Jake Bruns",18.9166666666667,free_throw_percentage,average free throw percentage,1.0
+0,Anthony Mosley,"Anthony Mosley,Capriest Gardner,Jake Digiorgio",17.7,free_throw_percentage,average free throw percentage,1.0
+0,Ben Wagner,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Ben Wagner,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Ben Wagner,"Ben Wagner,Brett Ott,Kohl Linder",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Cody Mattson,Milos Dugalic",5.76666666666667,free_throw_percentage,average free throw percentage,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Jalen Lomax,Milos Dugalic",3.83333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Jake Bruns,Otis Reale",8.03333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Cody Mattson,Parker Joncus",0.199999999999999,free_throw_percentage,average free throw percentage,1.0
+0,Jake Bruns,"Jake Bruns,Otis Reale,Ricardo Whitehead",9.46666666666667,free_throw_percentage,average free throw percentage,1.0
+0,Jake Bruns,"Ahmad Muhammad,Jake Bruns,Otis Reale",8.03333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Jake Bruns,"Anthony Mosley,Calvin Schmitz,Jake Bruns",18.9166666666667,free_throw_percentage,average free throw percentage,1.0
+0,Jake Bruns,"Anthony Mosley,Capriest Gardner,Jake Bruns",5.95,free_throw_percentage,average free throw percentage,1.0
+0,Jake Bruns,"Jake Bruns,Kohl Linder,Otis Reale",12.4333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Jalen Lomax,"Cody Mattson,Jake Digiorgio,Jalen Lomax",3.83333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Jalen Lomax,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Jalen Lomax,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Jalen Lomax,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Jalen Lomax,"Cody Mattson,Jalen Lomax,Milos Dugalic",3.83333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Calvin Schmitz,"Calvin Schmitz,Kohl Linder,Max Hisatake",9.96666666666667,free_throw_percentage,average free throw percentage,1.0
+0,Calvin Schmitz,"Ben Wagner,Calvin Schmitz,Jalen Lomax",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Calvin Schmitz,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Jake Bruns",18.9166666666667,free_throw_percentage,average free throw percentage,1.0
+0,Calvin Schmitz,"Calvin Schmitz,Kohl Linder,Milos Dugalic",10.65,free_throw_percentage,average free throw percentage,1.0
+0,Capriest Gardner,"Calvin Schmitz,Capriest Gardner,Max Hisatake",2.8,free_throw_percentage,average free throw percentage,1.0
+0,Capriest Gardner,"Ahmad Muhammad,Calvin Schmitz,Capriest Gardner",7.5,free_throw_percentage,average free throw percentage,1.0
+0,Capriest Gardner,"Anthony Mosley,Capriest Gardner,Jake Bruns",5.95,free_throw_percentage,average free throw percentage,1.0
+0,Capriest Gardner,"Anthony Mosley,Capriest Gardner,Jake Digiorgio",17.7,free_throw_percentage,average free throw percentage,1.0
+0,Capriest Gardner,"Calvin Schmitz,Capriest Gardner,Parker Joncus",3.06666666666667,free_throw_percentage,average free throw percentage,1.0
+0,Brett Ott,"Brett Ott,Calvin Schmitz,Jalen Lomax",3.63333333333333,free_throw_percentage,average free throw percentage,0.666666666666667
+0,Brett Ott,"Brett Ott,Jalen Lomax,Kohl Linder",4.91666666666666,free_throw_percentage,average free throw percentage,0.666666666666667
+0,Brett Ott,"Ben Wagner,Brett Ott,Kohl Linder",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Brett Ott,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Brett Ott,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Jake Digiorgio,"Cody Mattson,Jake Digiorgio,Milos Dugalic",5.13333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Jake Digiorgio,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Jake Digiorgio,"Ahmad Muhammad,Capriest Gardner,Jake Digiorgio",14.9166666666667,free_throw_percentage,average free throw percentage,1.0
+0,Jake Digiorgio,"Anthony Mosley,Capriest Gardner,Jake Digiorgio",17.7,free_throw_percentage,average free throw percentage,1.0
+0,Jake Digiorgio,"Jake Digiorgio,Kohl Linder,Milos Dugalic",14.2,free_throw_percentage,average free throw percentage,1.0
+0,Max Hisatake,"Kohl Linder,Max Hisatake,Otis Reale",10.3833333333333,free_throw_percentage,average free throw percentage,1.0
+0,Max Hisatake,"Ahmad Muhammad,Max Hisatake,Ricardo Whitehead",8.33333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Max Hisatake,"Capriest Gardner,Jake Bruns,Max Hisatake",13.9333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Max Hisatake,"Ahmad Muhammad,Cody Mattson,Max Hisatake",10.2833333333333,free_throw_percentage,average free throw percentage,1.0
+0,Max Hisatake,"Max Hisatake,Milos Dugalic,Ricardo Whitehead",8.45,free_throw_percentage,average free throw percentage,1.0
+0,Otis Reale,"Kohl Linder,Max Hisatake,Otis Reale",10.3833333333333,free_throw_percentage,average free throw percentage,1.0
+0,Otis Reale,"Ahmad Muhammad,Kohl Linder,Otis Reale",17.5833333333333,free_throw_percentage,average free throw percentage,1.0
+0,Otis Reale,"Ahmad Muhammad,Jake Bruns,Otis Reale",8.03333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Otis Reale,"Ahmad Muhammad,Cody Mattson,Otis Reale",3.13333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Otis Reale,"Kohl Linder,Milos Dugalic,Otis Reale",21.7333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Milos Dugalic,"Max Hisatake,Milos Dugalic,Ricardo Whitehead",8.45,free_throw_percentage,average free throw percentage,1.0
+0,Milos Dugalic,"Ahmad Muhammad,Cody Mattson,Milos Dugalic",5.76666666666667,free_throw_percentage,average free throw percentage,1.0
+0,Milos Dugalic,"Ahmad Muhammad,Jalen Lomax,Milos Dugalic",3.83333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Milos Dugalic,"Ahmad Muhammad,Capriest Gardner,Milos Dugalic",9.73333333333334,free_throw_percentage,average free throw percentage,1.0
+0,Milos Dugalic,"Kohl Linder,Milos Dugalic,Otis Reale",21.7333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Cody Mattson,"Cody Mattson,Jalen Lomax,Milos Dugalic",3.83333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Cody Mattson,"Ahmad Muhammad,Cody Mattson,Jake Digiorgio",17.5666666666667,free_throw_percentage,average free throw percentage,1.0
+0,Cody Mattson,"Ahmad Muhammad,Cody Mattson,Max Hisatake",10.2833333333333,free_throw_percentage,average free throw percentage,1.0
+0,Cody Mattson,"Ahmad Muhammad,Cody Mattson,Otis Reale",3.13333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Cody Mattson,"Cody Mattson,Jake Digiorgio,Milos Dugalic",5.13333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Parker Joncus,"Ahmad Muhammad,Capriest Gardner,Parker Joncus",13.8166666666667,free_throw_percentage,average free throw percentage,0.8
+0,Parker Joncus,"Capriest Gardner,Max Hisatake,Parker Joncus",15.4333333333333,free_throw_percentage,average free throw percentage,0.8
+0,Parker Joncus,"Calvin Schmitz,Capriest Gardner,Parker Joncus",3.06666666666667,free_throw_percentage,average free throw percentage,1.0
+0,Parker Joncus,"Ahmad Muhammad,Cody Mattson,Parker Joncus",0.199999999999999,free_throw_percentage,average free throw percentage,1.0
+0,Parker Joncus,"Ahmad Muhammad,Jake Bruns,Parker Joncus",40.1833333333333,free_throw_percentage,average free throw percentage,0.875
+0,Ricardo Whitehead,"Jake Bruns,Milos Dugalic,Ricardo Whitehead",19.6666666666667,free_throw_percentage,average free throw percentage,0.833333333333333
+0,Ricardo Whitehead,"Jake Bruns,Otis Reale,Ricardo Whitehead",9.46666666666667,free_throw_percentage,average free throw percentage,1.0
+0,Ricardo Whitehead,"Jake Bruns,Max Hisatake,Ricardo Whitehead",8.16666666666667,free_throw_percentage,average free throw percentage,1.0
+0,Ricardo Whitehead,"Ahmad Muhammad,Max Hisatake,Ricardo Whitehead",8.33333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Ricardo Whitehead,"Max Hisatake,Milos Dugalic,Ricardo Whitehead",8.45,free_throw_percentage,average free throw percentage,1.0
+0,Kohl Linder,"Kohl Linder,Max Hisatake,Otis Reale",10.3833333333333,free_throw_percentage,average free throw percentage,1.0
+0,Kohl Linder,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Kohl Linder,"Ben Wagner,Brett Ott,Kohl Linder",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Kohl Linder,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,free_throw_percentage,average free throw percentage,1.0
+0,Kohl Linder,"Kohl Linder,Milos Dugalic,Otis Reale",21.7333333333333,free_throw_percentage,average free throw percentage,1.0
+0,Zach Parduhn,"Brett Ott,Kohl Linder,Zach Parduhn",3.86666666666666,free_throw_percentage,average free throw percentage,0.5
+0,Zach Parduhn,"Anthony Mosley,Milos Dugalic,Zach Parduhn",4.08333333333334,free_throw_percentage,average free throw percentage,0.5
+0,Zach Parduhn,"Anthony Mosley,Brett Ott,Zach Parduhn",2.81666666666667,free_throw_percentage,average free throw percentage,0.5
+0,Zach Parduhn,"Anthony Mosley,Capriest Gardner,Zach Parduhn",2.81666666666667,free_throw_percentage,average free throw percentage,0.5
+0,Zach Parduhn,"Parker Joncus,Ricardo Whitehead,Zach Parduhn",1.7,free_throw_percentage,average free throw percentage,0.5
+0,Anthony Mosley,"Ahmad Muhammad,Anthony Mosley,Capriest Gardner",18.0,ast_rate,Assist(s) per minute,0.388888888888889
+0,Anthony Mosley,"Anthony Mosley,Max Hisatake,Milos Dugalic",80.4333333333334,ast_rate,Assist(s) per minute,0.397845006216328
+0,Anthony Mosley,"Anthony Mosley,Calvin Schmitz,Milos Dugalic",2.05,ast_rate,Assist(s) per minute,0.487804878048781
+0,Anthony Mosley,"Anthony Mosley,Jake Bruns,Milos Dugalic",21.1,ast_rate,Assist(s) per minute,0.52132701421801
+0,Anthony Mosley,"Anthony Mosley,Calvin Schmitz,Capriest Gardner",2.41666666666667,ast_rate,Assist(s) per minute,0.413793103448275
+0,Ben Wagner,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Ben Wagner,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Ben Wagner,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Ben Wagner,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Ben Wagner,"Ben Wagner,Brett Ott,Kohl Linder",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Ahmad Muhammad,"Ahmad Muhammad,Cody Mattson,Milos Dugalic",5.76666666666667,ast_rate,Assist(s) per minute,0.69364161849711
+0,Ahmad Muhammad,"Ahmad Muhammad,Jake Bruns,Zach Parduhn",2.73333333333333,ast_rate,Assist(s) per minute,0.731707317073171
+0,Ahmad Muhammad,"Ahmad Muhammad,Cody Mattson,Jalen Lomax",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Ahmad Muhammad,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Ahmad Muhammad,"Ahmad Muhammad,Jalen Lomax,Milos Dugalic",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Jake Bruns,"Ahmad Muhammad,Jake Bruns,Kohl Linder",14.25,ast_rate,Assist(s) per minute,0.56140350877193
+0,Jake Bruns,"Brett Ott,Jake Bruns,Parker Joncus",3.2,ast_rate,Assist(s) per minute,0.624999999999999
+0,Jake Bruns,"Brett Ott,Capriest Gardner,Jake Bruns",1.66666666666667,ast_rate,Assist(s) per minute,0.599999999999999
+0,Jake Bruns,"Ahmad Muhammad,Jake Bruns,Zach Parduhn",2.73333333333333,ast_rate,Assist(s) per minute,0.731707317073171
+0,Jake Bruns,"Brett Ott,Jake Bruns,Zach Parduhn",1.53333333333333,ast_rate,Assist(s) per minute,0.652173913043478
+0,Jalen Lomax,"Cody Mattson,Jake Digiorgio,Jalen Lomax",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Jalen Lomax,"Cody Mattson,Jalen Lomax,Milos Dugalic",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Jalen Lomax,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Jalen Lomax,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Jalen Lomax,"Ben Wagner,Calvin Schmitz,Jalen Lomax",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Calvin Schmitz,"Calvin Schmitz,Capriest Gardner,Parker Joncus",3.06666666666667,ast_rate,Assist(s) per minute,0.652173913043478
+0,Calvin Schmitz,"Calvin Schmitz,Capriest Gardner,Max Hisatake",2.8,ast_rate,Assist(s) per minute,0.714285714285714
+0,Calvin Schmitz,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Calvin Schmitz,"Ben Wagner,Calvin Schmitz,Jalen Lomax",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Calvin Schmitz,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Capriest Gardner,"Brett Ott,Capriest Gardner,Jake Digiorgio",1.66666666666667,ast_rate,Assist(s) per minute,0.599999999999999
+0,Capriest Gardner,"Brett Ott,Capriest Gardner,Jake Bruns",1.66666666666667,ast_rate,Assist(s) per minute,0.599999999999999
+0,Capriest Gardner,"Calvin Schmitz,Capriest Gardner,Max Hisatake",2.8,ast_rate,Assist(s) per minute,0.714285714285714
+0,Capriest Gardner,"Calvin Schmitz,Capriest Gardner,Parker Joncus",3.06666666666667,ast_rate,Assist(s) per minute,0.652173913043478
+0,Capriest Gardner,"Brett Ott,Capriest Gardner,Parker Joncus",1.66666666666667,ast_rate,Assist(s) per minute,0.599999999999999
+0,Brett Ott,"Brett Ott,Parker Joncus,Zach Parduhn",1.53333333333333,ast_rate,Assist(s) per minute,0.652173913043478
+0,Brett Ott,"Brett Ott,Cody Mattson,Kohl Linder",1.28333333333333,ast_rate,Assist(s) per minute,0.779220779220781
+0,Brett Ott,"Ben Wagner,Brett Ott,Kohl Linder",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Brett Ott,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Brett Ott,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Jake Digiorgio,"Brett Ott,Jake Digiorgio,Zach Parduhn",1.53333333333333,ast_rate,Assist(s) per minute,0.652173913043478
+0,Jake Digiorgio,"Cody Mattson,Jake Digiorgio,Milos Dugalic",5.13333333333333,ast_rate,Assist(s) per minute,0.779220779220779
+0,Jake Digiorgio,"Jake Digiorgio,Jalen Lomax,Milos Dugalic",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Jake Digiorgio,"Ahmad Muhammad,Jake Digiorgio,Jalen Lomax",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Jake Digiorgio,"Cody Mattson,Jake Digiorgio,Jalen Lomax",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Max Hisatake,"Ahmad Muhammad,Kohl Linder,Max Hisatake",10.7333333333333,ast_rate,Assist(s) per minute,0.559006211180124
+0,Max Hisatake,"Max Hisatake,Ricardo Whitehead,Zach Parduhn",1.73333333333334,ast_rate,Assist(s) per minute,0.576923076923076
+0,Max Hisatake,"Calvin Schmitz,Capriest Gardner,Max Hisatake",2.8,ast_rate,Assist(s) per minute,0.714285714285714
+0,Max Hisatake,"Kohl Linder,Max Hisatake,Parker Joncus",3.13333333333333,ast_rate,Assist(s) per minute,0.957446808510638
+0,Max Hisatake,"Max Hisatake,Parker Joncus,Zach Parduhn",3.1,ast_rate,Assist(s) per minute,0.645161290322581
+0,Otis Reale,"Calvin Schmitz,Max Hisatake,Otis Reale",170.166666666667,ast_rate,Assist(s) per minute,0.346718903036239
+0,Otis Reale,"Jake Bruns,Otis Reale,Parker Joncus",40.1,ast_rate,Assist(s) per minute,0.349127182044888
+0,Otis Reale,"Ahmad Muhammad,Cody Mattson,Otis Reale",3.13333333333333,ast_rate,Assist(s) per minute,0.638297872340426
+0,Otis Reale,"Calvin Schmitz,Otis Reale,Parker Joncus",142.25,ast_rate,Assist(s) per minute,0.379613356766257
+0,Otis Reale,"Cody Mattson,Jake Digiorgio,Otis Reale",4.58333333333333,ast_rate,Assist(s) per minute,0.436363636363636
+0,Milos Dugalic,"Milos Dugalic,Ricardo Whitehead,Zach Parduhn",1.33333333333334,ast_rate,Assist(s) per minute,0.749999999999998
+0,Milos Dugalic,"Cody Mattson,Jake Digiorgio,Milos Dugalic",5.13333333333333,ast_rate,Assist(s) per minute,0.779220779220779
+0,Milos Dugalic,"Cody Mattson,Jalen Lomax,Milos Dugalic",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Milos Dugalic,"Ahmad Muhammad,Jalen Lomax,Milos Dugalic",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Milos Dugalic,"Jake Digiorgio,Jalen Lomax,Milos Dugalic",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Cody Mattson,"Brett Ott,Cody Mattson,Kohl Linder",1.28333333333333,ast_rate,Assist(s) per minute,0.779220779220781
+0,Cody Mattson,"Cody Mattson,Kohl Linder,Zach Parduhn",1.28333333333333,ast_rate,Assist(s) per minute,0.779220779220781
+0,Cody Mattson,"Ahmad Muhammad,Cody Mattson,Jalen Lomax",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Cody Mattson,"Cody Mattson,Jake Digiorgio,Jalen Lomax",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Cody Mattson,"Cody Mattson,Jalen Lomax,Milos Dugalic",3.83333333333333,ast_rate,Assist(s) per minute,0.782608695652174
+0,Parker Joncus,"Max Hisatake,Parker Joncus,Zach Parduhn",3.1,ast_rate,Assist(s) per minute,0.645161290322581
+0,Parker Joncus,"Brett Ott,Parker Joncus,Zach Parduhn",1.53333333333333,ast_rate,Assist(s) per minute,0.652173913043478
+0,Parker Joncus,"Ahmad Muhammad,Parker Joncus,Zach Parduhn",1.46666666666667,ast_rate,Assist(s) per minute,0.681818181818182
+0,Parker Joncus,"Kohl Linder,Max Hisatake,Parker Joncus",3.13333333333333,ast_rate,Assist(s) per minute,0.957446808510638
+0,Parker Joncus,"Calvin Schmitz,Capriest Gardner,Parker Joncus",3.06666666666667,ast_rate,Assist(s) per minute,0.652173913043478
+0,Ricardo Whitehead,"Ahmad Muhammad,Ricardo Whitehead,Zach Parduhn",3.13333333333334,ast_rate,Assist(s) per minute,0.319148936170213
+0,Ricardo Whitehead,"Anthony Mosley,Capriest Gardner,Ricardo Whitehead",5.80000000000001,ast_rate,Assist(s) per minute,0.344827586206896
+0,Ricardo Whitehead,"Calvin Schmitz,Max Hisatake,Ricardo Whitehead",5.51666666666667,ast_rate,Assist(s) per minute,0.362537764350453
+0,Ricardo Whitehead,"Max Hisatake,Ricardo Whitehead,Zach Parduhn",1.73333333333334,ast_rate,Assist(s) per minute,0.576923076923076
+0,Ricardo Whitehead,"Milos Dugalic,Ricardo Whitehead,Zach Parduhn",1.33333333333334,ast_rate,Assist(s) per minute,0.749999999999998
+0,Kohl Linder,"Cody Mattson,Kohl Linder,Zach Parduhn",1.28333333333333,ast_rate,Assist(s) per minute,0.779220779220781
+0,Kohl Linder,"Ben Wagner,Brett Ott,Kohl Linder",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Kohl Linder,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Kohl Linder,"Kohl Linder,Max Hisatake,Parker Joncus",3.13333333333333,ast_rate,Assist(s) per minute,0.957446808510638
+0,Kohl Linder,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,ast_rate,Assist(s) per minute,0.952380952380952
+0,Zach Parduhn,"Brett Ott,Jake Bruns,Zach Parduhn",1.53333333333333,ast_rate,Assist(s) per minute,0.652173913043478
+0,Zach Parduhn,"Ahmad Muhammad,Jake Bruns,Zach Parduhn",2.73333333333333,ast_rate,Assist(s) per minute,0.731707317073171
+0,Zach Parduhn,"Ahmad Muhammad,Parker Joncus,Zach Parduhn",1.46666666666667,ast_rate,Assist(s) per minute,0.681818181818182
+0,Zach Parduhn,"Milos Dugalic,Ricardo Whitehead,Zach Parduhn",1.33333333333334,ast_rate,Assist(s) per minute,0.749999999999998
+0,Zach Parduhn,"Cody Mattson,Kohl Linder,Zach Parduhn",1.28333333333333,ast_rate,Assist(s) per minute,0.779220779220781
+0,Anthony Mosley,"Anthony Mosley,Brett Ott,Zach Parduhn",2.81666666666667,free_throw_rate,number of free throws earned per minute,0.710059171597632
+0,Anthony Mosley,"Anthony Mosley,Capriest Gardner,Zach Parduhn",2.81666666666667,free_throw_rate,number of free throws earned per minute,0.710059171597632
+0,Anthony Mosley,"Anthony Mosley,Brett Ott,Capriest Gardner",2.81666666666667,free_throw_rate,number of free throws earned per minute,0.710059171597632
+0,Anthony Mosley,"Anthony Mosley,Calvin Schmitz,Zach Parduhn",1.98333333333333,free_throw_rate,number of free throws earned per minute,1.00840336134454
+0,Anthony Mosley,"Anthony Mosley,Otis Reale,Ricardo Whitehead",9.40000000000002,free_throw_rate,number of free throws earned per minute,0.744680851063829
+0,Ben Wagner,"Ben Wagner,Calvin Schmitz,Kohl Linder",1.05,free_throw_rate,number of free throws earned per minute,0.952380952380952
+0,Ben Wagner,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,free_throw_rate,number of free throws earned per minute,0.952380952380952
+0,Ben Wagner,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,free_throw_rate,number of free throws earned per minute,0.952380952380952
+0,Ben Wagner,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,free_throw_rate,number of free throws earned per minute,0.952380952380952
+0,Ben Wagner,"Ben Wagner,Brett Ott,Kohl Linder",1.05,free_throw_rate,number of free throws earned per minute,0.952380952380952
+0,Ahmad Muhammad,"Ahmad Muhammad,Milos Dugalic,Parker Joncus",78.3333333333333,free_throw_rate,number of free throws earned per minute,0.638297872340426
+0,Ahmad Muhammad,"Ahmad Muhammad,Cody Mattson,Otis Reale",3.13333333333333,free_throw_rate,number of free throws earned per minute,0.638297872340426
+0,Ahmad Muhammad,"Ahmad Muhammad,Milos Dugalic,Otis Reale",67.5166666666667,free_throw_rate,number of free throws earned per minute,0.666502098247346
+0,Ahmad Muhammad,"Ahmad Muhammad,Cody Mattson,Parker Joncus",0.199999999999999,free_throw_rate,number of free throws earned per minute,10.0
+0,Ahmad Muhammad,"Ahmad Muhammad,Parker Joncus,Zach Parduhn",1.46666666666667,free_throw_rate,number of free throws earned per minute,0.681818181818182
+0,Jake Bruns,"Cody Mattson,Jake Bruns,Max Hisatake",4.01666666666667,free_throw_rate,number of free throws earned per minute,0.995850622406639
+0,Jake Bruns,"Cody Mattson,Jake Bruns,Otis Reale",2.3,free_throw_rate,number of free throws earned per minute,1.73913043478261
+0,Jake Bruns,"Brett Ott,Jake Bruns,Kohl Linder",0.899999999999999,free_throw_rate,number of free throws earned per minute,2.22222222222222
+0,Jake Bruns,"Brett Ott,Calvin Schmitz,Jake Bruns",0.899999999999999,free_throw_rate,number of free throws earned per minute,2.22222222222222
+0,Jake Bruns,"Cody Mattson,Jake Bruns,Parker Joncus",2.01666666666667,free_throw_rate,number of free throws earned per minute,1.98347107438017
+0,Jalen Lomax,"Brett Ott,Calvin Schmitz,Jalen Lomax",3.63333333333333,free_throw_rate,number of free throws earned per minute,0.825688073394496
+0,Jalen Lomax,"Calvin Schmitz,Jalen Lomax,Kohl Linder",3.63333333333333,free_throw_rate,number of free throws earned per minute,0.825688073394496
+0,Jalen Lomax,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,free_throw_rate,number of free throws earned per minute,0.952380952380952
+0,Jalen Lomax,"Ben Wagner,Brett Ott,Jalen Lomax",1.05,free_throw_rate,number of free throws earned per minute,0.952380952380952
+0,Jalen Lomax,"Ben Wagner,Calvin Schmitz,Jalen Lomax",1.05,free_throw_rate,number of free throws earned per minute,0.952380952380952
+0,Calvin Schmitz,"Ben Wagner,Brett Ott,Calvin Schmitz",1.05,free_throw_rate,number of free throws earned per minute,0.952380952380952
+0,Calvin Schmitz,"Anthony Mosley,Calvin Schmitz,Zach Parduhn",1.98333333333333,free_throw_rate,number of free throws earned per minute,1.00840336134454
+0,Calvin Schmitz,"Brett Ott,Calvin Schmitz,Jake Digiorgio",0.899999999999999,free_throw_rate,number of free throws earned per minute,2.22222222222222
+0,Calvin Schmitz,"Brett Ott,Calvin Schmitz,Jake Bruns",0.899999999999999,free_throw_rate,number of free throws earned per minute,2.22222222222222
+0,Calvin Schmitz,"Brett Ott,Calvin Schmitz,Kohl Linder",4.53333333333333,free_throw_rate,number of free throws earned per minute,1.10294117647059
+0,Capriest Gardner,"Anthony Mosley,Capriest Gardner,Ricardo Whitehead",5.80000000000001,free_throw_rate,number of free throws earned per minute,0.689655172413792
+0,Capriest Gardner,"Anthony Mosley,Capriest Gardner,Zach Parduhn",2.81666666666667,free_throw_rate,number of free throws earned per minute,0.710059171597632
+0,Capriest Gardner,"Calvin Schmitz,Capriest Gardner,Max Hisatake",2.8,free_throw_rate,number of free throws earned per minute,0.714285714285714
+0,Capriest Gardner,"Anthony Mosley,Brett Ott,Capriest Gardner",2.81666666666667,free_throw_rate,number of free throws earned per minute,0.710059171597632
+0,Capriest Gardner,"Brett Ott,Capriest Gardner,Milos Dugalic",2.81666666666667,free_throw_rate,number of free throws earned per minute,0.710059171597632
+0,Brett Ott,"Brett Ott,Calvin Schmitz,Kohl Linder",4.53333333333333,free_throw_rate,number of free throws earned per minute,1.10294117647059
+0,Brett Ott,"Brett Ott,Jake Bruns,Kohl Linder",0.899999999999999,free_throw_rate,number of free throws earned per minute,2.22222222222222
+0,Brett Ott,"Brett Ott,Calvin Schmitz,Jake Digiorgio",0.899999999999999,free_throw_rate,number of free throws earned per minute,2.22222222222222
+0,Brett Ott,"Brett Ott,Calvin Schmitz,Jake Bruns",0.899999999999999,free_throw_rate,number of free throws earned per minute,2.22222222222222
+0,Brett Ott,"Brett Ott,Jake Digiorgio,Kohl Linder",0.899999999999999,free_throw_rate,number of free throws earned per minute,2.22222222222222
+0,Jake Digiorgio,"Capriest Gardner,Jake Digiorgio,Milos Dugalic",14.8833333333333,free_throw_rate,number of free throws earned per minute,0.604703247480403
+0,Jake Digiorgio,"Cody Mattson,Jake Digiorgio,Parker Joncus",1.65,free_throw_rate,number of free throws earned per minute,1.21212121212121
+0,Jake Digiorgio,"Anthony Mosley,Jake Digiorgio,Zach Parduhn",3.25,free_throw_rate,number of free throws earned per minute,0.615384615384615
+0,Jake Digiorgio,"Brett Ott,Calvin Schmitz,Jake Digiorgio",0.899999999999999,free_throw_rate,number of free throws earned per minute,2.22222222222222
+0,Jake Digiorgio,"Brett Ott,Jake Digiorgio,Kohl Linder",0.899999999999999,free_throw_rate,number of free throws earned per minute,2.22222222222222
+0,Max Hisatake,"Anthony Mosley,Max Hisatake,Zach Parduhn",3.25,free_throw_rate,number of free throws earned per minute,0.615384615384615
+0,Max Hisatake,"Cody Mattson,Max Hisatake,Otis Reale",8.36666666666667,free_throw_rate,number of free throws earned per minute,0.956175298804781
+0,Max Hisatake,"Calvin Schmitz,Capriest Gardner,Max Hisatake",2.8,free_throw_rate,number of free throws earned per minute,0.714285714285714
+0,Max Hisatake,"Cody Mattson,Jake Bruns,Max Hisatake",4.01666666666667,free_throw_rate,number of free throws earned per minute,0.995850622406639
+0,Max Hisatake,"Cody Mattson,Max Hisatake,Parker Joncus",5.15,free_throw_rate,number of free throws earned per minute,1.55339805825243
+0,Otis Reale,"Ahmad Muhammad,Milos Dugalic,Otis Reale",67.5166666666667,free_throw_rate,number of free throws earned per minute,0.666502098247346
+0,Otis Reale,"Anthony Mosley,Otis Reale,Ricardo Whitehead",9.40000000000002,free_throw_rate,number of free throws earned per minute,0.744680851063829
+0,Otis Reale,"Cody Mattson,Max Hisatake,Otis Reale",8.36666666666667,free_throw_rate,number of free throws earned per minute,0.956175298804781
+0,Otis Reale,"Cody Mattson,Jake Bruns,Otis Reale",2.3,free_throw_rate,number of free throws earned per minute,1.73913043478261
+0,Otis Reale,"Cody Mattson,Otis Reale,Parker Joncus",5.15,free_throw_rate,number of free throws earned per minute,1.55339805825243
+0,Milos Dugalic,"Anthony Mosley,Capriest Gardner,Milos Dugalic",24.9333333333334,free_throw_rate,number of free throws earned per minute,0.681818181818181
+0,Milos Dugalic,"Brett Ott,Milos Dugalic,Zach Parduhn",2.81666666666667,free_throw_rate,number of free throws earned per minute,0.710059171597632
+0,Milos Dugalic,"Anthony Mosley,Brett Ott,Milos Dugalic",2.81666666666667,free_throw_rate,number of free throws earned per minute,0.710059171597632
+0,Milos Dugalic,"Brett Ott,Capriest Gardner,Milos Dugalic",2.81666666666667,free_throw_rate,number of free throws earned per minute,0.710059171597632
+0,Milos Dugalic,"Milos Dugalic,Parker Joncus,Zach Parduhn",0.316666666666667,free_throw_rate,number of free throws earned per minute,3.15789473684211
+0,Cody Mattson,"Cody Mattson,Max Hisatake,Parker Joncus",5.15,free_throw_rate,number of free throws earned per minute,1.55339805825243
+0,Cody Mattson,"Cody Mattson,Otis Reale,Parker Joncus",5.15,free_throw_rate,number of free throws earned per minute,1.55339805825243
+0,Cody Mattson,"Cody Mattson,Jake Bruns,Parker Joncus",2.01666666666667,free_throw_rate,number of free throws earned per minute,1.98347107438017
+0,Cody Mattson,"Ahmad Muhammad,Cody Mattson,Parker Joncus",0.199999999999999,free_throw_rate,number of free throws earned per minute,10.0
+0,Cody Mattson,"Cody Mattson,Jake Bruns,Otis Reale",2.3,free_throw_rate,number of free throws earned per minute,1.73913043478261
+0,Parker Joncus,"Cody Mattson,Otis Reale,Parker Joncus",5.15,free_throw_rate,number of free throws earned per minute,1.55339805825243
+0,Parker Joncus,"Cody Mattson,Max Hisatake,Parker Joncus",5.15,free_throw_rate,number of free throws earned per minute,1.55339805825243
+0,Parker Joncus,"Cody Mattson,Jake Bruns,Parker Joncus",2.01666666666667,free_throw_rate,number of free throws earned per minute,1.98347107438017
+0,Parker Joncus,"Ahmad Muhammad,Cody Mattson,Parker Joncus",0.199999999999999,free_throw_rate,number of free throws earned per minute,10.0
+0,Parker Joncus,"Milos Dugalic,Parker Joncus,Zach Parduhn",0.316666666666667,free_throw_rate,number of free throws earned per minute,3.15789473684211
+0,Ricardo Whitehead,"Calvin Schmitz,Parker Joncus,Ricardo Whitehead",3.43333333333333,free_throw_rate,number of free throws earned per minute,0.582524271844661
+0,Ricardo Whitehead,"Jake Bruns,Ricardo Whitehead,Zach Parduhn",3.2,free_throw_rate,number of free throws earned per minute,0.625
+0,Ricardo Whitehead,"Anthony Mosley,Capriest Gardner,Ricardo Whitehead",5.80000000000001,free_throw_rate,number of free throws earned per minute,0.689655172413792
+0,Ricardo Whitehead,"Anthony Mosley,Otis Reale,Ricardo Whitehead",9.40000000000002,free_throw_rate,number of free throws earned per minute,0.744680851063829
+0,Ricardo Whitehead,"Parker Joncus,Ricardo Whitehead,Zach Parduhn",1.7,free_throw_rate,number of free throws earned per minute,1.17647058823529
+0,Kohl Linder,"Ben Wagner,Jalen Lomax,Kohl Linder",1.05,free_throw_rate,number of free throws earned per minute,0.952380952380952
+0,Kohl Linder,"Brett Ott,Calvin Schmitz,Kohl Linder",4.53333333333333,free_throw_rate,number of free throws earned per minute,1.10294117647059
+0,Kohl Linder,"Ben Wagner,Brett Ott,Kohl Linder",1.05,free_throw_rate,number of free throws earned per minute,0.952380952380952
+0,Kohl Linder,"Brett Ott,Jake Bruns,Kohl Linder",0.899999999999999,free_throw_rate,number of free throws earned per minute,2.22222222222222
+0,Kohl Linder,"Brett Ott,Jake Digiorgio,Kohl Linder",0.899999999999999,free_throw_rate,number of free throws earned per minute,2.22222222222222
+0,Zach Parduhn,"Calvin Schmitz,Jalen Lomax,Zach Parduhn",2.58333333333333,free_throw_rate,number of free throws earned per minute,0.774193548387097
+0,Zach Parduhn,"Anthony Mosley,Calvin Schmitz,Zach Parduhn",1.98333333333333,free_throw_rate,number of free throws earned per minute,1.00840336134454
+0,Zach Parduhn,"Brett Ott,Calvin Schmitz,Zach Parduhn",2.58333333333333,free_throw_rate,number of free throws earned per minute,0.774193548387097
+0,Zach Parduhn,"Milos Dugalic,Parker Joncus,Zach Parduhn",0.316666666666667,free_throw_rate,number of free throws earned per minute,3.15789473684211
+0,Zach Parduhn,"Parker Joncus,Ricardo Whitehead,Zach Parduhn",1.7,free_throw_rate,number of free throws earned per minute,1.17647058823529
