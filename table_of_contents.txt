@@ -1,0 +1,8 @@
+1. Introduction
+2. Challenges and Solutions
+3. Database Design (ERD diagram)
+4. Strength and weakness
+5. Player Categerization(clustering)
+6. Scouting Report Dashboards
+7. Lineups(pairs)
+8. Conclusion and Future Note
