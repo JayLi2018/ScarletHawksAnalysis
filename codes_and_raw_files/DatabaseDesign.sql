@@ -286,11 +286,4 @@ COPY GAME(Game_ID,Uploaded_Date,Home_Team_ID,Away_Team_ID) from '/home/chenjie/D
 
 
 
-
-
-
-
-
-
-
 copy TEAM_GAME_STATUS(Team_Game_Status_ID,TEAM_Game_Status_Name) from 'D:\Final_Version_Tables\Team_Game_Status.csv' DELIMITER ',' CSV HEADER
