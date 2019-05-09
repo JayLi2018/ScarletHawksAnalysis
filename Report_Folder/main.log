@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  5 MAY 2019 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  8 MAY 2019 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -222,7 +222,17 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip46
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (./main.aux)
+) (./main.aux
+
+LaTeX Warning: Label `Saturation' multiply defined.
+
+
+LaTeX Warning: Label `Saturation' multiply defined.
+
+
+LaTeX Warning: Label `Saturation' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -312,75 +322,171 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 30.
+(Font)              <7> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 30.
+(Font)              <5> on input line 32.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-
+Underfull \hbox (badness 2735) in paragraph at lines 32--33
+[]\OT1/ptm/m/n/10 In this pro-gram practicum, we built up a database
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-[]\OT1/ptm/m/n/10 The rea-son for choos-ing `` $\OML/cmm/m/it/10 ppp[] <
- []
-
-<./Images/Strength_Weakness.jpg, id=1, 1222.5675pt x 557.08125pt>
-File: ./Images/Strength_Weakness.jpg Graphic file (type jpg)
-<use ./Images/Strength_Weakness.jpg>
-Package pdftex.def Info: ./Images/Strength_Weakness.jpg  used on input line 57.
-
-(pdftex.def)             Requested size: 252.0pt x 114.82292pt.
-<./Images/Strength_Weakness_2.jpg, id=3, 940.26282pt x 752.0597pt>
-File: ./Images/Strength_Weakness_2.jpg Graphic file (type jpg)
-<use ./Images/Strength_Weakness_2.jpg>
-Package pdftex.def Info: ./Images/Strength_Weakness_2.jpg  used on input line 6
-4.
-(pdftex.def)             Requested size: 252.0pt x 201.55554pt.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+<./Images/ERDDiagram1.jpg, id=1, 1569.865pt x 1088.065pt>
+File: ./Images/ERDDiagram1.jpg Graphic file (type jpg)
+<use ./Images/ERDDiagram1.jpg>
+Package pdftex.def Info: ./Images/ERDDiagram1.jpg  used on input line 53.
+(pdftex.def)             Requested size: 252.0pt x 174.65845pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+ <./Images/ERDDiagram1.jpg>]
+<./Images/data_processing.jpg, id=13, 856.19875pt x 411.5375pt>
+File: ./Images/data_processing.jpg Graphic file (type jpg)
+<use ./Images/data_processing.jpg>
+Package pdftex.def Info: ./Images/data_processing.jpg  used on input line 76.
+(pdftex.def)             Requested size: 252.0pt x 121.1262pt.
+<./Images/Picture1.jpg, id=14, 469.2732pt x 264.99pt>
+File: ./Images/Picture1.jpg Graphic file (type jpg)
+<use ./Images/Picture1.jpg>
+Package pdftex.def Info: ./Images/Picture1.jpg  used on input line 88.
+(pdftex.def)             Requested size: 234.63602pt x 132.49467pt.
+<./Images/Picture6.jpg, id=16, 469.2732pt x 296.7888pt>
+File: ./Images/Picture6.jpg Graphic file (type jpg)
+<use ./Images/Picture6.jpg>
+Package pdftex.def Info: ./Images/Picture6.jpg  used on input line 105.
+(pdftex.def)             Requested size: 234.63602pt x 148.39403pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[]\OT1/ptm/m/n/10 The rea-son for choos-ing `` $\OML/cmm/m/it/10 ppp[] <
+ []
+
+<./Images/Strength_Weakness.jpg, id=17, 1222.5675pt x 557.08125pt>
+File: ./Images/Strength_Weakness.jpg Graphic file (type jpg)
+<use ./Images/Strength_Weakness.jpg>
+Package pdftex.def Info: ./Images/Strength_Weakness.jpg  used on input line 125
+.
+(pdftex.def)             Requested size: 252.0pt x 114.82292pt.
+<./Images/Strength_Weakness_2.jpg, id=18, 940.26282pt x 752.0597pt>
+File: ./Images/Strength_Weakness_2.jpg Graphic file (type jpg)
+<use ./Images/Strength_Weakness_2.jpg>
+Package pdftex.def Info: ./Images/Strength_Weakness_2.jpg  used on input line 1
+32.
+(pdftex.def)             Requested size: 252.0pt x 201.55554pt.
+[2 <./Images/data_processing.jpg> <./Images/Picture1.jpg> <./Images/Picture6.jp
+g>]
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
 \OT1/ptm/m/n/10 ($\OML/cmm/m/it/10 www:illinoistechathletics:com=sports=mbkb=\O
 T1/cmr/m/n/10 2018\OT1/ptm/m/n/10 -
  []
 
-<./Images/flowchart.jpg, id=16, 914.41624pt x 472.76625pt>
+<./Images/flowchart.jpg, id=26, 914.41624pt x 472.76625pt>
 File: ./Images/flowchart.jpg Graphic file (type jpg)
 <use ./Images/flowchart.jpg>
-Package pdftex.def Info: ./Images/flowchart.jpg  used on input line 79.
+Package pdftex.def Info: ./Images/flowchart.jpg  used on input line 147.
 (pdftex.def)             Requested size: 252.0pt x 130.28163pt.
-[2 <./Images/Strength_Weakness.jpg> <./Images/Strength_Weakness_2.jpg> <./Image
+[3 <./Images/Strength_Weakness.jpg> <./Images/Strength_Weakness_2.jpg> <./Image
 s/flowchart.jpg>]
-Overfull \hbox (7.79865pt too wide) in paragraph at lines 114--115
+Overfull \hbox (7.79865pt too wide) in paragraph at lines 182--183
 [] $[]$ 
  []
 
 
-Overfull \hbox (8.3684pt too wide) in paragraph at lines 116--117
+Overfull \hbox (8.3684pt too wide) in paragraph at lines 184--185
 [] $[]$ 
  []
 
-<./Images/pairs.jpg, id=23, 1336.995pt x 559.33969pt>
+<./Images/pairs.jpg, id=33, 1336.995pt x 559.33969pt>
 File: ./Images/pairs.jpg Graphic file (type jpg)
 <use ./Images/pairs.jpg>
-Package pdftex.def Info: ./Images/pairs.jpg  used on input line 130.
+Package pdftex.def Info: ./Images/pairs.jpg  used on input line 198.
 (pdftex.def)             Requested size: 252.0pt x 105.42215pt.
-<./Images/gameflow.jpg, id=24, 1336.995pt x 559.33969pt>
+<./Images/gameflow.jpg, id=34, 1336.995pt x 559.33969pt>
 File: ./Images/gameflow.jpg Graphic file (type jpg)
 <use ./Images/gameflow.jpg>
-Package pdftex.def Info: ./Images/gameflow.jpg  used on input line 137.
+Package pdftex.def Info: ./Images/gameflow.jpg  used on input line 205.
 (pdftex.def)             Requested size: 252.0pt x 105.42215pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Images/scouting.jpg, id=25, 1336.995pt x 559.33969pt>
+<./Images/scouting.jpg, id=35, 1336.995pt x 559.33969pt>
 File: ./Images/scouting.jpg Graphic file (type jpg)
 <use ./Images/scouting.jpg>
-Package pdftex.def Info: ./Images/scouting.jpg  used on input line 146.
+Package pdftex.def Info: ./Images/scouting.jpg  used on input line 214.
 (pdftex.def)             Requested size: 252.0pt x 105.42215pt.
-[3 <./Images/pairs.jpg> <./Images/gameflow.jpg> <./Images/scouting.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
+
+ []
+
+[4 <./Images/pairs.jpg> <./Images/gameflow.jpg> <./Images/scouting.jpg>]
+<./Images/clustering.jpg, id=44, 1045.9075pt x 382.42876pt>
+File: ./Images/clustering.jpg Graphic file (type jpg)
+<use ./Images/clustering.jpg>
+Package pdftex.def Info: ./Images/clustering.jpg  used on input line 264.
+(pdftex.def)             Requested size: 209.1778pt x 76.48439pt.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+<./Images/Picture2.jpg, id=45, 469.2732pt x 254.8722pt>
+File: ./Images/Picture2.jpg Graphic file (type jpg)
+<use ./Images/Picture2.jpg>
+Package pdftex.def Info: ./Images/Picture2.jpg  used on input line 286.
+(pdftex.def)             Requested size: 234.63602pt x 127.43578pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<./Images/Picture3.jpg, id=46, 469.2732pt x 146.4672pt>
+File: ./Images/Picture3.jpg Graphic file (type jpg)
+<use ./Images/Picture3.jpg>
+Package pdftex.def Info: ./Images/Picture3.jpg  used on input line 293.
+(pdftex.def)             Requested size: 234.63602pt x 73.23341pt.
+<./Images/Picture4.jpg, id=47, 469.2732pt x 214.401pt>
+File: ./Images/Picture4.jpg Graphic file (type jpg)
+<use ./Images/Picture4.jpg>
+Package pdftex.def Info: ./Images/Picture4.jpg  used on input line 302.
+(pdftex.def)             Requested size: 234.63602pt x 107.20023pt.
+<./Images/Picture5.jpg, id=48, 469.2732pt x 270.7716pt>
+File: ./Images/Picture5.jpg Graphic file (type jpg)
+<use ./Images/Picture5.jpg>
+Package pdftex.def Info: ./Images/Picture5.jpg  used on input line 309.
+(pdftex.def)             Requested size: 234.63602pt x 135.38547pt.
+ [5 <./Images/clustering.jpg> <./Images/Picture2.jpg> <./Images/Picture3.jpg> <
+./Images/Picture4.jpg> <./Images/Picture5.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--328
+
+ []
+
 (./main.bbl)
 
 ** Conference Paper **
@@ -393,32 +499,36 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
+[6
 
+] (./main.aux)
 
-] (./main.aux) ) 
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4158 strings out of 492982
- 68913 string characters out of 6134895
- 139520 words of memory out of 5000000
- 7681 multiletter control sequences out of 15000+600000
+ 4210 strings out of 492982
+ 70113 string characters out of 6134895
+ 139610 words of memory out of 5000000
+ 7724 multiletter control sequences out of 15000+600000
  36177 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,7n,40p,2025b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 898960 bytes).
+ 42i,7n,40p,2025b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 2153134 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

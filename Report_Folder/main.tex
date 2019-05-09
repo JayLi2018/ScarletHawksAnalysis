@@ -19,14 +19,16 @@ Illinois Institute of Technology\\}
 \maketitle
 
 \begin{abstract}
-In this work, we showcase our approaches and results of our data science practicum project--Illinois Tech Scarlet Hawks Men's Basketball Analysis. Starting from database desgin, we explored some of the most recognized metrics to evaluate players and lineups, such as ``on-off court" data, ``lineup" comparisons, ``offensive and defensive tendencies". Based on our ``scouting reports", our coaching staff made the corresponding strategies and in the end set the best record of our school history.
+In this work, we showcase our approaches and results of our data science practicum project--Illinois Tech Scarlet Hawks Men's Basketball Analytics. Starting from database desgin, we explored some of the most recognized metrics to evaluate players and lineups, such as ``on-off court" data, ``lineup" comparisons, ``offensive and defensive tendencies". We also performed ``Player Clustering" to find similar players. Based on our ``scouting reports", our coaching staff made the corresponding strategies and in the end set the best record of our school history.
 \end{abstract}
 
 \section{Introduction}
 
 ``Analytics are part and parcel of virtually everything we do now." said by NBA commissioner Adam Silver. \\
-Data Science, one of the most promising and in-demand career paths for skilled professionals, is expanding its branch to sports. The origin of sports analytics was not basketball. The education begins with the baseball analysis of Bill James \cite{james2010new}. With baseball leading the way, other sports began to embrace data and utilize them to help their teams. Unlike baseball which can be reasonably partitoned into a series of discrete events, basketball is much more complicated and harder to give reasonable analysis. With that being said, there are still a lot of ways to approach this exciting sport and use technology to change the game. In Stephen M. Shea's work \cite{1492923176}, he introduces variety of ways to evaluate players and teams. Also, in  Rajiv's exciting TED talk \cite{tedtalk}, he introduced the implementations of computer vision and machine learning in basketball analytics.\\
-As a Division III team, however, the Men's basketball team of Illinois Tech hasn't benefited from this trend due to the lack of available data and technicians.\\
+Data Science, one of the most promising and in-demand career paths for skilled professionals, is expanding its branch to sports. The origin of sports analytics was not basketball. The education begins with the baseball analysis of Bill James \cite{james2010new}. With baseball leading the way, other sports began to embrace data and utilize them to help their teams. Unlike baseball which can be reasonably partitoned into a series of discrete events, basketball is much more complicated and harder to give reasonable analysis. With that being said, there are still a lot of ways to approach this exciting sport and use technology to change the game. In Stephen M. Shea's work \cite{1492923176}, he introduces variety of ways to evaluate players and teams. Also, in  Rajiv's exciting TED talk \cite{tedtalk}, he introduced the implementations of computer vision and machine learning in basketball analytics.
+
+As a Division III team, however, the Men's basketball team of Illinois Tech hasn't benefited from this trend due to the lack of available data and technicians.
+
 In this program practicum, we built up a database from scratch. Based on that, we explored several branches: Player evaluation, Team evaluation, Lineup Evaluation. Using Tableau software, we got straightforward yet insightful visualizations for coaching staff as references. In the end of the season, we made to the $2nd$ place in the tournament, setting the best record of our school basketball history.
 
 \section{Data Source}
@@ -38,7 +40,73 @@ Synergy\cite{synergy} for overall statistics from each player and each team. The
 Another important data source in this project was northern athletics collegiate conference website \cite{nacc}, in which we can get the game ``Play-By-Play" files which can be used for analysis of lineups and ``Player Pairs" analysis.
 
 \section{Database Design}
-to do\\
+
+\subsection{Design}
+After exploring the Synergy and discussion within the team, we decided to get data from “Game”,” Team”, “Player” tabs.
+
+{\bf Game} includes the details of every game’s stats of both teams. {\bf Team} consists of the season overall average performance of the team. {\bf Player} covers the individual player’s overall average performance of the team. 
+The database was designed by taking the way data was represented in Synergy into consideration.
+We decide to design the database schema based on the way the data presented on Synergy, but since Synergy does not show how those data are connected with each other, a newer design for joining data to run different queries was needed. 
+The detailed schema of the database design is: 
+(Please check GitHub if you need details): 
+\begin{figure}
+  \includegraphics[width=\linewidth]{ERDDiagram1.jpg}
+  \caption{ERD Diagram(simplified)}
+  \vspace{-1mm}
+  \label{fig:ERD}
+\end{figure}
+
+Once we obtained the database, any query can be created. For example: \textit{``Getting the players whose average points is over 15 points?"},\textit{``the games that our school won/lost by within 10 points?"} In our database, the following entities were included: 
+\begin{itemize}
+\item Player (Name, which team he plays for)
+\item Team 
+\item Player average stats (Average Points, rebounds etc)
+\item Player season average stats (Season average points, rebounds, player play type 
+distributions etc)
+\item Team season average stats (Average possessions, opponent average possessions, play
+type distributions) 
+\item Team/Player single game stats
+\item Different Lineup combinations and their corresponding stats
+\end{itemize}
+
+\subsection{Data Processing Workflow}
+After getting our ERD diagram, we started tackling the problem of processing ``unstructured" data into ``clean" and ``importable" data to be able to save them into our database. The workflow chart is shown in Fig ~\ref{Data Processing Workflow}
+
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{data_processing.jpg}
+  \caption{Data Processing Workflow}
+  \vspace{-1mm}
+  \label{Data Processing Workflow}
+\end{figure}
+
+
+
+Fig ~\ref{Synergy Snapshot} shows how the data (Player) looked at the beginning.
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.5]{Picture1.jpg} 
+    \caption{Synergy Website}
+    \label{Synergy Snapshot}
+  \end{center}
+\end{figure}
+The steps are:
+\begin{itemize}
+\item Raw File: Copy and Paste the webpage into a .txt file.
+\item Exploring Regex: Using regex(regular expression), we explored the ``pattern" in the text file like spaces, tabs etc.
+\item Write down Programs: After summarizing the ``patterns" in the file, we wrote down the Python programs to process the .txt file.
+\item CSV contatenation: after processing each .txt file, we will have a collection of formatted .csv files(Fig ~\ref{CSV Example}). then we will concatenate them together as a ``big" file.
+\item Import to Database: After getting the CSVs we want, we can easily import those files to our database.
+\end{itemize}
+
+
+\begin{figure}[h!]   
+  \begin{center}
+    \includegraphics[scale=0.5]{Picture6.jpg}
+    \caption{CSV File}
+    \label{CSV Example}
+  \end{center}
+\end{figure}
 
 \section{Strength VS Weakness}
 There are many ways to evaluate players. One important aspect is ``How efficient is this player?". Here, we chose to use ``Points Per Possession"(ppp) as the measure to differentiate each player's strengths and weaknesses. On Synergy website, it breaks down each player(team)'s offense into different types:\textit{ Spot Up, Transition, Off Screen, Offensive Rebounds, Hand Off, Isolation, Post Up, Miscellaneous}, player(team)'s defense into different types:\textit{ Spot Up, Off Screen, P\&R Ball Handler, Hand Off, Isolation, Post-Up, P\&R Roll Man}. for each type, Synergy collects and computes its corresponding \textit{Percentage of time}, which is basically the frequency of this player's all offensive(defensive) types. Also, it lists the points per possesion, which is showing how many point(s) this player can score in each offensive (or how many point(s) this player's opponent can score in each offensive possesion). 
@@ -149,7 +217,116 @@ Besides, after our team made to the tournament, we came up with a ``scouting rep
   \label{fig:scouting}
 \end{figure}
 
-\clearpage
+\section{Clustering}
+
+Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters) 
+The purpose of the clustering is to categorize the players to help coach to make comparison between players that uses different play types, which players are similar etc. 
+The attributes used in Clustering:
+\begin{itemize}
+\item Effective field goal percentage
+\item Spot up time percentage
+\item PR Ball Handler Time time percentage ( each player used) Field Goal Attempted
+\item Two Field Goal Attempted
+\item Three Field Goal Attempted
+\item Free Throw Attempted
+\item Cut Off Percentage
+\item PR Roll Man Percentage
+\item Hand Off Percentage
+\item Isolation Percentage
+\item Off screen percentage
+\item Post up percentage
+\item Pr ball handler percentage
+\item Spot up percentage
+\item Transition percentage
+\item Assist
+\item Total Rebounds 
+\end{itemize} 
+
+To find the Time Percentages(frequecny) for different play types: Queries are used to create for each different play type; Views are created and then used to ``left-join" with each other.
+To get the \textit{offensive cut off} percentage, the query we wrote for that is:\\
+\begin{flushleft}
+{\bf SELECT} p.player\_name, pa.percentage\_time as cutoff\_percentage, f.format\_name
+c.category\_name, e.element\_name\\
+{\bf FROM} player p, player\_Average pa,category c, format f, element e\\
+{\bf WHERE} p.player\_id = pa.player\_id\\
+{\bf AND} c.category\_id = pa.category\_id\\
+{\bf AND} e.elemen\_id = pa.element\_id\\
+{\bf AND} pa.uploaded\_date = '2019-02-12'\\
+{\bf AND} f.format\_name = 'Offensive'\\
+{\bf AND} c.category\_name = 'Play Types' {\bf AND} f.format\_id = pa.formatid\\ 
+{\bf AND} e.element\_name = 'Cut';
+
+\end{flushleft}
+
+ 
+
+\begin{figure}[H]   
+    \includegraphics[scale=0.2]{clustering.jpg}
+    \caption{Clustering Workflow}
+    \label{Clustering Flow}
+\end{figure}
+
+We followed the steps shown in Fig ~\ref{Clustering Flow} to perform the clustering process: 
+\begin{itemize}
+\item Only numeric variables are extracted from the program
+\item PCA analysis performed to explain how many of the Variables explain which percentage of the
+overall variance. 
+\item Deciding on the number of components
+\item Deciding on the right number of clusters
+\item Elbow and silhouette score techniques are used 
+Since at number 10 , an elbow shape formed and the at 10 silhouette score the line stabilized. 
+\item According to results of the two tests we, selected 10 as the optimal number of clusters based on the 16 attributes mentioned above. 
+\item The center of the clusters are taken as any of the IIT players player in the selected cluster and named as the ‘prototype’ 
+\item Based on the different feature averages in each cluster the clusters are named. For example 3 pointers includes the player with a higher 3 FGA rating compared to other 
+clusters, assist ballhandler cluster had the players with the better rating of assist, ball handler features compared to other features. 
+\end{itemize}
+
+\begin{figure}[H]   
+  \begin{center}
+    \includegraphics[scale=0.5]{Picture2.jpg}
+    \caption{Elbow Analysis}\label{Saturation}
+  \end{center}
+\end{figure}
+
+\begin{figure}[H]   
+  \begin{center}
+    \includegraphics[scale=0.5]{Picture3.jpg}
+    \caption{Silhouette Score Analysis}\label{Saturation}
+  \end{center}
+\end{figure}
+
+
+
+\begin{figure}[H]   
+  \begin{center}
+    \includegraphics[scale=0.5]{Picture4.jpg}
+    \caption{Brief Clustering Summary for Teams}\label{Saturation}
+  \end{center}
+\end{figure}
+
+\begin{figure}[H]   
+  \begin{center}
+    \includegraphics[scale=0.5]{Picture5.jpg}
+    \caption{Brief Clustering Summary for Players}\label{Saturation}
+  \end{center}
+\end{figure}
+As can be seen from the figures above with the help of the clustering, strengths and weaknesses of players/teams in terms of  attributes mentioned above can be found  on both team and player level.
+
+\section{Conclusion and Future work}
+In this project, we started from the foundation of the previous work, built up a lot more interesting and helpful visualizations and analysis that helped coaching staff gain the insights and story behind the data.
+
+What's still lacking in our project, as we initially planned but couldn't finish, is ``Automating the process of copy pasting data from Website", in other words, {\bf Scraping Data} from website. Once this step achieved, we will actually build a complete pipeline for our team for getting the data and do any analysis on it!
+
+We thank {\bf Prof. Shlomo Argamon} for his brilliant advice and ideas to help us achieve those goals. We thank {\bf coach Todd Kelly} for his feedbacks to help us modify our results to really help our basketball team.
+
+\section{Appendix}
+This work's source codes are available in Git Repository:\\{\it https://github.com/JayLi2018/ScarletHawksAnalysis}\\
+
+The visualizations are available in authors' Tableau Public Profile:\\
+{\it https://public.tableau.com/profile/chenjie.li\#!/}\\
+{\it https://public.tableau.com/profile/dilruba6464\#!/}\\
+
+
 \bibliographystyle{unsrt}
 \bibliography{references}
 \end{document}
